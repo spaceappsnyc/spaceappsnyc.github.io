@@ -1,9 +1,9 @@
 /* style.scss */
 .ltgrid {
-  background: url("/images/lightgrid.gif") 0 0 repeat; }
+  background: url("../../images/lightgrid.gif") 0 0 repeat; }
 
 .dknoise {
-  background: url("/images/darknoise.gif") 0 0 repeat; }
+  background: url("../../images/darknoise.gif") 0 0 repeat; }
 
 .txtlft {
   text-align: left; }
@@ -36,7 +36,7 @@ header {
     margin-right: 12px; }
 
 .hero {
-  background: blue url("/images/hero_background.jpg") center center no-repeat;
+  background: blue url("../../images/hero_background.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
