@@ -72,7 +72,8 @@ header {
 
 
 .register {
-  padding: 12px;
+  padding: 12px 16px;
+  margin-left: 8px;
   color: #FFF;
   text-decoration: none;
   background: lightseagreen;
@@ -120,6 +121,17 @@ footer {
 
 .inner.themovement {
   padding: 24px 0;
+  h2 {color: #FF6666;}
+  h4 {
+    margin-bottom: 66px;
+    line-height: 2em;}
+  p {
+    margin-top: 26px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+  .register {font-size: 18px;}
 }
 
 .col1, .col2 {
@@ -136,7 +148,13 @@ footer {
 .videoWrap {
   width: 796px; 
   margin: 48px auto;
-  background: black;  
+  background: black; 
+  h3 {
+    color: #FF6666;
+    font-weight: 300;
+    font-size: 20px;
+  } 
+  p {font-weight: 300; font-size: 16px; margin-top: 1em;}
   .vdiscript {
     color: #FFF; 
     width: 196px; 
@@ -146,8 +164,12 @@ footer {
 
 
 .whowhat {
-  h2 {color: coral;}
-  p, ul {color: #FFF;}
+  h2 {color: #FF6666; margin-bottom: 1em;}
+  p, ul {
+    color: #FFF;
+    font-size: 16px; 
+    font-weight: 300;}
+  ul {margin-left: 24px;}
 }
 
 
