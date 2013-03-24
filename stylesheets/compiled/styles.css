@@ -71,7 +71,7 @@ header {
       text-transform: uppercase;
       font-weight: 400;
       border-left: 1px solid transparent; }
-      header ul li:last-child, header ul li:last-child a {
+      header ul li.fr, header ul li.fr a {
         border-left: 0px solid transparent; }
       header ul li.active {
         border-left: 1px solid #ff6666; }
