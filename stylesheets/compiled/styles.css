@@ -11,15 +11,12 @@
 .txtrgt {
   text-align: right; }
 
-ul {
-  list-style-type: none; }
-  ul li {
-    display: inline-block; }
-
 body {
   background: #e9e9e9;
   line-height: 1.8em;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400; }
 
 .container {
   width: 100%; }
@@ -31,16 +28,19 @@ body {
 
 header {
   background: black; }
-  header ul li {
-    padding: 24px 0;
-    margin-right: 12px;
-    color: #FFF;
-    font-size: 12px;
-    text-transform: uppercase; }
-    header ul li a {
-      padding: 12px 0;
+  header ul {
+    list-style-type: none; }
+    header ul li {
+      display: inline-block;
+      padding: 24px 0;
+      margin-right: 12px;
       color: #FFF;
-      text-decoration: none; }
+      font-size: 12px;
+      text-transform: uppercase; }
+      header ul li a {
+        padding: 12px 0;
+        color: #FFF;
+        text-decoration: none; }
 
 .register {
   padding: 12px;
@@ -125,9 +125,26 @@ footer {
   margin: 24px auto; }
   .sponsorInfo li {
     display: block; }
+  .sponsorInfo p {
+    margin-bottom: 2em; }
 
 .organizers {
   width: 867px;
   margin: 24px auto; }
   .organizers .organizer {
     width: 273px; }
+
+.faqWrap {
+  width: 568px;
+  margin: 24px auto;
+  color: #222; }
+  .faqWrap p, .faqWrap ul {
+    font-size: 18px;
+    margin-bottom: 2em;
+    line-height: 1.8em; }
+  .faqWrap ul {
+    margin: 0 20px 20px 20px; }
+    .faqWrap ul li {
+      padding-left: 6px; }
+  .faqWrap a {
+    color: seagreen; }
