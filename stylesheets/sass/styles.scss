@@ -123,7 +123,20 @@ footer {
   color: #FFF;
   font-size: 12px;
   h2 {text-align: left; text-transform: uppercase;}
-  p {margin: 0; padding: 4px 0;}
+  p {
+    margin: 0; 
+    padding: 4px 0;
+    font-size: 14px;
+    color: #909090;
+    &.collab {color: #555555; font-size: 12px;
+      a {color:#555555;}
+    }
+    a {
+      color: #909090; 
+      text-decoration: none;
+      &:hover {color: #FFF;}
+    }
+  }
   ul {
     margin: 8px auto 32px auto;
     li {
@@ -236,7 +249,6 @@ footer {
   a {color: seagreen;}
 }
 
-
 #slideshow { 
     margin: 20px auto 30px auto; 
     position: relative; 
@@ -250,8 +262,5 @@ footer {
     position: absolute; 
     img { width: 750px; }
 }
-
-
-
 
 

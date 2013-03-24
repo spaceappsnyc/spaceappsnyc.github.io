@@ -137,7 +137,19 @@ footer {
     text-transform: uppercase; }
   footer p {
     margin: 0;
-    padding: 4px 0; }
+    padding: 4px 0;
+    font-size: 14px;
+    color: #909090; }
+    footer p.collab {
+      color: #555555;
+      font-size: 12px; }
+      footer p.collab a {
+        color: #555555; }
+    footer p a {
+      color: #909090;
+      text-decoration: none; }
+      footer p a:hover {
+        color: #FFF; }
   footer ul {
     margin: 8px auto 32px auto; }
     footer ul li {
