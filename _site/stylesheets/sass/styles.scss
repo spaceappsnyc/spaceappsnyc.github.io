@@ -14,6 +14,8 @@ ul {
 
 body {
   background: #e9e9e9; 
+  line-height: 1.8em;
+  font-size: 14px;
 }
 
 .container { width: 100%;
@@ -30,14 +32,32 @@ header {
   background: black;
   ul {
     li {
-      font-size: 12px;
       padding: 24px 0;
-      color: #FFF;
       margin-right: 12px;
+      color: #FFF;
+      font-size: 12px;
+      text-transform: uppercase;
+      a {
+        padding: 12px 0;
+        color: #FFF;
+        text-decoration: none;
+        &:hover {}
+      }
     }
   }
 }
 
+
+.register {
+  padding: 12px;
+  color: #FFF;
+  text-decoration: none;
+  background: lightseagreen;
+  -webkit-border-radius:4px; /* Saf3+, Chrome */
+     -moz-border-radius:4px; /* FF1+ */
+          border-radius:4px; /* Opera 10.5, IE 9 */ 
+  &:hover {background: seagreen;}        
+}
 .hero { 
   background: transparent url('../../images/hero_background.jpg') center center no-repeat;
   -webkit-background-size: cover;
@@ -53,13 +73,16 @@ header {
 }
 
 footer {
-  background: #222;
+  border-top: 1px solid #111111;
+  background: #121212;
   text-align: center;
   padding: 12px 0;
   color: #FFF;
+  font-size: 12px;
   h2 {text-align: left; text-transform: uppercase;}
+  p {margin: 0; padding: 4px 0;}
   ul {
-    margin: 0 auto;
+    margin: 0 auto 32px auto;
     li {
       display: inline-block; 
       width:188px;
@@ -71,6 +94,9 @@ footer {
   }
 }
 
+.inner.themovement {
+  padding: 24px 0;
+}
 
 .col1, .col2 {
   width: 371px;
@@ -100,6 +126,21 @@ footer {
   p, ul {color: #FFF;}
 }
 
+
+.sponsorInfo {
+  width: 762px; 
+  margin: 24px auto;
+  li {
+    display: block; }
+  }
+
+.organizers {
+  width: 867px;
+  margin: 24px auto;
+  .organizer {
+    width: 273px;
+  }
+}
 
 
 

@@ -396,7 +396,7 @@ table {
 }
 
 
-ul, li {margin: 0; padding: 0;}
+ul, li, p {margin: 0; padding: 0;}
 
 .cf:before,
 .cf:after {
