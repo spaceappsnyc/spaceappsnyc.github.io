@@ -241,16 +241,14 @@ footer {
     color: seagreen; }
 
 #slideshow {
-  margin: 50px auto;
+  margin: 20px auto 30px auto;
   position: relative;
-  width: 240px;
-  height: 240px;
-  padding: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
+  width: 750px;
+  height: 502px;
+  border: 3px solid black;
+  overflow: hidden; }
 
 #slideshow > div {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px; }
+  position: absolute; }
+  #slideshow > div img {
+    width: 750px; }
