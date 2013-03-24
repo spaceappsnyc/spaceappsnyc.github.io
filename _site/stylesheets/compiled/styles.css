@@ -64,19 +64,24 @@ header {
     list-style-type: none; }
     header ul li {
       display: inline-block;
-      padding: 0 8px 24px 8px;
+      padding: 0 8px 24px 0;
       margin: 24px 16px 0 0;
       color: #FFF;
       font-size: 14px;
       text-transform: uppercase;
       font-weight: 400;
       border-left: 1px solid transparent; }
+      header ul li:last-child, header ul li:last-child a {
+        border-left: 0px solid transparent; }
       header ul li.active {
         border-left: 1px solid #ff6666; }
         header ul li.active a {
-          color: #FF6666; }
+          color: #FF6666;
+          border-left: 1px solid transparent; }
       header ul li a {
-        padding: 12px 0;
+        border-left: 1px solid white;
+        margin: 12px 0;
+        padding-left: 8px;
         color: #FFF;
         text-decoration: none;
         transition: all 0.2s ease-in;
@@ -134,10 +139,11 @@ footer {
     margin: 0;
     padding: 4px 0; }
   footer ul {
-    margin: 0 auto 32px auto; }
+    margin: 8px auto 32px auto; }
     footer ul li {
       display: inline-block;
       width: 188px;
+      margin-bottom: 16px;
       background: #E9E9E9;
       -webkit-border-radius: 4px;
       /* Saf3+, Chrome */
@@ -233,3 +239,18 @@ footer {
       padding-left: 6px; }
   .faqWrap a {
     color: seagreen; }
+
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px; }
