@@ -1,47 +1,83 @@
 /* style.scss */
 
+body {
+  font: 16px/1.625em 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  background: #e9e9e9;
+}
 
-.ltgrid {background: url('../../images/lightgrid.gif') 0 0 repeat;}
+
+.ltgrid {
+  background: url('../../images/lightgrid.gif') 0 0 repeat;
+  border-top: 1px solid #222;}
 .dknoise {background: url('../../images/darknoise.gif') 0 0 repeat;}
 .txtlft {text-align: left;}
 .txtrgt {text-align: right;}
 
-ul {
-  list-style-type: none;
-  li {display: inline-block;}
+h1 { 
+  font-size: 3.25em; 
+  font-weight: 300;
+  line-height: 1em;
+  }
+  
+h2 {
+  font-size: 2em;
+   font-weight: 300;
+   margin-top: 32px;
+   span {
+     font-size: 16px;
+     font-weight: 700;}
 }
 
+p { font-size: 1.125em; }
 
-body {
-  background: #e9e9e9; 
-  line-height: 1.8em;
-  font-size: 14px;
-}
+.hero p {font-weight: 300;}
+
 
 .container { width: 100%;
   .inner {
     width: 960px;
     padding: 0 10px;
     margin: 0 auto;
-    //background: rgba(22,200,120, 0.2);
     border: 1px solid transparent;
   } 
 }
 
 header {
-  background: black;
+  border-bottom: 1px solid #282828;
+  background: #222222; /* Old browsers */
+  background: -moz-linear-gradient(top,  #222222 0%, #333333 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222222), color-stop(100%,#333333)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #222222 0%,#333333 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #222222 0%,#333333 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #222222 0%,#333333 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #222222 0%,#333333 100%); /* W3C */
   ul {
+    list-style-type: none;
     li {
-      padding: 24px 0;
-      margin-right: 12px;
+      display: inline-block;
+      padding: 0 8px 24px 8px;
+      margin: 24px 16px 0 0;
       color: #FFF;
-      font-size: 12px;
+      font-size: 14px;
       text-transform: uppercase;
+      font-weight: 400;
+      border-left: 1px solid transparent;
+      &.active {
+        border-left: 1px solid #FF6666;
+        a {color: #FF6666;}
+      }
       a {
+        //border-left: 1px solid #FFF;
         padding: 12px 0;
         color: #FFF;
         text-decoration: none;
-        &:hover {}
+        transition:         all 0.2s ease-in;
+        -moz-transition:    all 0.2s ease-in; /* Firefox 4 */
+        -webkit-transition: all 0.2s ease-in; /* Safari and Chrome */
+        -o-transition:      all 0.2s ease-in; /* Opera */
+        &:hover { color: #FF6666;}
+        &.register:hover {color: #fff;}
       }
     }
   }
@@ -49,7 +85,8 @@ header {
 
 
 .register {
-  padding: 12px;
+  padding: 12px 16px;
+  margin-left: 8px;
   color: #FFF;
   text-decoration: none;
   background: lightseagreen;
@@ -70,6 +107,7 @@ header {
     padding: 24px 0;
     display: block;
   }
+  p {margin-top: 16px;}
 }
 
 footer {
@@ -96,6 +134,17 @@ footer {
 
 .inner.themovement {
   padding: 24px 0;
+  h2 {color: #FF6666;}
+  h4 {
+    margin-bottom: 66px;
+    line-height: 2em;}
+  p {
+    margin-top: 26px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+  .register {font-size: 18px;}
 }
 
 .col1, .col2 {
@@ -112,7 +161,13 @@ footer {
 .videoWrap {
   width: 796px; 
   margin: 48px auto;
-  background: black;  
+  background: black; 
+  h3 {
+    color: #FF6666;
+    font-weight: 300;
+    font-size: 20px;
+  } 
+  p {font-weight: 300; font-size: 16px; margin-top: 1em;}
   .vdiscript {
     color: #FFF; 
     width: 196px; 
@@ -122,24 +177,57 @@ footer {
 
 
 .whowhat {
-  h2 {color: coral;}
-  p, ul {color: #FFF;}
+  h2 {color: #FF6666; margin-bottom: 1em;}
+  p, ul {
+    color: #FFF;
+    font-size: 16px; 
+    font-weight: 300;}
+  ul {margin-left: 24px;}
 }
 
 
 .sponsorInfo {
   width: 762px; 
   margin: 24px auto;
-  li {
-    display: block; }
+  font-weight: 300;
+  line-height: 2em;
+  ul {
+    margin-left: 20px;
+    margin-bottom: 24px;
+    color: #515151;
   }
+  p strong {font-weight: 400;}
+}
 
 .organizers {
   width: 867px;
   margin: 24px auto;
   .organizer {
     width: 273px;
+    margin-bottom: 24px;
+    color: #515151;
+    font-weight: 300;
   }
+}
+
+.faqWrap {
+  width: 568px; 
+  margin: 24px auto;
+  color: #222;
+  p, ul {
+    margin-bottom: 2em;
+    .answer {
+      color: #515151;
+      font-weight: 300;
+    }
+  }
+  ul {
+    margin: 0 20px 20px 20px;
+    li {
+      padding-left: 6px;
+    }
+  }
+  a {color: seagreen;}
 }
 
 

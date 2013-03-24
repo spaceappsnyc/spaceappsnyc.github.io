@@ -105,10 +105,8 @@ a:hover {
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
+h1, h2,h3, h4, h5, h5 {margin: 0; padding: 0; display: block;}
+
 
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
