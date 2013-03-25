@@ -124,6 +124,9 @@ header {
     display: block; }
   .hero p {
     margin-top: 16px; }
+  .hero a {
+    color: seagreen;
+    text-decoration: none; }
 
 footer {
   border-top: 1px solid #111111;
@@ -226,6 +229,12 @@ footer {
     color: #515151; }
   .sponsorInfo p strong {
     font-weight: 400; }
+  .sponsorInfo a {
+    font-weight: 400;
+    color: #555;
+    text-decoration: none; }
+    .sponsorInfo a:hover {
+      color: seagreen; }
 
 .organizers {
   width: 867px;
@@ -244,13 +253,18 @@ footer {
     margin-bottom: 2em; }
     .faqWrap p .answer, .faqWrap ul .answer {
       color: #515151;
-      font-weight: 300; }
+      font-weight: 300;
+      font-size: 15px; }
   .faqWrap ul {
     margin: 0 20px 20px 20px; }
     .faqWrap ul li {
       padding-left: 6px; }
   .faqWrap a {
-    color: seagreen; }
+    font-weight: 400;
+    color: #555;
+    text-decoration: none; }
+    .faqWrap a:hover {
+      color: seagreen; }
 
 #slideshow {
   margin: 20px auto 30px auto;
