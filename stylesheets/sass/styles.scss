@@ -113,6 +113,7 @@ header {
     display: block;
   }
   p {margin-top: 16px;}
+  a {color: seagreen; text-decoration: none;}
 }
 
 footer {
@@ -216,6 +217,12 @@ footer {
     color: #515151;
   }
   p strong {font-weight: 400;}
+  a {
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+    &:hover {color: seagreen;}
+  }
 }
 
 .organizers {
@@ -238,6 +245,7 @@ footer {
     .answer {
       color: #515151;
       font-weight: 300;
+      font-size: 15px;
     }
   }
   ul {
@@ -246,7 +254,12 @@ footer {
       padding-left: 6px;
     }
   }
-  a {color: seagreen;}
+  a {
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+    &:hover {color: seagreen;}
+    }
 }
 
 #slideshow { 
