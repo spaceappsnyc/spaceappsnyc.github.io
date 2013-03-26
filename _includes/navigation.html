@@ -3,7 +3,11 @@
     <ul class="cf"> 
       {% if page.url == "/index.html" %}
         <li class="active">{% else %}<li>{% endif %}
-          <a href="index.html">About the Challenge</a></li>
+          <a href="index.html">Home</a></li>
+      
+      {% if page.url == "/about.html" %}
+        <li class="active">{% else %}<li>{% endif %}
+          <a href="about.html">About the Challenge</a></li>
           
       {% if page.url == "/sponsors.html" %}
         <li class="active">{% else %}<li>{% endif %}    
@@ -17,7 +21,7 @@
         <li class="active">{% else %}<li>{% endif %}    
           <a href="faq.html">Frequent Questions</a></li>
           
-      <li class="fr">April 19-21 <a href="http://spaceappschallenge.org/" target="_blank" class="register">Sign Up Today!</a></li>
+      <li class="fr"><a href="http://spaceappschallenge.org/" target="_blank" class="register">Sign Up Today!</a></li>
     </ul>
   </div>
 </header>
