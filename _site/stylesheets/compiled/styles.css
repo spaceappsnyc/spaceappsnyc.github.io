@@ -307,19 +307,17 @@ footer {
     font-weight: 300; }
 
 .faqWrap {
-  width: 568px;
+  width: 763px;
   margin: 24px auto;
   color: #222; }
-  .faqWrap p, .faqWrap ul {
-    margin-bottom: 2em; }
-    .faqWrap p .answer, .faqWrap ul .answer {
-      color: #515151;
-      font-weight: 300;
-      font-size: 15px; }
-  .faqWrap ul {
-    margin: 0 20px 20px 20px; }
-    .faqWrap ul li {
-      padding-left: 6px; }
+  .faqWrap .question {
+    width: 274px; }
+  .faqWrap .answer {
+    width: 468px;
+    margin-left: 20px;
+    font-weight: 300; }
+  .faqWrap p {
+    margin-bottom: 1em; }
   .faqWrap a {
     font-weight: 400;
     color: #555;

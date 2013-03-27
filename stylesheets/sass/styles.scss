@@ -283,23 +283,12 @@ footer {
 }
 
 .faqWrap {
-  width: 568px; 
+  width: 763px; 
   margin: 24px auto;
   color: #222;
-  p, ul {
-    margin-bottom: 2em;
-    .answer {
-      color: #515151;
-      font-weight: 300;
-      font-size: 15px;
-    }
-  }
-  ul {
-    margin: 0 20px 20px 20px;
-    li {
-      padding-left: 6px;
-    }
-  }
+  .question {width: 274px;}
+  .answer {width: 468px; margin-left: 20px; font-weight: 300;}
+  p {margin-bottom: 1em;}
   a {
     font-weight: 400;
     color: #555;
