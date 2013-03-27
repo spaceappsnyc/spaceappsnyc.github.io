@@ -172,19 +172,27 @@ footer {
   }
 }
 
-.inner.themovement {
+.themovement {
   padding: 24px 0;
-  h2 {color: #FF6666;}
+  width: 763px;
+  text-align: center;
+  margin: 0 auto;
+  h2 {color: #FF6666; font-size: 48px; line-height: 1em; margin: 0;}
   h4 {
-    margin-bottom: 66px;
-    line-height: 2em;}
+    line-height: 2em;
+    font-size: 16px;}
   p {
-    margin-top: 26px;
     font-size: 16px;
     font-weight: 300;
     line-height: 32px;
+    margin-bottom: 1em;
   }
-  .register {font-size: 18px;}
+  .register {
+    width: 176px;
+    margin: 0 auto;
+    display: block;
+    font-size: 18px;
+    }
 }
 
 .col1, .col2 {

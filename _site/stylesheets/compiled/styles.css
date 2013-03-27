@@ -197,19 +197,28 @@ footer {
       border-radius: 4px;
       /* Opera 10.5, IE 9 */ }
 
-.inner.themovement {
-  padding: 24px 0; }
-  .inner.themovement h2 {
-    color: #FF6666; }
-  .inner.themovement h4 {
-    margin-bottom: 66px;
-    line-height: 2em; }
-  .inner.themovement p {
-    margin-top: 26px;
+.themovement {
+  padding: 24px 0;
+  width: 763px;
+  text-align: center;
+  margin: 0 auto; }
+  .themovement h2 {
+    color: #FF6666;
+    font-size: 48px;
+    line-height: 1em;
+    margin: 0; }
+  .themovement h4 {
+    line-height: 2em;
+    font-size: 16px; }
+  .themovement p {
     font-size: 16px;
     font-weight: 300;
-    line-height: 32px; }
-  .inner.themovement .register {
+    line-height: 32px;
+    margin-bottom: 1em; }
+  .themovement .register {
+    width: 176px;
+    margin: 0 auto;
+    display: block;
     font-size: 18px; }
 
 .col1, .col2 {
