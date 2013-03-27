@@ -98,16 +98,6 @@ header {
   }
 }
 
-.inner.about {
-  margin: 0 auto 2em auto;
-  width: 780px;
-  h2 {color: #FF6666; line-height: 1.2em;}
-  p {font-weight: 300; font-size: 16px; margin-bottom: 1em;}
-  .register {margin-left: 0; text-align: center;}
-  .col1, .col2 { margin-left: 0;}
-}
-
-
 .register {
   padding: 12px 16px;
   margin-left: 8px;
@@ -178,6 +168,7 @@ footer {
   text-align: center;
   margin: 0 auto;
   h2 {color: #FF6666; font-size: 48px; line-height: 1em; margin: 0;}
+  h3 {font-size: 24px; color: #FF6666; line-height: 1.6em; font-weight: 300;}
   h4 {
     line-height: 2em;
     font-size: 16px;}
@@ -195,6 +186,23 @@ footer {
     }
 }
 
+.aboutContent {
+  width: 568px;
+  text-align: left;
+  p {font-weight: 300; font-size: 16px; margin-bottom: 1em;}
+}
+
+.aboutInfo {
+  margin-top: 38px;
+  width: 175px;
+  margin-left: 20px;
+  color: #FF6666;
+  text-align: left;
+  h5 {font-size: 16px; color: #232124; line-height: 2em; font-weight: 300;}
+  .register {text-align: center; margin-top: 44px;}
+}
+
+
 .col1, .col2 {
   width: 371px;
   margin-right:19px;
@@ -208,7 +216,7 @@ footer {
 
 .videoWrap {
   width: 796px; 
-  margin: 48px auto;
+  margin: 24px auto;
   background: black; 
   h3 {
     color: #FF6666;
@@ -225,11 +233,16 @@ footer {
 
 
 .whowhat {
-  h2 {color: #FF6666; margin-bottom: 1em;}
+  width: 763px;
+  margin: 0 auto;
+  text-align: center;
+  h2 {color: #FF6666; margin: 0.675em 0;}
   p, ul {
     color: #FFF;
     font-size: 16px; 
-    font-weight: 300;}
+    line-height: 1.6em;
+    font-weight: 300;
+    margin-bottom: 1em;}
   ul {margin-left: 24px;}
 }
 

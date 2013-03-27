@@ -106,22 +106,6 @@ header {
         header ul li a.register:hover {
           color: #fff; }
 
-.inner.about {
-  margin: 0 auto 2em auto;
-  width: 780px; }
-  .inner.about h2 {
-    color: #FF6666;
-    line-height: 1.2em; }
-  .inner.about p {
-    font-weight: 300;
-    font-size: 16px;
-    margin-bottom: 1em; }
-  .inner.about .register {
-    margin-left: 0;
-    text-align: center; }
-  .inner.about .col1, .inner.about .col2 {
-    margin-left: 0; }
-
 .register {
   padding: 12px 16px;
   margin-left: 8px;
@@ -207,6 +191,11 @@ footer {
     font-size: 48px;
     line-height: 1em;
     margin: 0; }
+  .themovement h3 {
+    font-size: 24px;
+    color: #FF6666;
+    line-height: 1.6em;
+    font-weight: 300; }
   .themovement h4 {
     line-height: 2em;
     font-size: 16px; }
@@ -221,6 +210,29 @@ footer {
     display: block;
     font-size: 18px; }
 
+.aboutContent {
+  width: 568px;
+  text-align: left; }
+  .aboutContent p {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 1em; }
+
+.aboutInfo {
+  margin-top: 38px;
+  width: 175px;
+  margin-left: 20px;
+  color: #FF6666;
+  text-align: left; }
+  .aboutInfo h5 {
+    font-size: 16px;
+    color: #232124;
+    line-height: 2em;
+    font-weight: 300; }
+  .aboutInfo .register {
+    text-align: center;
+    margin-top: 44px; }
+
 .col1, .col2 {
   width: 371px;
   margin-right: 19px;
@@ -232,7 +244,7 @@ footer {
 
 .videoWrap {
   width: 796px;
-  margin: 48px auto;
+  margin: 24px auto;
   background: black; }
   .videoWrap h3 {
     color: #FF6666;
@@ -247,15 +259,21 @@ footer {
     width: 196px;
     padding: 20px; }
 
-.whowhat h2 {
-  color: #FF6666;
-  margin-bottom: 1em; }
-.whowhat p, .whowhat ul {
-  color: #FFF;
-  font-size: 16px;
-  font-weight: 300; }
-.whowhat ul {
-  margin-left: 24px; }
+.whowhat {
+  width: 763px;
+  margin: 0 auto;
+  text-align: center; }
+  .whowhat h2 {
+    color: #FF6666;
+    margin: 0.675em 0; }
+  .whowhat p, .whowhat ul {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 300;
+    margin-bottom: 1em; }
+  .whowhat ul {
+    margin-left: 24px; }
 
 .sponsorInfo {
   width: 762px;
