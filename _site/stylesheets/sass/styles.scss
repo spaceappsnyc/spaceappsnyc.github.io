@@ -55,12 +55,20 @@ header {
   ul {
     list-style-type: none;
     li {
-       &.fr, &.fr a {border-left: 0px solid transparent;};
+       &.fr, &.fr a {
+         border-left: 0px solid transparent;
+         text-align: right; 
+         margin-right: 0;
+         span { color: #FFF; font-weight: 700;
+          }
+         };
+        &.fr a {text-align: center;}
       display: inline-block;
-      padding: 0 8px 24px 0;
-      margin: 24px 16px 0 0;
-      color: #FFF;
+      padding: 0 8px 16px 0;
+      margin: 16px 24px 0 0;
       font-size: 14px;
+      line-height: 1.4em;
+      color: #CCC;
       text-transform: uppercase;
       font-weight: 400;
       border-left: 1px solid transparent;
@@ -72,10 +80,12 @@ header {
           }
       }
       a {
-        border-left: 1px solid #FFF;
-        margin: 12px 0;
-        padding-left: 8px;
-        color: #FFF;
+        display: block;
+        margin: 0;
+        padding: 0 0 8px 8px;
+        vertical-align: top;
+        border-left: 1px solid #CCC;
+        color: #CCC;
         text-decoration: none;
         transition:         all 0.2s ease-in;
         -moz-transition:    all 0.2s ease-in; /* Firefox 4 */

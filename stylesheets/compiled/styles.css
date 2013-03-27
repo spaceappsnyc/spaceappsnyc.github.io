@@ -64,25 +64,35 @@ header {
     list-style-type: none; }
     header ul li {
       display: inline-block;
-      padding: 0 8px 24px 0;
-      margin: 24px 16px 0 0;
-      color: #FFF;
+      padding: 0 8px 16px 0;
+      margin: 16px 24px 0 0;
       font-size: 14px;
+      line-height: 1.4em;
+      color: #CCC;
       text-transform: uppercase;
       font-weight: 400;
       border-left: 1px solid transparent; }
       header ul li.fr, header ul li.fr a {
-        border-left: 0px solid transparent; }
+        border-left: 0px solid transparent;
+        text-align: right;
+        margin-right: 0; }
+        header ul li.fr span, header ul li.fr a span {
+          color: #FFF;
+          font-weight: 700; }
+      header ul li.fr a {
+        text-align: center; }
       header ul li.active {
         border-left: 1px solid #ff6666; }
         header ul li.active a {
           color: #FF6666;
           border-left: 1px solid transparent; }
       header ul li a {
-        border-left: 1px solid white;
-        margin: 12px 0;
-        padding-left: 8px;
-        color: #FFF;
+        display: block;
+        margin: 0;
+        padding: 0 0 8px 8px;
+        vertical-align: top;
+        border-left: 1px solid #cccccc;
+        color: #CCC;
         text-decoration: none;
         transition: all 0.2s ease-in;
         -moz-transition: all 0.2s ease-in;
