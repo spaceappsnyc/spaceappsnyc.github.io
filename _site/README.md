@@ -1,4 +1,0 @@
-jekyllSpace
-===========
-
-space apps dev
