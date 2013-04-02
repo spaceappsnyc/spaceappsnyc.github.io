@@ -120,6 +120,10 @@ header {
   /* Opera 10.5, IE 9 */ }
   .register:hover {
     background: seagreen; }
+  .register.challenges {
+    display: block;
+    width: 300px;
+    margin: 24px auto 0 auto; }
 
 .hero {
   background: transparent url("../../images/hero_background.jpg") center center no-repeat;
@@ -209,10 +213,6 @@ footer {
     margin: 0 auto;
     display: block;
     font-size: 18px; }
-  .themovement .challenges {
-    display: block;
-    width: 300px;
-    margin: 24px auto 0 auto; }
 
 .aboutContent {
   width: 568px;

@@ -108,6 +108,11 @@ header {
      -moz-border-radius:4px; /* FF1+ */
           border-radius:4px; /* Opera 10.5, IE 9 */ 
   &:hover {background: seagreen;}        
+  &.challenges { 
+    display: block;
+    width: 300px;
+    margin: 24px auto 0 auto;
+  }
 }
 .hero { 
   background: transparent url('../../images/hero_background.jpg') center center no-repeat;
@@ -188,11 +193,6 @@ footer {
     display: block;
     font-size: 18px;
   }
-}
-
-.challenges {
-  display: block;
-  width: 300px;
 }
 
 .aboutContent {
