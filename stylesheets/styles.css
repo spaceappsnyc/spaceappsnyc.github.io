@@ -209,10 +209,10 @@ footer {
     margin: 0 auto;
     display: block;
     font-size: 18px; }
-  .themovement .challenges {
-    display: block;
-    width: 300px;
-    margin: 24px auto 0 auto; }
+
+.challenges {
+  display: block;
+  width: 300px; }
 
 .aboutContent {
   width: 568px;
