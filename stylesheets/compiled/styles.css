@@ -173,17 +173,19 @@ footer {
       float: left;
       margin: 0 5px 16px 0;
       display: block;
-      padding: 5px 10px;
-      width: 130px;
-      background: #E9E9E9;
-      -webkit-border-radius: 4px;
-      /* Saf3+, Chrome */
-      -moz-border-radius: 4px;
-      /* FF1+ */
-      border-radius: 4px;
-      /* Opera 10.5, IE 9 */ }
-      footer ul li a, footer ul li img {
-        width: 100%; }
+      width: 155px; }
+      footer ul li a {
+        padding: 10px 10px 5px 10px;
+        display: block;
+        background: #E9E9E9;
+        -webkit-border-radius: 4px;
+        /* Saf3+, Chrome */
+        -moz-border-radius: 4px;
+        /* FF1+ */
+        border-radius: 4px;
+        /* Opera 10.5, IE 9 */ }
+        footer ul li a img {
+          width: 100%; }
 
 .themovement {
   padding: 24px 0;
