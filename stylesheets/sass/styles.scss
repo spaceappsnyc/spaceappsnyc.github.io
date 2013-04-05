@@ -136,7 +136,7 @@ footer {
   padding: 12px 0;
   color: #FFF;
   font-size: 12px;
-  h2 {text-align: left; text-transform: uppercase;}
+  h2 {text-align: left; text-transform: uppercase; margin-top: 0;}
   p {
     margin: 0; 
     padding: 4px 0;
@@ -153,16 +153,17 @@ footer {
     }
   }
   ul {
-    margin: 8px auto 32px auto;
+    margin: 8px auto 0 auto;
     li {
       float: left; 
       margin: 0 5px 16px 0;
       display: block; 
-      width: 155px;
+      width: 316px;
       a {
         padding: 10px 10px 5px 10px;
         display: block;
-        background: #E9E9E9;
+        background: #232323;
+         border: 1px solid #222;
         -webkit-border-radius:4px; /* Saf3+, Chrome */
            -moz-border-radius:4px; /* FF1+ */
                 border-radius:4px; /* Opera 10.5, IE 9 */
@@ -173,20 +174,20 @@ footer {
 }
 
 .themovement {
-  padding: 24px 0;
+  padding: 48px 0;
   width: 763px;
   text-align: center;
   margin: 0 auto;
-  h2 {color: #FF6666; font-size: 48px; line-height: 1em; margin: 0;}
-  h3 {font-size: 24px; color: #FF6666; line-height: 1.6em; font-weight: 300;}
+  h2 {color: #FF6666; font-size: 80px; line-height: 1em; margin: 0;}
+  h3 {font-size: 32px; color: #FF6666; line-height: 1.6em; font-weight: 300;}
   h4 {
     line-height: 2em;
-    font-size: 16px;}
+    font-size: 24px;}
   p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 32px;
-    margin-bottom: 1em;
+    margin-bottom: 1.6em;
   }
   .register {
     width: 176px;
@@ -284,11 +285,50 @@ footer {
 .organizers {
   width: 867px;
   margin: 24px auto;
+  h2 {
+    color: #FF6666; 
+    font-size: 48px; 
+    line-height: 1em; 
+    margin: 0.5em 0; 
+    text-align: center;
+    }
   .organizer {
     width: 273px;
     margin-bottom: 24px;
     color: #515151;
     font-weight: 300;
+  }
+  .lrgpartner {
+    margin-left: 174px;
+    width: 512px;
+    display: block;
+    border: 1px solid #ccc;
+    background: #e7e7e7;
+    -webkit-border-radius:4px; /* Saf3+, Chrome */
+       -moz-border-radius:4px; /* FF1+ */
+            border-radius:4px; /* Opera 10.5, IE 9 */
+  }
+  ul {
+    margin: 8px auto 32px auto;
+    li {
+      float: left; 
+      margin: 0 5px 16px 0;
+      display: block; 
+      width: 166px;
+      border: 1px solid #ccc;
+      -webkit-border-radius:4px; /* Saf3+, Chrome */
+         -moz-border-radius:4px; /* FF1+ */
+              border-radius:4px; /* Opera 10.5, IE 9 */
+      a {
+        padding: 10px 10px 5px 10px;
+        display: block;
+        background: #e7e7e7;
+        -webkit-border-radius:4px; /* Saf3+, Chrome */
+           -moz-border-radius:4px; /* FF1+ */
+                border-radius:4px; /* Opera 10.5, IE 9 */
+        img { width: 100%; }
+      }
+    }
   }
 }
 
