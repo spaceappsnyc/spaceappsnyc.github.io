@@ -136,7 +136,7 @@ footer {
   padding: 12px 0;
   color: #FFF;
   font-size: 12px;
-  h2 {text-align: left; text-transform: uppercase; margin-top: 0;}
+  h2 {text-align: left; text-transform: uppercase; margin-top: 0; line-height: 2em;}
   p {
     margin: 0; 
     padding: 4px 0;
@@ -299,7 +299,7 @@ footer {
     font-weight: 300;
   }
   .lrgpartner {
-    margin-left: 174px;
+    margin: 0 0 8px 174px;
     width: 512px;
     display: block;
     border: 1px solid #ccc;
