@@ -155,8 +155,9 @@ footer {
     line-height: 2em; }
   footer p {
     margin: 0;
-    padding: 4px 0;
+    padding: 0;
     font-size: 14px;
+    line-height: 1.6em;
     color: #909090; }
     footer p.collab {
       color: #555555;
@@ -170,12 +171,12 @@ footer {
       footer p a:hover {
         color: #FFF; }
   footer ul {
-    margin: 8px auto 0 auto; }
+    margin: 8px auto 16px auto; }
     footer ul li {
       float: left;
-      margin: 0 5px 16px 0;
+      margin: 0 5px 5px 0;
       display: block;
-      width: 236px; }
+      width: 316px; }
       footer ul li a {
         padding: 10px 10px 5px 10px;
         display: block;

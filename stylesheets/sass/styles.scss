@@ -139,8 +139,9 @@ footer {
   h2 {text-align: left; text-transform: uppercase; margin-top: 0; line-height: 2em;}
   p {
     margin: 0; 
-    padding: 4px 0;
+    padding: 0;
     font-size: 14px;
+    line-height: 1.6em;
     color: #909090;
     &.collab {color: #555555; font-size: 12px;
       a {color:#555555;}
@@ -153,13 +154,13 @@ footer {
     }
   }
   ul {
-    margin: 8px auto 0 auto;
+    margin: 8px auto 16px auto;
     li {
       float: left; 
-      margin: 0 5px 16px 0;
+      margin: 0 5px 5px 0;
       display: block; 
-      //width: 316px;
-      width: 236px;
+      width: 316px;
+      //width: 236px;
       a {
         padding: 10px 10px 5px 10px;
         display: block;
