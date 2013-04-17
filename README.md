@@ -11,10 +11,7 @@ Navigate into the directory.
 `cd Spaceapps`
 
 Clone repository using  
-`git clone _repository_`
-
-navigate into the directory using  
-`cd _folder-name_`
+`git clone https://github.com/spaceappsnyc/spaceappsnyc.github.com.git .`
 
 Switch to and track Dev branch  
 `git checkout -t origin/dev`
