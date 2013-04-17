@@ -1,7 +1,7 @@
 Space Apps NYC ReadMe
 ===========
 
-Install RVM
+Install RVM  
 `\curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enabled --ruby=1.9.3`
 
 Create a folder store files.  
