@@ -45,6 +45,11 @@ Beginning each session
 `jekyll --server`  
 `sass --watch stylesheets/sass:stylesheets/compiled`
 
+4. The CSS file you'll be updating is located in:  
+    stylesheets> sass > styles.scss
+
+****As a note you may need save a "main file" like about.html, faq.html, etc... before your changes are updated locally. 
+
 
 Ready to push to production?
 ===========
