@@ -276,6 +276,13 @@ footer {
   .whowhat h2 {
     color: #FF6666;
     margin: 0.675em 0; }
+  .whowhat a {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 300;
+    margin-bottom: 1em;
+    margin-left: 24px; }
   .whowhat p, .whowhat ul {
     color: #FFF;
     font-size: 16px;
