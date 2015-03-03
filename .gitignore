@@ -5,3 +5,5 @@ _site
 .*~
 *~
 Gemfile.lock
+images/Thumbs.db
+images/slideshow/Thumbs.db
