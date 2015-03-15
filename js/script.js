@@ -1,9 +1,6 @@
 $(document).ready(function () {
   
-  // alert('hello there');
-  
   $("#slideshow > div:gt(0)").hide();
-  
     setInterval(function() { 
       $('#slideshow > div:first')
         .fadeOut(1000)
@@ -12,6 +9,4 @@ $(document).ready(function () {
         .end()
         .appendTo('#slideshow');
     },  3000);
-    
-  
 });
