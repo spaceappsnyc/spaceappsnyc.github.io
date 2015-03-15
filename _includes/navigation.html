@@ -1,13 +1,12 @@
 <header class="container">
   <div class="inner">
     <ul class="cf">
-      {% if page.url == "/index.html" %}
-      <li class="active">{% else %}<li>{% endif %}
+      <li{% if page.url == "/index.html" %} class="active"{% endif %}>
         <a href="index.html">Home<br/>&nbsp;</a>
       </li>
       {% if page.url == "/about.html" %}
       <li class="active">{% else %}<li>{% endif %}
-        <a href="about.html">About<br/>&nbsp;</a>
+        <a href="about.html">About<br/>Us</a>
       </li>
       {% if page.url == "/media.html" %}
       <li class="active">{% else %}<li>{% endif %}
