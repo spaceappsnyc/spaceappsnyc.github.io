@@ -365,6 +365,26 @@ footer {
       /* FF1+ */
       border-radius: 4px;
       /* Opera 10.5, IE 9 */ }
+  .organizers .smpartner {
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #e7e7e7;
+    line-height: 0;
+    margin: 6px;
+    -webkit-border-radius: 4px;
+    /* Saf3+, Chrome */
+    -moz-border-radius: 4px;
+    /* FF1+ */
+    border-radius: 4px;
+    /* Opera 10.5, IE 9 */ }
+    .organizers .smpartner img {
+      width: 200px;
+      -webkit-border-radius: 4px;
+      /* Saf3+, Chrome */
+      -moz-border-radius: 4px;
+      /* FF1+ */
+      border-radius: 4px;
+      /* Opera 10.5, IE 9 */ }
   .organizers ul {
     width: 867px;
     margin: 16px auto 32px 60px; }
@@ -424,5 +444,11 @@ footer {
   position: absolute; }
   #slideshow > div img {
     width: 750px; }
+
+.qanda ul {
+  list-style-position: outside; }
+  .qanda ul li {
+    font-size: 18px;
+    margin-left: 1em; }
 
 /*# sourceMappingURL=styles.css.map */

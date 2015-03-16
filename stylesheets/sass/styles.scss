@@ -313,6 +313,7 @@ footer {
 .organizers {
   width: 867px;
   margin: 24px auto;
+
   h2 {
     color: #FF6666; 
     font-size: 48px; 
@@ -344,6 +345,24 @@ footer {
               border-radius:4px; /* Opera 10.5, IE 9 */
     }
   }
+  .smpartner {
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #e7e7e7;
+    line-height: 0;
+    margin: 6px;
+
+    -webkit-border-radius:4px; /* Saf3+, Chrome */
+       -moz-border-radius:4px; /* FF1+ */
+            border-radius:4px; /* Opera 10.5, IE 9 */
+    img {
+      width: 200px;
+      -webkit-border-radius:4px; /* Saf3+, Chrome */
+         -moz-border-radius:4px; /* FF1+ */
+              border-radius:4px; /* Opera 10.5, IE 9 */
+    }
+  }
+
   ul {
     width: 867px;
     margin: 16px auto 32px 60px;
@@ -398,4 +417,12 @@ footer {
     img { width: 750px; }
 }
 
-
+.qanda {
+  ul {
+    list-style-position: outside;
+    li {
+      font-size: 18px;
+      margin-left: 1em;
+    }
+  }
+}
