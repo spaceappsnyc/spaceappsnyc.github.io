@@ -319,6 +319,16 @@ footer {
     .sponsorInfo a:hover {
       color: seagreen; }
 
+.team img {
+  max-height: 150px;
+  max-width: 150px;
+  -webkit-border-radius: 8px;
+  /* Saf3+, Chrome */
+  -moz-border-radius: 8px;
+  /* FF1+ */
+  border-radius: 8px;
+  /* Opera 10.5, IE 9 */ }
+
 .organizers {
   width: 867px;
   margin: 24px auto; }
