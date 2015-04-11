@@ -451,4 +451,15 @@ footer {
     font-size: 18px;
     margin-left: 1em; }
 
+#the-schedule {
+  margin-bottom: 32px; }
+  #the-schedule h2 {
+    margin-bottom: 12px; }
+  #the-schedule th {
+    text-align: left; }
+  #the-schedule td.startTime {
+    text-align: right;
+    padding-right: 18px;
+    text-transform: lowercase; }
+
 /*# sourceMappingURL=styles.css.map */

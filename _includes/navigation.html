@@ -24,9 +24,8 @@
       <li class="active">{% else %}<li>{% endif %}
         <a href="conduct.html">Code of<br/>Conduct</a>
       </li>
-      {% if page.url == "/sponsors.html" %}
-      <li class="active">{% else %}<li>{% endif %}
-        <a href="sponsors.html">Sponsor<br/> Us</a>
+      <li{% if page.url == "/schedule.html" %} class="active"{% endif %}>
+        <a href="schedule.html">Event<br/>Schedule</a>
       </li>
       <li{% if page.url == "/accomodations.html" %} class="active"{% endif %}>
         <a href="accomodations.html">Stay<br/>with us</a>
