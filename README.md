@@ -23,7 +23,7 @@ Grab the latest and greatest
 `git pull origin dev`
   
 To start local server (open a new tab in terminal cmd+t)  
-`jekyll --server`
+`jekyll server`
   
 Watch the SASS file for changes (open a new tab in terminal cmd+t)  
 `sass --watch stylesheets/sass:stylesheets/compiled`
