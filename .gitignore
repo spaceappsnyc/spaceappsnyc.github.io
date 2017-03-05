@@ -1,9 +1,10 @@
 .sass-cache/
 _site
+_drafts
 .idea/
 .DS_Store
 .*~
 *~
-Gemfile.lock
+npm-debug.log
 images/Thumbs.db
 images/slideshow/Thumbs.db

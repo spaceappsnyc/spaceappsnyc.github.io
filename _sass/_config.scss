@@ -1,0 +1,24 @@
+// Colors
+$black: #111111;
+$white: #eeeeee;
+$blue: #498dc4;
+$orange: #ffc15d;
+$red: #ff705d;
+
+$purple: rgb(63,81,181);
+$cyan: rgb(64,196,255);
+
+$space-apps-nyc-blue: #4277BB;
+$space-apps-nyc-red: #E54240;
+
+$color-primary: $space-apps-nyc-blue;
+$color-accent: $space-apps-nyc-red;
+$primary-color: $purple;
+$secondary-color: $cyan;
+
+// Susy
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  container: 80em
+);

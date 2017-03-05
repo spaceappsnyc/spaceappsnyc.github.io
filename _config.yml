@@ -1,1 +1,18 @@
-port: 4000
+# Site settings
+title: Space Apps NYC
+email: organizers@spaceapps.nyc
+description: The NYC chapter of NASA's International Space Apps Challenge
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://spaceapps.nyc" # the base hostname & protocol for your site
+twitter_username: spaceappsnyc
+github_username: spaceappsnyc
+
+# Build settings
+markdown: kramdown
+exclude: [vendor,2016]
+gems:
+   - susy
+   - material_design_lite-sass
+
+# Development
+host: 0.0.0.0

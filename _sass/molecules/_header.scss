@@ -1,0 +1,11 @@
+.site-header {
+  &--home {
+    height: 2.5em;
+
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
