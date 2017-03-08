@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+
+  .image {
+    height: 20em;
+    // background-image: url("/images/world-trade.jpg");
+    background-image: url("http://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2016/11/10/104097296-16654352517_a6eb45f2ce_k.1910x1000.jpg?v=1478790497");
+    background-position: center 75%;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  h1 {
+    padding: 1em;
+    margin: 0;
+    color: $white;
+    font-size: 6em;
+    position: absolute;
+    bottom: 0;
+    font-weight: 900;
+    text-shadow: 0 0 1px $black, 5px 5px $space-apps-nyc-blue;
+  }
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 25em;
+  }
+}

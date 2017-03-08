@@ -17,10 +17,14 @@ layout: null
 
 // Atoms
 @import "atoms/headings";
+@import "atoms/hero";
+@import "atoms/intro";
 
 // Molecules
-@import "molecules/header";
 @import "molecules/footer";
+@import "molecules/header";
+@import "molecules/location";
+@import "molecules/organizers";
 @import "molecules/video";
 
 body {
@@ -40,25 +44,6 @@ main {
 
 a {
   color: $space-apps-nyc-red;
-}
-
-.hero {
-  height: 30em;
-  background-image: url("/images/world-trade.jpg");
-  background-position: center;
-  background-size: cover;
-  position: relative;
-
-  h1 {
-    padding: 1em;
-    margin: 0;
-    color: $white;
-    font-size: 6em;
-    position: absolute;
-    bottom: 0;
-    font-weight: 900;
-    text-shadow: 0 0 1px $black, 5px 5px $space-apps-nyc-blue;
-  }
 }
 
 .title {
