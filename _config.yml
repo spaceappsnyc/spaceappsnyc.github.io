@@ -11,8 +11,7 @@ github_username: spaceappsnyc
 markdown: kramdown
 exclude: [vendor,2016]
 gems:
-   - susy
-   - material_design_lite-sass
+   - github-pages
 
 # Development
 host: 0.0.0.0
