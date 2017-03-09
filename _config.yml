@@ -9,7 +9,7 @@ github_username: spaceappsnyc
 
 # Build settings
 markdown: kramdown
-exclude: [vendor,2016]
+exclude: [vendor,archive]
 gems:
    - github-pages
 
