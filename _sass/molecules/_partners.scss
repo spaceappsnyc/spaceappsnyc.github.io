@@ -1,0 +1,23 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  h2 {
+    width: 100%;
+  }
+}
+
+.partner {
+  margin-bottom: 2em;
+
+  & > a {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  img {
+    display: block;
+    height: 5em;
+  }
+}
