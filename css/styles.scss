@@ -9,6 +9,7 @@ layout: null
 @import "config";
 
 // Vendors
+@import "vendor/font-awesome";
 @import "vendor/material";
 
 // Utils
@@ -20,11 +21,13 @@ layout: null
 @import "atoms/intro";
 
 // Molecules
+@import "molecules/awards";
+@import "molecules/event-details";
 @import "molecules/footer";
 @import "molecules/header";
-@import "molecules/location";
 @import "molecules/organizers";
 @import "molecules/partners";
+@import "molecules/signup";
 @import "molecules/video";
 
 body {
@@ -39,11 +42,14 @@ body {
 
 main {
   background: url('../../images/lightgrid.gif') 0 0 repeat;
-  padding-bottom: 2em;
 }
 
 a {
   color: $space-apps-nyc-red;
+}
+
+section {
+  padding: 2em 0;
 }
 
 .title {

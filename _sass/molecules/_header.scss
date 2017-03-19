@@ -1,11 +1,10 @@
 .site-header {
-  &--home {
-    height: 2.5em;
+  .fa {
+    padding: 0 0.5em;
 
-    img {
+    &::before {
+      font-size: 1.8em;
       display: block;
-      max-width: 100%;
-      max-height: 100%;
     }
   }
 }

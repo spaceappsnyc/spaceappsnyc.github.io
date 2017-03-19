@@ -1,0 +1,15 @@
+.awards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.award {
+  margin-bottom: 1em;
+  background-color: rgba($black, 0.3);
+  border-radius: 2px;
+  padding: 0.5em 0.8em;
+
+  &--winner {
+    padding-left: 1em;
+  }
+}
