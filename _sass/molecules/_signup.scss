@@ -1,9 +1,38 @@
-section.signup {
-
-}
-
 #mc_embed_signup {
-  background-color: #fff;
-  width: 40em;
-  margin: 0 auto;
+  @extend %card-styling;
+  max-width: 40em;
+  margin: 0 auto 5em;
+  padding: 3em 3em 0;
+
+  .mc-field-group label {
+    font-weight: bold;
+  }
+
+  .asterisk {
+    color: $blue;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  h2 {
+    margin: 0 0 1em;
+  }
+
+  input {
+    border-radius: 0;
+
+    &[type="radio"] {
+      margin-right: 0.5em;
+    }
+    &[type="submit"] {
+      width: 100%;
+      border-radius: 0;
+      padding: 0.5em;
+      height: auto;
+      margin-bottom: -1.5em;
+      background-color: $blue;
+    }
+  }
 }

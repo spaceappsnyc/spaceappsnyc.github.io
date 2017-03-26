@@ -1,10 +1,37 @@
 .site-header {
-  .fa {
-    padding: 0 0.5em;
+  background-image: url("/images/redesign/grid-grid-mask.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 
-    &::before {
-      font-size: 1.8em;
-      display: block;
+  @media (min-width: 60em) {
+    margin-bottom: 3em;
+  }
+
+  &::after {
+    display: block;
+    content: "";
+    padding-bottom: 52.6%;
+  }
+
+  .container {
+    position: absolute;
+    padding-top: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: 60em) {
+      padding-top: 1em;
+    }
+  }
+
+  .hero {
+    max-width: 40em;
+
+    @media (min-width: 60em) {
+      padding-top: 3em;
     }
   }
 }

@@ -1,20 +1,20 @@
-h1, h2 {
-  color: $space-apps-nyc-red;
-  font-weight: 300;
+h1, h2, h3 {
+  font-family: "Bungee", "Roboto Condensed", Helvetica, sans-serif;
+  font-weight: lighter;
   text-transform: uppercase;
+  line-height: 1;
+  margin: 0 0 1.5rem;
 }
 
 h1 {
-  font-size: 3.25em;
-  line-height: 1em;
+  font-size: 2.85em;
 }
 
 h2 {
-  font-size: 2em;
-  margin-top: 32px;
+  font-size: 2.15em;
+}
 
-  span {
-    font-size: 16px;
-    font-weight: 700;
-  }
+h3 {
+  font-size: 1em;
+  color: $grey;
 }

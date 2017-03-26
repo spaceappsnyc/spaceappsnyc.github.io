@@ -10,51 +10,30 @@ layout: null
 
 // Vendors
 @import "vendor/font-awesome";
-@import "vendor/material";
 
 // Utils
 @import "utils/normalize";
+@import "utils/scaffolding";
 
 // Atoms
+@import "atoms/buttons";
+@import "atoms/hashtag";
 @import "atoms/headings";
 @import "atoms/hero";
 @import "atoms/intro";
 
 // Molecules
 @import "molecules/awards";
+@import "molecules/cards";
 @import "molecules/event-details";
 @import "molecules/footer";
 @import "molecules/header";
+@import "molecules/nav";
 @import "molecules/organizers";
 @import "molecules/partners";
 @import "molecules/signup";
 @import "molecules/video";
 
-body {
-  background-color: $space-apps-nyc-blue;
-}
-
-.container {
-  max-width: 60em;
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
-main {
-  background: url('../../images/lightgrid.gif') 0 0 repeat;
-}
-
-a {
-  color: $space-apps-nyc-red;
-}
-
-section {
-  padding: 2em 0;
-}
-
-.title {
-  font-size: 5em;
-  color: $space-apps-nyc-red;
-  text-align: center;
-  margin: 1em 0;
-}
+// Pages
+@import "pages/about";
+@import "pages/home";

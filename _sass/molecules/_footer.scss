@@ -1,16 +1,87 @@
 .site-footer {
-  color: $white;
-  padding: 1em 0;
-  background-color: $space-apps-nyc-blue;
+  background-color: $off-white;
 
+  &--links-section {
+    overflow: hidden;
+  }
+
+  &--links {
+    width: 50%;
+    float: left;
+    color: $grey;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      line-height: 2;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    @media (min-width: 60em) {
+      width: 25%;
+    }
+
+    @media (max-width: 60em) {
+      padding: 0.5em;
+    }
+  }
+
+  .copyright {
+    clear: both;
+    background-color: $neon-blue;
+    color: $white;
+    padding: 2em;
+    overflow: hidden;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+
+    small {
+      opacity: 0.85;
+
+      @media (min-width: 60em) {
+        width: 50%;
+      }
+
+      @media (max-width: 60em) {
+        margin-top: 1em;
+      }
+    }
+
+    @media (min-width: 60em) {
+      align-items: center;
+    }
+
+    @media (max-width: 60em) {
+      flex-direction: column;
+    }
+  }
+
+  .hashtag--white {
+    left: -3em;
+    top: -3em;
+  }
+
+  section {
+    & + section:not(.copyright) {
+      border-top: 2px solid $light-grey;
+    }
+
+    @media (min-width: 60em) {
+      padding: 5em 0;
+    }
+  }
   small {
     display: block;
   }
   dt {
     font-weight: normal;
   }
-}
 
-.mdl-mega-footer--left-section, .mdl-mega-footer__left-section {
-  padding: 0 1em;
+  @media (min-width: 60em) {
+    margin-top: 5em;
+  }
 }

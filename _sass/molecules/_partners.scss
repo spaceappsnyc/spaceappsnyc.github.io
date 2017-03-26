@@ -1,20 +1,28 @@
 .partners {
-  display: flex;
+  @extend .cards;
   flex-wrap: wrap;
-  justify-content: space-around;
-
-  h2 {
-    width: 100%;
-  }
 }
 
 .partner {
-  margin-bottom: 2em;
-  display: block;
+  @extend .card;
+  justify-content: flex-start;
+  text-align: justify;
+
+  @media (min-width: 60em) {
+    max-width: 50%;
+  }
+
+  &--logo {
+    margin-bottom: 3em;
+  }
+
+  &--link {
+    display: block;
+  }
 
   img {
     display: block;
     max-height: 5em;
-    max-width: 20em;
+    max-width: 100%;
   }
 }

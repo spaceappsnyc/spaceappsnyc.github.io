@@ -1,0 +1,51 @@
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $white;
+
+  &--right, &--left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &--link {
+    font-size: 0.85em;
+    margin: 0 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .button {
+    margin-left: 0.5em;
+  }
+
+  .fa {
+    padding: 0 0.5em;
+
+    &::before {
+      font-size: 1.8em;
+      display: block;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+@media (max-width: 60em) {
+  .site-nav {
+    &--left {
+      display: none;
+    }
+    &--link {
+      margin: 0.5rem;
+    }
+    .button {
+      // margin-top: 1em;
+      display: none;
+    }
+  }
+}

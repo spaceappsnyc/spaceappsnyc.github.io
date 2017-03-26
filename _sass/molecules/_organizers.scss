@@ -5,7 +5,6 @@
 }
 
 .organizer {
-  width: 30%;
   text-align: center;
   margin-bottom: 2em;
 
@@ -17,5 +16,9 @@
 
   &--name {
     font-weight: bold;
+  }
+
+  @media (min-width: 60em) {
+    width: 20%;
   }
 }

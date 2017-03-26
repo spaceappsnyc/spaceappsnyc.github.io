@@ -1,19 +1,15 @@
-<header class="site-header mdl-layout__header">
-  <div class="mdl-layout__header-row">
-    <nav class="site-nav mdl-navigation">
-      <a class="mdl-navigation__link" href="/">Home</a>
-      <a class="mdl-navigation__link" href="about">About Us</a>
-      <a class="mdl-navigation__link" href="organizers">Organizers &amp; Partners</a>
-      <a class="mdl-navigation__link" href="conduct">Code of Conduct</a>
-    </nav>
-    <div class="mdl-layout-spacer"></div>
-    <nav class="site-nav mdl-navigation">
-      <a class="mdl-navigation__link fa fa-twitter" href="https://twitter.com/spaceappsnyc" target="_blank"></a>
-      <a class="mdl-navigation__link fa fa-github" href="https://github.com/spaceappsnyc" target="_blank"></a>
-      <a class="mdl-navigation__link fa fa-meetup" href="http://www.meetup.com/Space-Apps-NYC/" target="_blank"></a>
-      <div class="mdl-navigation__link">
-        <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent"disabled target="_blank">Hackathon Registration</a>
-      </div>
-    </nav>
+<nav class="site-nav">
+  <a class="site-nav--left" href="/">
+    <img src="/images/redesign/logo.svg" />
+  </a>
+  <div class="site-nav--right">
+    <a class="site-nav--link" href="/">Home</a>
+    <a class="site-nav--link" href="about">About Us</a>
+    <a class="site-nav--link" href="organizers">Organizers &amp; Partners</a>
+    <a class="site-nav--link" href="conduct">Code of Conduct</a>
+    <a class="fa fa-twitter" href="https://twitter.com/spaceappsnyc" target="_blank"></a>
+    <a class="fa fa-github" href="https://github.com/spaceappsnyc" target="_blank"></a>
+    <a class="fa fa-meetup" href="http://www.meetup.com/Space-Apps-NYC/" target="_blank"></a>
+    {% include registration-button.html %}
   </div>
-</header>
+</nav>

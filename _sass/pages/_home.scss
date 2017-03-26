@@ -1,0 +1,12 @@
+.page-home {
+  .hashtag {
+    &--blue {
+      left: 0;
+      top: 25em;
+    }
+    &--red {
+      right: 0;
+      top: -10em;
+    }
+  }
+}

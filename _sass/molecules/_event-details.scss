@@ -1,27 +1,80 @@
 .event-details {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   text-align: center;
+  position: relative;
 
-  .location + .location {
-    margin-left: 5em;
+  .locations, .dates {
+    @extend .cards;
   }
 
-  .date {
-    width: 100%;
-  }
+  .locations {
+    text-align: center;
+    margin-bottom: 8em;
 
-  h1 {
-    color: $black;
+    @media (max-width: 60em) {
+      margin-bottom: 3em;
+    }
 
-    small {
-      display: block;
-      margin: 0.5em 0;
+    img {
+      width: 270px;
+      margin-bottom: 1.5em;
     }
   }
 
-  img {
-    height: 10em;
+  .location {
+    @extend .card;
+  }
+
+  .dates {
+    img {
+      margin-top: -2em;
+      margin-bottom: -2em;
+
+      @media (max-width: 60em) {
+        display: none;
+      }
+    }
+  }
+
+  .date {
+    @extend .card;
+    align-items: flex-start;
+
+    &:first-of-type {
+      @media (min-width: 60em) {
+        padding-right: 5em;
+      }
+    }
+
+    &:last-of-type {
+      @media (min-width: 60em) {
+        padding-left: 5em;
+      }
+    }
+
+    &--header {
+      margin-bottom: 0.5em;
+      color: $grey;
+      letter-spacing: 2px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    &--content {
+      color: $blue;
+      font-size: 2.85em;
+      font-weight: lighter;
+    }
+  }
+
+  a {
+    display: block;
+    font-weight: lighter;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    @media (min-width: 60em) {
+      margin-bottom: 2em;
+    }
   }
 }
