@@ -1,0 +1,21 @@
+.sponsor-categories {
+  @extend .cards;
+  display: block;
+}
+
+.sponsor-category {
+  display: flex;
+}
+
+.sponsor {
+  margin-bottom: 3em;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+
+  img {
+    display: block;
+    max-height: 5em;
+    max-width: 15em;
+  }
+}
