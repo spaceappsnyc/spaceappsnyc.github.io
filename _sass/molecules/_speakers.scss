@@ -1,0 +1,21 @@
+.speakers {
+  @extend %card-styling;
+  padding: 0;
+}
+
+.speaker {
+  @extend .card;
+  flex-direction: row;
+
+  & + & {
+    border-top: 1px solid $light-grey;
+  }
+
+  &--content {
+
+  }
+  &--photo {
+    max-width: 15em;
+    margin-right: 3em;
+  }
+}
