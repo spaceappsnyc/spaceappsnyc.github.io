@@ -1,12 +1,11 @@
 .page-schedule {
-  main {
-    section.-text {
-      @extend %card-styling;
+  .cards {
+    display: flex;
+    margin-bottom: 2em;
+  }
 
-      @media (min-width: 60em) {
-        margin-top: 3em;
-        padding: 3em 3em 2em;
-      }
-    }
+  .card {
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
