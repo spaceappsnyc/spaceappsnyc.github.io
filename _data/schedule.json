@@ -1,0 +1,194 @@
+{
+  "conference": [
+    {
+      "time": "8:00 AM",
+      "name": "Doors Open / Breakfast"
+    },
+    {
+      "time": "8:45 AM",
+      "name": "Opening Remarks",
+      "speakers": ["Space Apps NYC", "SAP Next-Gen", "NASA", "SecondMuse"]
+    },
+    {
+      "time": "9:00 AM",
+      "name": "Opening Keynote",
+      "speakers": ["Anousheh Ansari"]
+    },
+    {
+      "time": "9:30 AM",
+      "name": "The New Golden Age of Human Spaceflight",
+      "speakers": ["Richard Garriott"]
+    },
+    {
+      "time": "10:00 AM",
+      "name": "Panel 1 - Making Space Matter",
+      "speakers": ["Matthew Pearce", "Danielle Wood", "Jeff Goldstein", "Jason Kendall"]
+    },
+    {
+      "time": "11:00 AM",
+      "name": "Panel 2 - Geospatial Intelligence in 2017",
+      "speakers": "TBD"
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Lunch"
+    },
+    {
+      "time": "1:00 PM",
+      "name": "Panel 3 - The Intersection of Civil, Commercial, and Defense Aerospace",
+      "speakers": ["Maj General Nina Armagno", "Anousheh Ansari", "TBD"]
+    },
+    {
+      "time": "2:00 PM",
+      "name": "Panel 4 - Earth and Space Entrepreneurship",
+      "speakers": ["Jennifer Lopez", "Sean Casey", "TBD", "Dave Moser"]
+    },
+    {
+      "time": "3:00 PM",
+      "name": "Health and Air Quality Applications of Earth Science Data",
+      "speakers": ["Shobhana Gupta"]
+    },
+    {
+      "time": "3:15 PM",
+      "name": "Big Data Project",
+      "speakers": ["Shane Glass"]
+    },
+    {
+      "time": "3:30 PM",
+      "name": "TBD",
+      "speakers": ["TBD"]
+    },
+    {
+      "time": "4:00 PM",
+      "name": "Remote Keynote - Vint Cerf",
+      "speakers": ["Vint Cerf"]
+    },
+    {
+      "time": "5:00 PM",
+      "name": "Closing Remarks / Networking",
+      "speakers": ["Space Apps NYC"]
+    }
+  ],
+  "bootcamp": [
+    {
+      "time": "9:30 AM - 11:00 AM",
+      "name": "Intro to Python for Data Science",
+      "speakers": ["Art Yudin"]
+    },
+    {
+      "time": "9:30 AM - 10:30 AM",
+      "name": "data.world",
+      "speakers": ["Len Fishman"]
+    },
+    {
+      "time": "10:30 AM - 11:00 AM",
+      "name": "Open NASA Data: From API to Data Analysis",
+      "speakers": ["Noemi Derzsy"]
+    },
+    {
+      "time": "11:00 AM - 12:00 PM",
+      "name": "OpenSpace",
+      "speakers": ["Carter Emmart", "Alex Bock"]
+    },
+    {
+      "time": "11:00 AM - 11:30 AM",
+      "name": "3D Printing",
+      "speakers": ["Alexander Meacham"]
+    },
+    {
+      "time": "11:30 AM - 12:00 PM",
+      "name": "Startups & Pitches",
+      "speakers": ["Brittany Laughlin"]
+    },
+    {
+      "time": "12:00 PM - 1:00 PM",
+      "name": "Lunch"
+    },
+    {
+      "time": "1:00 PM - 2:00 PM",
+      "name": "Discussion on the Role of Robotics",
+      "speakers": ["Reem Alattas"]
+    },
+    {
+      "time": "1:00 PM - 1:30 PM",
+      "name": "Project Management",
+      "speakers": ["Ashley Stubblefield"]
+    },
+    {
+      "time": "1:30 PM - 4:00 PM",
+      "name": "Intro to Unity Virtual Reality",
+      "speakers": ["Lex Dreitser"]
+    },
+    {
+      "time": "2:00 PM - 3:00 PM",
+      "name": "Arduino",
+      "speakers": ["Leslie Birch"]
+    },
+    {
+      "time": "3:00 PM - 4:00 PM",
+      "name": "Make School",
+      "speakers": ["TBD"]
+    },
+    {
+      "time": "4:00 PM - 5:00 PM",
+      "name": "Amazon Web Services",
+      "speakers": ["TBD"]
+    }
+  ],
+  "saturday": [
+    {
+      "time": "8:30 AM",
+      "name": "Doors Open / Breakfast"
+    },
+    {
+      "time": "9:30 AM",
+      "name": "Opening Remarks"
+    },
+    {
+      "time": "11:00 AM",
+      "name": "Hacking Begins!"
+    },
+    {
+      "time": "12:30 PM",
+      "name": "Lunch"
+    },
+    {
+      "time": "6:30 PM",
+      "name": "Dinner"
+    },
+    {
+      "time": "8:00 PM",
+      "name": "Overnight Hacking!"
+    }
+  ],
+  "sunday": [
+    {
+      "time": "8:00 AM",
+      "name": "Breakfast"
+    },
+    {
+      "time": "1:00 PM",
+      "name": "Lunch / Project Submissions"
+    },
+    {
+      "time": "2:00 PM",
+      "name": "Closing Ceremonies"
+    },
+    {
+      "time": "2:15 PM",
+      "name": "Project Presentations"
+    },
+    {
+      "time": "5:00 PM",
+      "name": "Judging"
+    },
+    {
+      "time": "5:30 PM",
+      "name": "Award Presentations"
+    },
+    {
+      "time": "6:00 PM",
+      "name": "Closing Remarks"
+    }
+  ]
+}
