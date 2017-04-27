@@ -27,12 +27,12 @@
     {
       "time": "11:00 AM",
       "name": "CASIS International Space Station: Benefits for Humanity",
-      "speakers": "Jennifer Lopez"
+      "speakers": ["Jennifer Lopez"]
     },
     {
       "time": "11:30 AM",
       "name": "Health and Air Quality Applications of Earth Science Data",
-      "speakers": "Shobhana Gupta"
+      "speakers": ["Shobhana Gupta"]
     },
     {
       "time": "12:00 PM",
@@ -40,8 +40,7 @@
     },
     {
       "time": "1:00 PM",
-      "name": "Networking Hour",
-      "speakers": "N/A"
+      "name": "Networking Hour"
     },
     {
       "time": "2:00 PM",
@@ -56,12 +55,11 @@
     {
       "time": "3:15 PM",
       "name": "Message from Vint Cerf",
-      "speakers": "Vint Cerf"
+      "speakers": ["Vint Cerf"]
     },
     {
       "time": "3:30 PM",
-      "name": "Networking",
-      "speakers": "N/A"
+      "name": "Networking"
     },
     {
       "time": "4:00 PM",
@@ -94,7 +92,7 @@
       "time": "11:00 AM - 12:00 PM",
       "name": "AWS and NASA: They're Just Like Us",
       "speakers": ["TBD"]
-    }
+    },
     {
       "time": "11:00 AM - 11:30 AM",
       "name": "Intro to 3D Technology",
