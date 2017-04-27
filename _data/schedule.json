@@ -11,7 +11,7 @@
     },
     {
       "time": "9:00 AM",
-      "name": "Opening Keynote",
+      "name": "Opening Keynote: Dare to Dream",
       "speakers": ["Anousheh Ansari"]
     },
     {
@@ -21,13 +21,18 @@
     },
     {
       "time": "10:00 AM",
-      "name": "Panel 1 - Making Space Matter",
+      "name": "Making Space Matter",
       "speakers": ["Matthew Pearce", "Danielle Wood", "Jeff Goldstein", "Jason Kendall"]
     },
     {
       "time": "11:00 AM",
-      "name": "Panel 2 - Geospatial Intelligence in 2017",
-      "speakers": "TBD"
+      "name": "CASIS International Space Station: Benefits for Humanity",
+      "speakers": "Jennifer Lopez"
+    },
+    {
+      "time": "11:30 AM",
+      "name": "Health and Air Quality Applications of Earth Science Data",
+      "speakers": "Shobhana Gupta"
     },
     {
       "time": "12:00 PM",
@@ -35,33 +40,33 @@
     },
     {
       "time": "1:00 PM",
-      "name": "Panel 3 - The Intersection of Civil, Commercial, and Defense Aerospace",
-      "speakers": ["Maj General Nina Armagno", "Anousheh Ansari", "TBD"]
+      "name": "Networking Hour",
+      "speakers": "N/A"
     },
     {
       "time": "2:00 PM",
-      "name": "Panel 4 - Earth and Space Entrepreneurship",
-      "speakers": ["Jennifer Lopez", "Sean Casey", "TBD", "Dave Moser"]
+      "name": "Panel 2 - Earth and Space Entrepreneurship",
+      "speakers": ["Jennifer Lopez", "Sean Casey", "Dave Moser"]
     },
     {
       "time": "3:00 PM",
-      "name": "Health and Air Quality Applications of Earth Science Data",
-      "speakers": ["Shobhana Gupta"]
-    },
-    {
-      "time": "3:15 PM",
-      "name": "Big Data Project",
+      "name": "The Big Data Project",
       "speakers": ["Shane Glass"]
     },
     {
+      "time": "3:15 PM",
+      "name": "Message from Vint Cerf",
+      "speakers": "Vint Cerf"
+    },
+    {
       "time": "3:30 PM",
-      "name": "TBD",
-      "speakers": ["TBD"]
+      "name": "Networking",
+      "speakers": "N/A"
     },
     {
       "time": "4:00 PM",
-      "name": "Remote Keynote - Vint Cerf",
-      "speakers": ["Vint Cerf"]
+      "name": "OpenSpace",
+      "speakers": ["Carter Emmart", "Alex Bock"]
     },
     {
       "time": "5:00 PM",
@@ -77,7 +82,7 @@
     },
     {
       "time": "9:30 AM - 10:30 AM",
-      "name": "data.world",
+      "name": "Using data.world to find data, collaborate and power your apps",
       "speakers": ["Len Fishman"]
     },
     {
@@ -87,17 +92,17 @@
     },
     {
       "time": "11:00 AM - 12:00 PM",
-      "name": "OpenSpace",
-      "speakers": ["Carter Emmart", "Alex Bock"]
-    },
+      "name": "AWS and NASA: They're Just Like Us",
+      "speakers": ["TBD"]
+    }
     {
       "time": "11:00 AM - 11:30 AM",
-      "name": "3D Printing",
+      "name": "Intro to 3D Technology",
       "speakers": ["Alexander Meacham"]
     },
     {
       "time": "11:30 AM - 12:00 PM",
-      "name": "Startups & Pitches",
+      "name": "How to Turn Your Ideas into a Startup/ Pitches",
       "speakers": ["Brittany Laughlin"]
     },
     {
@@ -106,32 +111,27 @@
     },
     {
       "time": "1:00 PM - 2:00 PM",
-      "name": "Discussion on the Role of Robotics",
+      "name": "Modular Robots for Planetary Exploration",
       "speakers": ["Reem Alattas"]
     },
     {
       "time": "1:00 PM - 1:30 PM",
-      "name": "Project Management",
+      "name": "The Forest and the Trees: What makes an effective Product Manager?",
       "speakers": ["Ashley Stubblefield"]
     },
     {
       "time": "1:30 PM - 4:00 PM",
-      "name": "Intro to Unity Virtual Reality",
+      "name": "Virtual Reality, Augmented Reality & 360 with Unity®",
       "speakers": ["Lex Dreitser"]
     },
     {
       "time": "2:00 PM - 3:00 PM",
-      "name": "Arduino",
+      "name": "Is That Magic? How to Make Things Sense, Blink and Beep",
       "speakers": ["Leslie Birch"]
     },
     {
       "time": "3:00 PM - 4:00 PM",
-      "name": "Make School",
-      "speakers": ["TBD"]
-    },
-    {
-      "time": "4:00 PM - 5:00 PM",
-      "name": "Amazon Web Services",
+      "name": "iOS/Swift: Build Your First Mobile App, 'Tip Calculator'",
       "speakers": ["TBD"]
     }
   ],
