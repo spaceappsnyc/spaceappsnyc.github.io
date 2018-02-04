@@ -5,60 +5,22 @@
       <h3>2017 Local Winners</h3>
       <div class="awards">
         <div class="awards--main">
-          <div class="award">
-              <div class="award--name">You Are My Sunshine</div>
-              <div class="award--winner">
-                <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sunshine/teams/proxima" target="_blank">PROXIMA</a>
-                <i class="fa fa-trophy" id="global-nominee"></i>
-                <span class="award--special">Global Nominee</span>
-              </div>
-          </div>
-          <div class="award">
-              <div class="award--name">What's For Dinner?</div>
-              <div class="award--winner">
-                <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/teams/wastenot" target="_blank">Waste Not!</a>
-                <i class="fa fa-trophy" id="global-nominee"></i>
-                <span class="award--special">Global Nominee</span>
-              </div>
-          </div>
-          <div class="award">
-            <div class="award--name">Best Mission Concept</div>
-            <div class="award--winner">
-              <a href="https://2017.spaceappschallenge.org/challenges/warning-danger-ahead/and-you-can-help-fight-fires/teams/the-smokey-bears/project" target="_blank">The Smokey Bears</a>
+          {% for award in site.data.awards %}
+            <div class="award">
+                <div class="award--name">{{ award.name }}</div>
+                <div class="award--winner">
+                  <a href="{{ award.winner.link }}" target="_blank">{{ award.winner.name }}</a>
+                  {% if award.globalNominee %}
+                    <i class="fa fa-trophy" id="global-nominee"></i>
+                    <span class="award--special">Global Nominee</span>
+                  {% endif %}
+                  {% if award.peoplesChoice %}
+                    <i class="fa fa-trophy" id="peoples-choice-winner"></i>
+                    <span class="award--special">People's&nbsp;Choice&nbsp;Winner</span>
+                  {% endif %}
+                </div>
             </div>
-          </div>
-          <div class="award">
-            <div class="award--name">Galactic Impact</div>
-            <div class="award--winner">
-              <a href="https://2017.spaceappschallenge.org/challenges/our-ecological-neighborhood/migratory-travels-and-travel-stories/teams/wildlife-go-1/project" target="_blank">Wildlife Go</a>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award--name">Most Inspirational Hack</div>
-            <div class="award--winner">
-              <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/pilots-plus/teams/will-you-die/project" target="_blank">Will You Die</a>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award--name">Best Use of Hardware</div>
-            <div class="award--winner">
-              <a href="ht—tps://2017.spaceappschallenge.org/challenges/ideate-and-create/bring-your-own-solution/teams/issie/project" target="_blank">ISSIE—Earth Magic</a>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award--name">Best Use of Data</div>
-            <div class="award--winner">
-              <a href="https://2017.spaceappschallenge.org/challenges/ideate-and-create/data-concierge/teams/unified-search" target="_blank">Unified Search</a>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award--name">Clarifai API Award</div>
-            <div class="award--winner">
-              <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/teams/terrabeast" target="_blank">Terrabeast</a>
-              <i class="fa fa-trophy" id="peoples-choice-winner"></i>
-              <span class="award--special">People's&nbsp;Choice&nbsp;Winner</span>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>

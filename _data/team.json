@@ -1,0 +1,148 @@
+{
+    "organizers": [
+        {
+            "image": "images/producers/JoeSpens_Headshot.png",
+            "name": "Joseph Spens",
+            "title": "Lead Organizer",
+            "twitter": "joespens"
+        },
+        {
+            "image": "images/producers/RobertCarlsen_Headshot.jpg",
+            "name": "Robert Carlsen",
+            "title": "Operations",
+            "website": "robertcarlsen.net"
+        },
+        {
+            "image": "images/producers/AndrewLeung_Headshot.jpg",
+            "name": "Andrew Leung",
+            "title": "Sponsorship",
+            "twitter": "acl777"
+        },
+        {
+            "image": "images/producers/DominiqueMorris_Headshot.jpg",
+            "name": "Dominique Morris",
+            "title": "Bootcamp",
+            "linkedin": "dominiquemorris1"
+        },
+        {
+            "image": "images/producers/AliciaNoel_Headshot.jpg",
+            "name": "Alicia Noel",
+            "title": "Organizer",
+            "twitter": "aventureralicia"
+        },
+        {
+            "image": "images/producers/AmandaGhanooni_Headshot.jpg",
+            "name": "Amanda Ghanooni",
+            "title": "Registrar",
+            "twitter": "ghanooni"
+        },
+        {
+            "image": "images/producers/JolyMacfie_Headshot.jpg",
+            "name": "Joly MacFie",
+            "title": "Livestream",
+            "linkedin": "punkcast"
+        },
+        {
+            "image": "images/producers/MikeCaprio_Headshot.jpg",
+            "name": "Mike Caprio",
+            "title": "Advisor",
+            "twitter": "mik3cap"
+        }
+    ],
+    "organizingPartners": [
+        {
+            "url": "www.sciencepartnershipfund.org",
+            "logo": "images/spf.png",
+            "content": [
+                "The mission of the Science Partnership Fund is to facilitate foundation and corporate support for crowdfunding projects in physics and related areas. We recognize that today's potentially revolutionary scientific endeavors do not always lend themselves to traditional grant-based funding, and many promising technical innovations are not yet ripe for venture capital investment. Crowdfunding fills this funding gap and allows the public to participate in the scientific and entrepreneurial process."
+            ]
+        },
+        {
+            "url": "www.fiatphysica.com",
+            "logo": "images/fp.png",
+            "content": [
+                "Fiat Physica empowers individuals to support the science they want to see happen and get involved on the ground floor. Fiat Physica facilitates incentivized giving through donation match and gift programs from foundation and corporate sponsors, and provides educational materials, events, and community engagement to help scientists, innovators, and educators make the shift to crowd fundraising. Fiat Physica also offers fundraising assistance via its partner organizations."
+            ]
+        },
+        {
+            "url": "empirespace.nyc",
+            "logo": "images/esl.png",
+            "content": [
+                "Empire Space Labs accelerates technology startups that create space applications. We provide expert mentorship, starting resources, partner introductions and strategic relationships, business model advice and business development - all to help fledgling companies overcome the challenges of starting a business in the commercial space sector."
+            ]
+        }
+    ],
+    "sponsorships": [],
+    "partners": [
+        {
+            "url": "http://www.nss.com/",
+            "logo": "images/nss.jpg",
+            "name": "National Space Society"
+        },
+        {
+            "url": "http://www.secondmuse.com/",
+            "logo": "images/secondmuse_lrg.png",
+            "name": "SecondMuse"
+        },
+        {
+            "url": "http://go.sap.com/training-certification/university-alliances.html",
+            "logo": "images/sap.png",
+            "name": "SAP Next-Gen"
+        },
+        {
+            "url": "http://www.nyit.edu/engineering",
+            "logo": "images/nyit.png",
+            "name": "NYIT"
+        },
+        {
+            "url": "http://girlsintech.org/",
+            "logo": "images/girls-in-tech.png",
+            "name": "Girls in Tech"
+        },
+        {
+            "url": "http://www.newchampions.org/",
+            "logo": "images/womensphere.jpg",
+            "name": "Womensphere"
+        },
+        {
+            "url": "http://www.newchampions.org/",
+            "logo": "images/New Champions Womensphere Incubator Network.jpg",
+            "name": "Womensphere"
+        },
+        {
+            "url": "http://www.amnh.org/",
+            "logo": "images/AMNH_clear.png",
+            "name": "American Museum of Natural History"
+        },
+        {
+            "url": "http://www.amnh.org/learn-teach/adults/bridgeup-stem",
+            "logo": "images/bridgeupamnh_clear.png",
+            "name": "AMNH BridgeUp: STEM"
+        },
+        {
+            "url": "https://www.isoc-ny.org",
+            "logo": "images/ISOCNY_Logo.png",
+            "name": "Internet Society NY"
+        },
+        {
+            "url": "https://www.soylent.com",
+            "logo": "images/soylent-logo.png",
+            "name": "Soylent"
+        },
+        {
+            "url": "http://launch.space/?utm_source=logo&utm_campaign=spaceappsnyc",
+            "logo": "images/radix.png",
+            "name": "Radix" 
+        },
+        {
+            "url": "https://www.makeschool.com/",
+            "logo": "images/MakeSchool_Logo_Hrz_RGB.png",
+            "name": "Make School" 
+        },
+        {
+            "url": "http://levinriegner.com/",
+            "logo": "images/LR_Black.png",
+            "name": "L&R" 
+        }
+    ]
+}

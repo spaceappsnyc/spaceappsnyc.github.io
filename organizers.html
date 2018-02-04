@@ -8,7 +8,7 @@ class: organizers
   <h2>2018 COMMUNITY TEAM</h2>
 
   <div class="organizers">
-    {% for organizer in site.data.organizers %}
+    {% for organizer in site.data.team.organizers %}
       <div class="organizer">
         <img src="{{ organizer.image }}"/>
         <div class="organizer--name">{{ organizer.name }}</div>
@@ -33,35 +33,19 @@ class: organizers
   <h2>2018 ORGANIZING PARTNERS</h2>
 
   <div class="partners">
-    <div class="partner">
-      <a class="partner--logo" href="http://www.sciencepartnershipfund.org/" target="_blank">
-        <img src="images/spf.png" />
-      </a>
-      <div class="partner--content">
-        <p>The mission of the Science Partnership Fund is to facilitate foundation and corporate support for crowdfunding projects in physics and related areas. We recognize that today's potentially revolutionary scientific endeavors do not always lend themselves to traditional grant-based funding, and many promising technical innovations are not yet ripe for venture capital investment. Crowdfunding fills this funding gap and allows the public to participate in the scientific and entrepreneurial process.</p>
+    {% for partner in site.data.team.organizingPartners %}
+      <div class="partner">
+        <a class="partner--logo" href="//{{ partner.url }}" target="_blank">
+          <img src="{{ partner.logo }}" />
+        </a>
+        <div class="partner--content">
+          {% for contentLine in partner.content %}
+            <p>{{ contentLine }}</p>
+          {% endfor %}
+        </div>
+        <a class="partner--link" href="//{{ partner.url }}" target="_blank">{{ partner.url }}</a>
       </div>
-      <a class="partner--link" href="http://www.sciencepartnershipfund.org/" target="_blank">www.sciencepartnershipfund.org</a>
-    </div>
-
-    <div class="partner">
-      <a class="partner--logo" href="http://www.fiatphysica.com/" target="_blank">
-        <img src="images/fp.png" />
-      </a>
-      <div class="partner--content">
-        <p>Fiat Physica empowers individuals to support the science they want to see happen and get involved on the ground floor. Fiat Physica facilitates incentivized giving through donation match and gift programs from foundation and corporate sponsors, and provides educational materials, events, and community engagement to help scientists, innovators, and educators make the shift to crowd fundraising. Fiat Physica also offers fundraising assistance via its partner organizations.</p>
-      </div>
-      <a class="partner--link" href="http://www.fiatphysica.com/" target="_blank">www.fiatphysica.com</a>
-    </div>
-
-    <div class="partner">
-      <a class="partner--logo" href="http://empirespace.nyc/" target="_blank">
-        <img src="images/esl.png" >
-      </a>
-      <div class="partner--content">
-        <p>Empire Space Labs accelerates technology startups that create space applications. We provide expert mentorship, starting resources, partner introductions and strategic relationships, business model advice and business development - all to help fledgling companies overcome the challenges of starting a business in the commercial space sector.</p>
-      </div>
-      <a class="partner--link" href="http://empirespace.nyc/" target="_blank">empirespace.nyc</a>
-    </div>
+    {% endfor %}
   </div>
 </section>
 
@@ -69,7 +53,19 @@ class: organizers
   <h2>2018 SPONSORS</h2>
 
   <div class="sponsor-categories">
-    <a href="mailto:sponsor@spaceapps.nyc">Interested in sponsoring the 2018 Space Apps Challenge?</a>
+    {% for sponsorship in site.data.team.sponsorships %}
+      <h3>{{ sponsorship.name }}</h3>
+      <div class="sponsor-category">
+        {% for sponsor in sponsorship.sponsors %}
+          <a class="sponsor" href="{{ sponsor.url }}" target="_blank">
+            <img src="{{ sponsor.logo }}" />
+          </a>
+        {% endfor %}
+      </div>
+    {% endfor %}
+    {% unless site.data.team.sponsorships.length %}
+      <a href="mailto:sponsor@spaceapps.nyc">Interested in sponsoring the 2018 Space Apps Challenge?</a>
+    {% endunless %}
   </div>
 </section>
 
@@ -77,47 +73,10 @@ class: organizers
   <h2>SPECIAL THANKS TO THESE PARTNERS</h2>
 
   <div class="partners">
-    <a class="partner" href="http://www.nss.com/" target="_blank">
-      <img src="images/nss.jpg" alt="National Space Society"/>
-    </a>
-    <a class="partner" href="http://www.secondmuse.com/" target="_blank">
-      <img src="images/secondmuse_lrg.png" alt="SecondMuse"/>
-    </a>
-    <a class="partner" href="http://go.sap.com/training-certification/university-alliances.html" target="_blank">
-      <img src="images/sap.png" alt="SAP Next-Gen"/>
-    </a>
-    <a class="partner" href="http://www.nyit.edu/engineering" target="_blank">
-      <img src="images/nyit.png" alt="NYIT"/>
-    </a>
-    <a class="partner" href="http://girlsintech.org/" target="_blank">
-      <img src="images/girls-in-tech.png" alt="Girls in Tech"/>
-    </a>
-    <a class="partner" href="http://www.newchampions.org/" target="_blank">
-      <img src="images/womensphere.jpg" alt="Womensphere"/>
-    </a>
-    <a class="partner" href="http://www.newchampions.org/" target="_blank">
-      <img src="images/New Champions Womensphere Incubator Network.jpg" alt="Womensphere"/>
-    </a>
-    <a class="partner" href="http://www.amnh.org/" target="_blank">
-      <img src="images/AMNH_clear.png" alt="American Museum of Natural History"/>
-    </a>
-    <a class="partner" href="http://www.amnh.org/learn-teach/adults/bridgeup-stem" target="_blank">
-      <img src="images/bridgeupamnh_clear.png" alt="AMNH BridgeUp: STEM"/>
-    </a>
-    <a class="partner" href="https://www.isoc-ny.org" target="_blank">
-      <img src="images/ISOCNY_Logo.png" alt="Internet Society NY"/>
-    </a>
-    <a class="partner" href="https://www.soylent.com" target="_blank">
-      <img src="images/soylent-logo.png" alt="soylent"/>
-    </a>
-    <a class="partner" href="http://launch.space/?utm_source=logo&utm_campaign=spaceappsnyc" target="_blank">
-      <img src="images/radix.png" alt="Radix" />
-    </a>
-    <a class="partner" href="https://www.makeschool.com/" target="_blank">
-      <img src="images/MakeSchool_Logo_Hrz_RGB.png" alt="Make School" />
-    </a>
-    <a class="partner" href="http://levinriegner.com/" target="_blank">
-      <img src="images/LR_Black.png" alt="L&R" />
-    </a>
+    {% for partner in site.data.team.partners %}
+      <a class="partner" href="{{ partner.url }}" target="_blank">
+        <img src="{{ partner.logo }}" alt="{{ partner.name }}"/>
+      </a>
+    {% endfor %}
   </div>
 </section>
