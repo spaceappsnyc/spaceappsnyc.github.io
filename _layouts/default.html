@@ -1,3 +1,5 @@
+{% capture hero %}{{ page.class | foo }}{% endcapture %}
+
 <!DOCTYPE html>
 <html>
   {% include head.html %}
@@ -5,7 +7,7 @@
     <header class="site-header">
       <div class="container">
         {% include navigation.html %}
-        {% include hero.html %}
+        {% include {{ hero }}-hero.html %}
       </div>
     </header>
     <main>

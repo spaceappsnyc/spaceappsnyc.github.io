@@ -10,7 +10,7 @@ github_username: spaceappsnyc
 # Build settings
 markdown: kramdown
 exclude: [vendor,archive]
-gems:
+plugins:
    - github-pages
 
 # Development

@@ -1,0 +1,50 @@
+[
+    {
+        "image": "images/producers/JoeSpens_Headshot.png",
+        "name": "Joseph Spens",
+        "title": "Lead Organizer",
+        "twitter": "joespens"
+    },
+    {
+        "image": "images/producers/RobertCarlsen_Headshot.jpg",
+        "name": "Robert Carlsen",
+        "title": "Operations",
+        "website": "robertcarlsen.net"
+    },
+    {
+        "image": "images/producers/AndrewLeung_Headshot.jpg",
+        "name": "Andrew Leung",
+        "title": "Sponsorship",
+        "twitter": "acl777"
+    },
+    {
+        "image": "images/producers/DominiqueMorris_Headshot.jpg",
+        "name": "Dominique Morris",
+        "title": "Bootcamp",
+        "linkedin": "dominiquemorris1"
+    },
+    {
+        "image": "images/producers/AliciaNoel_Headshot.jpg",
+        "name": "Alicia Noel",
+        "title": "Organizer",
+        "twitter": "aventureralicia"
+    },
+    {
+        "image": "images/producers/AmandaGhanooni_Headshot.jpg",
+        "name": "Amanda Ghanooni",
+        "title": "Registrar",
+        "twitter": "ghanooni"
+    },
+    {
+        "image": "images/producers/JolyMacfie_Headshot.jpg",
+        "name": "Joly MacFie",
+        "title": "Livestream",
+        "linkedin": "punkcast"
+    },
+    {
+        "image": "images/producers/MikeCaprio_Headshot.jpg",
+        "name": "Mike Caprio",
+        "title": "Advisor",
+        "twitter": "mik3cap"
+    }
+]

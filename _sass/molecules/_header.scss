@@ -29,9 +29,5 @@
 
   .hero {
     max-width: 40em;
-
-    @media (min-width: 60em) {
-      padding-top: 3em;
-    }
   }
 }
