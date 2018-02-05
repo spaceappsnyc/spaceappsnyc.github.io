@@ -13,12 +13,6 @@
             "website": "robertcarlsen.net"
         },
         {
-            "image": "images/producers/AndrewLeung_Headshot.jpg",
-            "name": "Andrew Leung",
-            "title": "Sponsorship",
-            "twitter": "acl777"
-        },
-        {
             "image": "images/producers/DominiqueMorris_Headshot.jpg",
             "name": "Dominique Morris",
             "title": "Bootcamp",
@@ -31,10 +25,22 @@
             "twitter": "aventureralicia"
         },
         {
+            "image": "images/producers/AndrewLeung_Headshot.jpg",
+            "name": "Andrew Leung",
+            "title": "Organizer",
+            "twitter": "acl777"
+        },
+        {
             "image": "images/producers/AmandaGhanooni_Headshot.jpg",
             "name": "Amanda Ghanooni",
-            "title": "Registrar",
+            "title": "Organizer",
             "twitter": "ghanooni"
+        },
+        {
+            "image": "images/producers/AnitaCampbell_Headshot.jpg",
+            "name": "Anita Campbell",
+            "title": "Organizer",
+            "twitter": "anitanoodlesoup"
         },
         {
             "image": "images/producers/JolyMacfie_Headshot.jpg",
