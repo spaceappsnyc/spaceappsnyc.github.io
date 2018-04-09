@@ -2,10 +2,10 @@
   position: relative;
   text-align: center;
   background-image: url("/images/redesign/wave-color.png");
-  margin-bottom: 11em;
+  margin-bottom: 20em;
 
   @media (min-width: 60em) {
-    margin-top: 8em;
+    margin-top: 15em;
   }
 
   @media (max-width: 60em) {
@@ -35,6 +35,10 @@
   &--wrapper {
     @extend .container;
     @extend .container.-text;
+    
+    @media (min-width: 60em) {
+      margin-bottom: -8em;
+    }
 
     &::before {
       display: block;
@@ -50,6 +54,14 @@
       height: 100%;
       left: 0;
       top: 0;
+    }
+  }
+
+  h2 {
+    position: relative;
+
+    @media (min-width: 60em) {
+      margin-top: -6em;
     }
   }
 }
