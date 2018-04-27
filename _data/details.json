@@ -1,4 +1,14 @@
 {
     "registrationIsOpen": false,
-    "livestreamIsOpen": false
+    "livestreamIsOpen": false,
+    "dates": [
+        {
+            "header": "Begins",
+            "timestamp": "October_19_2018"
+        },
+        {
+            "header": "Ends",
+            "timestamp": "October_21_2018"
+        }
+    ]
 }
