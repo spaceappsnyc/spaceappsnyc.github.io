@@ -6,6 +6,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://spaceapps.nyc" # the base hostname & protocol for your site
 twitter_username: spaceappsnyc
 github_username: spaceappsnyc
+registrationIsOpen: true
+livestreamIsOpen: false
+dates:
+  - header: Begins
+    timestamp: October_19_2018
+  - header: Ends
+    timestamp: October_21_2018
 
 # Build settings
 markdown: kramdown
@@ -16,17 +23,7 @@ plugins:
   - github-pages
 
 # Development
-host: 0.0.0.0
-
-# Event Details
-details:
-  registrationIsOpen: false
-  livestreamIsOpen: false
-  dates:
-    - header: Begins
-      timestamp: October_19_2018
-    - header: Ends
-      timestamp: October_21_2018
+host: 0.0.0.0  
 
 # Event Schedule
 conference:
@@ -202,7 +199,7 @@ awards:
   - name: Clarifai API Award
     winner:
       link: https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/teams/terrabeast
-      name: Terrabeast,
+      name: Terrabeast
       peoplesChoice: true
 
 # Organizing Team

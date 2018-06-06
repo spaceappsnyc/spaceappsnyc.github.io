@@ -22,7 +22,7 @@ class: home
 
 <section class="event-details container">
   <img src="/images/redesign/website-09@2x.png" class="hashtag--blue" />
-  {% unless site.details.location or site.details.dates %}
+  {% unless site.details.location or site.dates %}
     <h2>When / Where</h2>
     <div class="locations">
       <div class="date -text">
@@ -39,7 +39,7 @@ class: home
         <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>{{ site.details.location.addressLine2 }}</a>
       </div>
     </div>
-  {% elsif site.details.dates %}
+  {% elsif site.dates %}
     <h2>Where</h2>
     <div class="locations">
       <div class="date -text">
@@ -48,10 +48,10 @@ class: home
     </div>
   {% endif %}
 
-  {% if site.details.dates %}
+  {% if site.dates %}
     <h2>When</h2>
     <div class="dates">
-      {% for date in site.details.dates %}
+      {% for date in site.dates %}
         <div class="date">
           <div class="date--header">{{ date.header }}</div>
           <div class="date--content">{{ date.timestamp }}</div>

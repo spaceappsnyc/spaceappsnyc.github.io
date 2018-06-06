@@ -10,11 +10,11 @@
                 <div class="award--name">{{ award.name }}</div>
                 <div class="award--winner">
                   <a href="{{ award.winner.link }}" target="_blank">{{ award.winner.name }}</a>
-                  {% if award.globalNominee %}
+                  {% if award.winner.globalNominee %}
                     <i class="fa fa-trophy" id="global-nominee"></i>
                     <span class="award--special">Global Nominee</span>
                   {% endif %}
-                  {% if award.peoplesChoice %}
+                  {% if award.winner.peoplesChoice %}
                     <i class="fa fa-trophy" id="peoples-choice-winner"></i>
                     <span class="award--special">People's&nbsp;Choice&nbsp;Winner</span>
                   {% endif %}
@@ -37,6 +37,7 @@
       <div class="site-footer--links">
         <h3>Videos</h3>
         <ul>
+          <li><a href="https://vimeo.com/258707552">2018 Promotion</a></li>
           <li><a href="https://www.youtube.com/playlist?list=PLTP4bRgnFNn2uwkUjIzrkRGrMq9oG9xRO">2017 Conference &amp; Demos</a></li>
           <li><a href="https://www.youtube.com/playlist?list=PLTP4bRgnFNn1IkKzd9cxHg2328oOvcqgv">2016 Conference &amp; Demos</a></li>
           <li><a href="https://www.youtube.com/playlist?list=PLTP4bRgnFNn3hezhb0DNqE65T6-PJM9L2">2015 Conference &amp; Demos</a></li>

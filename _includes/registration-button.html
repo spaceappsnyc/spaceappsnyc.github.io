@@ -1,7 +1,7 @@
-{% if site.details.livestreamIsOpen %}
+{% if site.livestreamIsOpen %}
     <a class="button -black" href="//livestream.com/internetsociety/spaceappsnyc">Hackathon Livestream</a>
-{% elsif site.details.registrationIsOpen %}
-    <a class="button -black" href="">Hackathon Registration</a>
+{% elsif site.registrationIsOpen %}
+    <a class="button -black" href="https://spaceappsnyc-2018.eventbrite.com">Hackathon Registration</a>
 {% else %}
     <a class="button -black" disabled>Hackathon Registration <small>Coming Fall 2018</small></a>
 {% endif %}
