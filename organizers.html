@@ -8,7 +8,32 @@ class: organizers
   <h2>2018 COMMUNITY TEAM</h2>
 
   <div class="organizers">
-    {% for organizer in site.data.team.organizers %}
+    {% for organizer in site.organizers %}
+      <div class="organizer">
+        <img src="{{ organizer.image }}"/>
+        <div class="organizer--name">{{ organizer.name }}</div>
+        <div class="organizer--title">{{ organizer.title }}</div>
+        <div class="organizer--info">
+          {% if organizer.twitter %}
+            <i class="fa fa-twitter"></i> <a href="http://www.twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>
+          {% endif %}
+          {% if organizer.linkedin %}
+            <i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/{{ organizer.linkedin }}">{{ organizer.linkedin }}</a>
+          {% endif %}
+          {% if organizer.website %}
+            <a href="//{{ organizer.website }}">{{ organizer.website }}</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="container">
+  <h2>PAST ORGANIZERS</h2>
+
+  <div class="organizers">
+    {% for organizer in site.pastOrganizers %}
       <div class="organizer">
         <img src="{{ organizer.image }}"/>
         <div class="organizer--name">{{ organizer.name }}</div>
@@ -33,7 +58,7 @@ class: organizers
   <h2>2018 ORGANIZING PARTNERS</h2>
 
   <div class="partners">
-    {% for partner in site.data.team.organizingPartners %}
+    {% for partner in site.organizingPartners %}
       <div class="partner">
         <a class="partner--logo" href="//{{ partner.url }}" target="_blank">
           <img src="{{ partner.logo }}" />
@@ -53,7 +78,7 @@ class: organizers
   <h2>2018 SPONSORS</h2>
 
   <div class="sponsor-categories">
-    {% for sponsorship in site.data.team.sponsorships %}
+    {% for sponsorship in site.sponsorships %}
       <h3>{{ sponsorship.name }}</h3>
       <div class="sponsor-category">
         {% for sponsor in sponsorship.sponsors %}
@@ -63,7 +88,7 @@ class: organizers
         {% endfor %}
       </div>
     {% endfor %}
-    {% unless site.data.team.sponsorships.length %}
+    {% unless site.sponsorships.length %}
       <a href="mailto:sponsor@spaceapps.nyc">Interested in sponsoring the 2018 Space Apps Challenge?</a>
     {% endunless %}
   </div>
@@ -73,7 +98,7 @@ class: organizers
   <h2>SPECIAL THANKS TO THESE PARTNERS</h2>
 
   <div class="partners">
-    {% for partner in site.data.team.partners %}
+    {% for partner in site.partners %}
       <a class="partner" href="{{ partner.url }}" target="_blank">
         <img src="{{ partner.logo }}" alt="{{ partner.name }}"/>
       </a>

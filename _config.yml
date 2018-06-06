@@ -3,15 +3,333 @@ title: Space Apps NYC
 email: organizers@spaceapps.nyc
 description: The NYC chapter of NASA's International Space Apps Challenge
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://spaceapps.nyc" # the base hostname & protocol for your site
+url: "https://spaceapps.nyc" # the base hostname & protocol for your site
 twitter_username: spaceappsnyc
 github_username: spaceappsnyc
 
 # Build settings
 markdown: kramdown
-exclude: [vendor,archive]
+exclude:
+  - vendor
+  - archive
 plugins:
-   - github-pages
+  - github-pages
 
 # Development
 host: 0.0.0.0
+
+# Event Details
+details:
+  registrationIsOpen: false
+  livestreamIsOpen: false
+  dates:
+    - header: Begins
+      timestamp: October_19_2018
+    - header: Ends
+      timestamp: October_21_2018
+
+# Event Schedule
+conference:
+  - time: 8:00 AM
+    name: Doors Open / Breakfast
+  - time: 8:45 AM
+    name: Opening Remarks
+    speakers:
+      - Space Apps NYC
+      - SAP Next-Gen
+      - NASA
+      - SecondMuse
+  - time: 9:00 AM
+    name: "Opening Keynote: Dare to Dream"
+    speakers:
+      - Anousheh Ansari
+  - time: 9:30 AM
+    name: The New Golden Age of Human Spaceflight
+    speakers:
+      - Richard Garriott
+  - time: 10:00 AM
+    name: Making Space Matter
+    speakers:
+      - Matthew Pearce
+      - Danielle Wood
+      - Jeff Goldstein 
+      - Jason Kendall
+  - time: 11:00 AM
+    name: "CASIS International Space Station: Benefits for Humanity"
+    speakers:
+      - Jennifer Lopez
+  - time: 11:30 AM
+    name: Health and Air Quality Applications of Earth Science Data
+    speakers:
+      - Shobhana Gupta
+  - time: 12:00 PM
+    name: Lunch
+  - time: 1:00 PM
+    name: Networking Hour
+  - time: 2:00 PM
+    name: Panel 2 - Earth and Space Entrepreneurship
+    speakers:
+      - Jennifer Lopez
+      - Sean Casey
+      - Dave Moser
+  - time: 3:00 PM
+    name: The Big Data Project
+    speakers:
+      - Shane Glass
+  - time: 3:15 PM
+    name: Message from Vint Cerf
+    speakers:
+      - Vint Cerf
+  - time: 3:30 PM
+    name: Networking
+  - time: 4:00 PM
+    name: OpenSpace
+    speakers:
+      - Carter Emmart
+      - Alex Bock
+  - time: 5:00 PM
+    name: Closing Remarks / Networking
+    speakers:
+      - Space Apps NYC
+bootcamp:
+  - time: 9:30 AM - 11:00 AM
+    name: Intro to Python for Data Science
+    speakers:
+      - Art Yudin
+  - time: 9:30 AM - 10:30 AM
+    name: Using data.world to find data, collaborate and power your apps
+    speakers:
+      - Len Fishman
+  - time: 10:30 AM - 11:00 AM
+    name: "Open NASA Data: From API to Data Analysis"
+    speakers:
+      - Noemi Derzsy
+  - time: 11:00 AM - 12:00 PM
+    name: "AWS and NASA: They're Just Like Us"
+    speakers:
+      - TBD
+  - time: 11:00 AM - 11:30 AM
+    name: Intro to 3D Technology
+    speakers:
+      - Alexander Meacham
+  - time: 11:30 AM - 12:00 PM
+    name: How to Turn Your Ideas into a Startup/ Pitches
+    speakers:
+      - Brittany Laughlin
+  - time: 12:00 PM - 1:00 PM
+    name: Lunch
+  - time: 1:00 PM - 2:00 PM
+    name: Modular Robots for Planetary Exploration
+    speakers:
+      - Reem Alattas
+  - time: 1:00 PM - 1:30 PM
+    name: "The Forest and the Trees: What makes an effective Product Manager?"
+    speakers:
+      - Ashley Stubblefield
+  - time: 1:30 PM - 4:00 PM
+    name: Virtual Reality, Augmented Reality & 360 with Unity®
+    speakers:
+      - Lex Dreitser
+  - time: 2:00 PM - 3:00 PM
+    name: Is That Magic? How to Make Things Sense, Blink and Beep
+    speakers:
+      - Leslie Birch
+  - time: 3:00 PM - 4:00 PM
+    name: "iOS/Swift: Build Your First Mobile App, 'Tip Calculator'"
+    speakers:
+      - TBD
+saturday:
+  - time: 8:30 AM
+    name: Doors Open / Breakfast
+  - time: 9:30 AM
+    name: Opening Remarks
+  - time: 11:00 AM
+    name: Hacking Begins!
+  - time: 12:30 PM
+    name: Lunch
+  - time: 6:30 PM
+    name: Dinner
+  - time: 8:00 PM
+    name: Venue Closes Overnight
+sunday:
+  - time: 8:00 AM
+    name: Doors Open / Breakfast
+  - time: 1:00 PM
+    name: Lunch / Project Submissions
+  - time: 2:00 PM
+    name: Closing Ceremonies
+  - time: 2:15 PM
+    name: Project Presentations
+  - time: 5:00 PM
+    name: Judging
+  - time: 5:30 PM
+    name: Award Presentations
+  - time: 6:00 PM
+    name: Closing Remarks
+
+# Awards
+awards:
+  - name: You Are My Sunshine
+    winner:
+      link: https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sunshine/teams/proxima
+      name: PROXIMA
+      globalNominee: true
+  - name: What's For Dinner?
+    winner:
+      link: https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/teams/wastenot
+      name: Waste Not!
+      globalNominee: true
+  - name: Best Mission Concept
+    winner:
+      link: https://2017.spaceappschallenge.org/challenges/warning-danger-ahead/and-you-can-help-fight-fires/teams/the-smokey-bears/project
+      name: The Smokey Bears
+  - name: Galactic Impact
+    winner:
+      link: https://2017.spaceappschallenge.org/challenges/our-ecological-neighborhood/migratory-travels-and-travel-stories/teams/wildlife-go-1/project
+      name: Wildlife Go
+  - name: Most Inspirational Hack
+    winner:
+      link: https://2017.spaceappschallenge.org/challenges/earth-and-us/pilots-plus/teams/will-you-die/project
+      name: Will You Die
+  - name: Best Use of Hardware
+    winner:
+      link: ht—tps://2017.spaceappschallenge.org/challenges/ideate-and-create/bring-your-own-solution/teams/issie/project
+      name: ISSIE—Earth Magic
+  - name: Best Use of Data
+    winner:
+      link: https://2017.spaceappschallenge.org/challenges/ideate-and-create/data-concierge/teams/unified-search
+      name: Unified Search
+  - name: Clarifai API Award
+    winner:
+      link: https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/teams/terrabeast
+      name: Terrabeast,
+      peoplesChoice: true
+
+# Organizing Team
+organizers:
+  - image: images/producers/JoeSpens_Headshot.png
+    name: Joseph Spens
+    title: Lead Organizer
+    twitter: joespens
+  - image: images/producers/DominiqueMorris_Headshot.jpg
+    name: Dominique Morris
+    title: Organizer
+    linkedin: dominiquemorris1
+  - image: images/producers/AliciaNoel_Headshot.jpg
+    name: Alicia Noel
+    title: Organizer
+    twitter: aventureralicia
+  - image: images/producers/AmandaGhanooni_Headshot.jpg
+    name: Amanda Ghanooni
+    title: Organizer
+    twitter: ghanooni
+  - image: images/producers/AnitaCampbell_Headshot.jpg
+    name: Anita Campbell
+    title: Organizer
+    twitter: anitanoodlesoup
+  - image: images/producers/JolyMacfie_Headshot.jpg
+    name: Joly MacFie
+    title: Livestream
+    linkedin: punkcast
+  - image: images/producers/MikeCaprio_Headshot.jpg
+    name: Mike Caprio
+    title: Advisor
+    twitter: mik3cap
+pastOrganizers:
+  - image: images/producers/CameraWalrond_Headshot.jpg
+    name: Camera Walrond
+    title: Conference
+    twitter: camerawalrond
+  - image: images/producers/RobertCarlsen_Headshot.jpg
+    name: Robert Carlsen
+    title: Operations
+    website: robertcarlsen.net
+  - image: images/producers/AndrewLeung_Headshot.jpg
+    name: Andrew Leung
+    title: Sponsorship
+    twitter: acl777
+  - image: images/producers/WillVanWart_Headshot.jpg
+    name: Will Van Wart
+    title: Organizer
+    twitter: will_van_wart
+  - image: images/producers/AureliaMoser_Headshot.jpg
+    name: Aurelia Moser
+    title: Space Apps Brooklyn
+    twitter: auremoser
+  - image: images/producers/BrianRevak_Headshot.jpg
+    name: Brian Revak
+    title: Sponsorship
+    twitter: brianrevak
+  - image: images/producers/CarleenPan_Headshot.jpg
+    name: Carleen Pan
+    title: Organizer
+    twitter: carleenlikes
+  - image: images/producers/Kennedy_Headshot.jpg
+    name: Christopher Kennedy
+    title: Security
+    twitter: kennedysgarage
+  - image: images/producers/KatieO_Headshot.png
+    name: Katie O
+    title: Social Media
+    twitter: redprotist
+  - image: images/producers/GeorgeSivulka_Headshot.jpg
+    name: George Sivulka
+    title: Space Apps Next Gen
+    twitter: astro_siv
+organizingPartners:
+  - url: www.sciencepartnershipfund.org
+    logo: images/spf.png
+    content:
+      - The mission of the Science Partnership Fund is to facilitate foundation and corporate support for crowdfunding projects in physics and related areas. We recognize that today's potentially revolutionary scientific endeavors do not always lend themselves to traditional grant-based funding, and many promising technical innovations are not yet ripe for venture capital investment. Crowdfunding fills this funding gap and allows the public to participate in the scientific and entrepreneurial process.
+  - url: www.fiatphysica.com
+    logo: images/fp.png
+    content:
+      - Fiat Physica empowers individuals to support the science they want to see happen and get involved on the ground floor. Fiat Physica facilitates incentivized giving through donation match and gift programs from foundation and corporate sponsors, and provides educational materials, events, and community engagement to help scientists, innovators, and educators make the shift to crowd fundraising. Fiat Physica also offers fundraising assistance via its partner organizations.
+  - url: empirespace.nyc
+    logo: images/esl.png
+    content:
+      - Empire Space Labs accelerates technology startups that create space applications. We provide expert mentorship, starting resources, partner introductions and strategic relationships, business model advice and business development - all to help fledgling companies overcome the challenges of starting a business in the commercial space sector.
+sponsorships: []
+partners:
+  - url: http://www.nss.com/
+    logo: images/nss.jpg
+    name: National Space Society
+  - url: http://www.secondmuse.com/
+    logo: images/secondmuse_lrg.png
+    name: SecondMuse
+  - url: http://go.sap.com/training-certification/university-alliances.html
+    logo: images/sap.png
+    name: SAP Next-Gen
+  - url: http://www.nyit.edu/engineering
+    logo: images/nyit.png
+    name: NYIT
+  - url: http://girlsintech.org/
+    logo: images/girls-in-tech.png
+    name: Girls in Tech
+  - url: http://www.newchampions.org/
+    logo: images/womensphere.jpg
+    name: Womensphere
+  - url: http://www.newchampions.org/
+    logo: images/New Champions Womensphere Incubator Network.jpg
+    name: Womensphere
+  - url: http://www.amnh.org/
+    logo: images/AMNH_clear.png
+    name: American Museum of Natural History
+  - url: http://www.amnh.org/learn-teach/adults/bridgeup-stem
+    logo: images/bridgeupamnh_clear.png
+    name: "AMNH BridgeUp: STEM"
+  - url: https://www.isoc-ny.org
+    logo: images/ISOCNY_Logo.png
+    name: Internet Society NY
+  - url: https://www.soylent.com
+    logo: images/soylent-logo.png
+    name: Soylent
+  - url: http://launch.space/?utm_source=logo&utm_campaign=spaceappsnyc
+    logo: images/radix.png
+    name: Radix
+  - url: https://www.makeschool.com/
+    logo: images/MakeSchool_Logo_Hrz_RGB.png
+    name: Make School
+  - url: http://levinriegner.com/
+    logo: images/LR_Black.png
+    name: L&R
