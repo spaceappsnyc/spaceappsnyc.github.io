@@ -297,18 +297,6 @@ partners:
   - url: http://go.sap.com/training-certification/university-alliances.html
     logo: images/sap.png
     name: SAP Next-Gen
-  - url: http://www.nyit.edu/engineering
-    logo: images/nyit.png
-    name: NYIT
-  - url: http://girlsintech.org/
-    logo: images/girls-in-tech.png
-    name: Girls in Tech
-  - url: http://www.newchampions.org/
-    logo: images/womensphere.jpg
-    name: Womensphere
-  - url: http://www.newchampions.org/
-    logo: images/New Champions Womensphere Incubator Network.jpg
-    name: Womensphere
   - url: http://www.amnh.org/
     logo: images/AMNH_clear.png
     name: American Museum of Natural History
