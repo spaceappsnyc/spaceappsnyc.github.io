@@ -1,3 +1,5 @@
+$image-size: 50px;
+
 .organizers {
   @extend .cards;
   display: flex;
@@ -9,10 +11,38 @@
   text-align: center;
   padding: 1em 0;
 
+  &.--small {
+    padding: 0.5em;
+    position: relative;
+    font-size: 0.9em;
+    z-index: 0;
+
+    &:hover {
+      img {
+        opacity: 0.1;
+        z-index: -1;
+      }
+    }
+
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      max-width: #{$image-size * 2};
+      max-height: #{$image-size * 2};
+      z-index: 0;
+    }
+
+    @media (min-width: 60em) {
+      width: #{$image-size * 2};
+      height: #{$image-size * 2};
+    }
+  }
+
   img {
     border-radius: 4px;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: #{$image-size * 3};
+    max-height: #{$image-size * 3};
   }
 
   &--name {
