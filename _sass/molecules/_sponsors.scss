@@ -1,10 +1,12 @@
 .sponsor-categories {
   @extend .cards;
   display: block;
+  text-align: center;
 }
 
 .sponsor-category {
   display: flex;
+  justify-content: center;
 }
 
 .sponsor {
