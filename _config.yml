@@ -18,7 +18,7 @@ details:
     map: https://goo.gl/maps/ZbJaZT1rLw82
     addressLine1: 402 E 8th St
     addressLine2: New York, NY 10009
-    logo:
+    logo: images/LES Girls Club.png
 
 # Build settings
 markdown: kramdown
@@ -276,14 +276,17 @@ pastOrganizers:
     title: Space Apps Next Gen
     twitter: astro_siv
 organizingPartners:
-  - url: www.sciencepartnershipfund.org
-    logo: images/spf.png
+  - url: girlsclub.org
+    logo: images/LES Girls Club.png
     content:
-      - The mission of the Science Partnership Fund is to facilitate foundation and corporate support for crowdfunding projects in physics and related areas. We recognize that today's potentially revolutionary scientific endeavors do not always lend themselves to traditional grant-based funding, and many promising technical innovations are not yet ripe for venture capital investment. Crowdfunding fills this funding gap and allows the public to participate in the scientific and entrepreneurial process.
-  - url: www.fiatphysica.com
-    logo: images/fp.png
+      - The Lower Eastside Girls Club (LESGC) connects girls and young women to healthy and successful futures. Their state-of-the-art center offers a safe haven with programs in the arts, sciences, leadership, entrepreneurship, and wellness for middle and high school girls. Programs are offered at no cost to girls and their families.
+      - Their mission is to break the cycle of local poverty by training the next generation of ethical, entrepreneurial and environmental leaders.
+      - LESGC members perceive opportunity, develop self-confidence, make the right relationship choices, grow academically, value wellness, and have the ability to enter college or the workforce as fully prepared and connected adults.
+  - url: womensphere.com
+    logo: images/womensphere.jpg
     content:
-      - Fiat Physica empowers individuals to support the science they want to see happen and get involved on the ground floor. Fiat Physica facilitates incentivized giving through donation match and gift programs from foundation and corporate sponsors, and provides educational materials, events, and community engagement to help scientists, innovators, and educators make the shift to crowd fundraising. Fiat Physica also offers fundraising assistance via its partner organizations.
+      - Womensphere empowers women and girls to boldly envision, create brighter futures, and transform our world through innovative initiatives, impact-driven collaborations, and inspiring communities. 
+      - Founded in 2007, they invest in closing gender gaps and in empowering women and girls to create the future through leadership, innovation, sustainability, entrepreneurship, education, public leadership, and STEAM (science, technology, engineering, arts & design, mathematics). They foster communities of global and local change-makers, innovators, scientists, creators, entrepreneurs, educators, public leaders, and emerging leaders. They collaborate with great men, women, and institutions that champion gender equality and invest in women and girls.
   - url: empirespace.nyc
     logo: images/esl.png
     content:
