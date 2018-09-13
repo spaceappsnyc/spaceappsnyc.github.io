@@ -1,4 +1,6 @@
 $image-size: 50px;
+$large-size: $image-size * 3;
+$small-size: $image-size * 3;
 
 .organizers {
   @extend .cards;
@@ -16,6 +18,10 @@ $image-size: 50px;
     position: relative;
     font-size: 0.9em;
     z-index: 0;
+    margin-bottom: 1.5em
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     &:hover {
       img {
@@ -28,21 +34,21 @@ $image-size: 50px;
       position: absolute;
       left: 0;
       top: 0;
-      max-width: #{$image-size * 2};
-      max-height: #{$image-size * 2};
+      max-width: #{$small-size};
+      max-height: #{$small-size};
       z-index: 0;
     }
 
     @media (min-width: 60em) {
-      width: #{$image-size * 2};
-      height: #{$image-size * 2};
+      width: #{$small-size};
+      height: #{$small-size};
     }
   }
 
   img {
     border-radius: 4px;
-    max-width: #{$image-size * 3};
-    max-height: #{$image-size * 3};
+    max-width: #{$large-size};
+    max-height: #{$large-size};
   }
 
   &--name {
