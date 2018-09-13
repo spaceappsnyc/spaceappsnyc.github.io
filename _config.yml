@@ -208,16 +208,20 @@ awards:
 organizers:
   - image: images/producers/JoeSpens_Headshot.png
     name: Joseph Spens
-    title: Lead Organizer
+    title: Executive Director
     twitter: joespens
   - image: images/producers/DominiqueMorris_Headshot.jpg
     name: Dominique Morris
-    title: Organizer
+    title: Director
     linkedin: dominiquemorris1
   - image: images/producers/AnitaCampbell_Headshot.jpg
     name: Anita Campbell
     title: Organizer
     twitter: anitanoodlesoup
+  - image: images/producers/AnalisaBalares_Headshot.jpg
+    name: Analisa Balares
+    title: Business Development
+    twitter: analisabalares
   - image: images/producers/JolyMacfie_Headshot.jpg
     name: Joly MacFie
     title: Livestream
