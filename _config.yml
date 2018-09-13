@@ -13,6 +13,12 @@ dates:
     timestamp: October_19_2018
   - header: Ends
     timestamp: October_21_2018
+details:
+  location:
+    map: https://goo.gl/maps/ZbJaZT1rLw82
+    addressLine1: 402 E 8th St
+    addressLine2: New York, NY 10009
+    logo:
 
 # Build settings
 markdown: kramdown
