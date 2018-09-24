@@ -1,0 +1,37 @@
+---
+layout: default
+title: Space Apps NYC | Data Bootcamp
+class: bootcamp
+---
+
+<section class="container">
+    <div class="cards bootcamps">
+        {% for bootcamp in site.bootcamps %}
+        <div class="card bootcamp">
+            <img class="bootcamp--image" src="{{ bootcamp.image }}" />
+            <h3 class="bootcamp--name">{{ bootcamp.name }}</h3>
+            <div class="bootcamp--location">
+                <div>{{ bootcamp.location.name }}</div>
+                <div>{{ bootcamp.location.addressLine1 }}</div>
+                <div>{{ bootcamp.location.addressLine2 }}</div>
+            </div>
+            <div class="bootcamp--info">
+                {% for info in bootcamp.info %}
+                    <p>{{ info }}</p>
+                {% endfor %}
+                <table class="bootcamp--schedule">
+                {% for event in bootcamp.schedule %}
+                    <tr>
+                        <td>{{ event.time }}</td>
+                        <td>{{ event.name }}</td>
+                    </tr>
+                {% endfor %}
+                </table>
+                {% if bootcamp.website %}
+                    <a class="button" href="//{{ bootcamp.website }}">Register</a>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

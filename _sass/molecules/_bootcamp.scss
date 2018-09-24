@@ -1,0 +1,42 @@
+.bootcamps {
+    padding: 0;
+}
+
+.bootcamp {
+    width: 100%;
+    justify-content: normal;
+    align-items: normal;
+    margin-bottom: 1em;
+
+    @media (min-width: 60em) {
+        width: 50%;
+    }
+
+    &--name {
+        font-size: 2em;
+    }
+
+    &--location {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    &--image {
+        width: calc(100% + #{$card-padding-small * 2});
+        margin: #{$card-padding-small * -1} #{$card-padding-small * -1} 1em #{$card-padding-small * -1};
+
+        @media (min-width: 60em) {
+            width: calc(100% + #{$card-padding * 2});
+            margin: #{$card-padding * -1} #{$card-padding * -1} 1em #{$card-padding * -1};
+        }
+    }
+
+    &--schedule {
+        display: block;
+        margin-bottom: 1em;
+
+        td {
+            padding: 0.3em;
+        }
+    }
+}

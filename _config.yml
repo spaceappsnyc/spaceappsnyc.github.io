@@ -29,9 +29,57 @@ plugins:
   - github-pages
 
 # Development
-host: 0.0.0.0  
+host: 0.0.0.0
 
 # Event Schedule
+bootcamps:
+  - name: Intro to Google Cloud Platform and AI/ML with Google
+    image: /images/intro_to_google_cloud.jpg
+    location:
+      name: Silicon Harlem
+      addressLine1: 2785 Frederick Douglass Boulevard
+      addressLine2: New York, NY 10039
+    info:
+      - Come enjoy some pizza uptown and Google will give us an introduction to their Cloud Platform.
+      - Google Cloud is a great tool for Space Apps Challenge hackers to have going into the hackathon, as it will streamline the development of your projects so that you can focus on the core concepts and not the project infrastructure.
+      - Hackathon and bootcamp participants will receive free Cloud credits!
+      - <a href="https://cloud.google.com/startups">https://cloud.google.com/startups</a>
+      - Tejpaul Bhatia, Startup Program Lead for Google Cloud NY and former 3 time entrepreneur will join us and give an overview of the Google Cloud platform and a primer on Machine Learning. He will also be able to answer any questions you might have leading up to the hackathon.
+    schedule:
+      - time: 6:30pm
+        name: Doors open / Food & Drinks
+      - time: 7:00pm
+        name: Opening remarks from event organizers
+      - time: 7:15pm
+        name: Google Cloud Platform 101
+      - time: 8:00pm
+        name: Break
+      - time: 8:10pm
+        name: Artificial Intelligence & Machine Learning with Google
+      - time: 8:55pm
+        name: Networking
+    website: https://www.eventbrite.com/e/intro-to-google-cloud-and-aiml-with-google-tickets-50400881393
+  - name: Intro to OpenSpace
+    image: /images/intro_to_openspace.png
+    location:
+      name: Lower East Side Girls Club
+      addressLine1: 402 E 8th St
+      addressLine2: New York, NY 10009
+    info:
+      - OpenSpace is open source interactive data visualization software designed to visualize the entire known universe and portray our ongoing efforts to investigate the cosmos.
+      - Funded in part by NASA, OpenSpace brings the latest techniques from data visualization research to the general public. OpenSpace supports interactive presentation of dynamic data from observations, simulations, and space mission planning and operations. OpenSpace works on multiple operating systems, with an extensible architecture powering high resolution tiled displays and planetarium domes, and makes use of the latest graphic card technologies for rapid data throughput. In addition, OpenSpace enables simultaneous connections across the globe, creating opportunity for shared experiences among audiences worldwide.
+      - <a href="https://www.openspaceproject.com/">https://www.openspaceproject.com/</a>
+    schedule:
+      - time: 6:00pm
+        name: Doors open
+      - time: 6:30pm
+        name: Opening remarks from event organizers
+      - time: 6:45pm
+        name: Intro to OpenSpace
+      - time: 8:15pm
+        name: Networking
+    website: https://www.eventbrite.com/e/intro-to-openspace-tickets-50470789490
+
 # conference:
 #   - time: 8:00 AM
 #     name: Doors Open / Breakfast
@@ -55,7 +103,7 @@ host: 0.0.0.0
 #     speakers:
 #       - Matthew Pearce
 #       - Danielle Wood
-#       - Jeff Goldstein 
+#       - Jeff Goldstein
 #       - Jason Kendall
 #   - time: 11:00 AM
 #     name: "CASIS International Space Station: Benefits for Humanity"
@@ -289,7 +337,7 @@ organizingPartners:
   - url: womensphere.com
     logo: images/womensphere.jpg
     content:
-      - Womensphere empowers women and girls to boldly envision, create brighter futures, and transform our world through innovative initiatives, impact-driven collaborations, and inspiring communities. 
+      - Womensphere empowers women and girls to boldly envision, create brighter futures, and transform our world through innovative initiatives, impact-driven collaborations, and inspiring communities.
       - Founded in 2007, they invest in closing gender gaps and in empowering women and girls to create the future through leadership, innovation, sustainability, entrepreneurship, education, public leadership, and STEAM (science, technology, engineering, arts & design, mathematics). They foster communities of global and local change-makers, innovators, scientists, creators, entrepreneurs, educators, public leaders, and emerging leaders. They collaborate with great men, women, and institutions that champion gender equality and invest in women and girls.
   - url: empirespace.nyc
     logo: images/esl.png
@@ -298,7 +346,7 @@ organizingPartners:
 sponsorships:
   - name: Intergalactic
     sponsors:
-      - logo: images/google.jpg
+      - logo: images/google_cloud.png
         url: https://cloud.google.com/gcp
 partners:
   - url: http://www.nss.com/
@@ -319,3 +367,6 @@ partners:
   - url: https://www.isoc-ny.org
     logo: images/ISOCNY_Logo.png
     name: Internet Society NY
+  - url: http://levinriegner.com/
+    logo: images/LR_Black.png
+    name: L&R
