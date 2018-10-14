@@ -1,0 +1,50 @@
+---
+layout: default
+title: Judges & Mentors | Space Apps NYC
+class: judges-and-mentors
+---
+
+<section class="container">
+    <h1>Judges</h1>
+    <div class="cards">
+        {% for judge in site.judges %}
+        <div class="speaker card">
+            <img class="speaker--photo" src="/images/{{ judge.photo }}" />
+            <div class="speaker--content">
+                <h2 class="speaker--name">{{ judge.name }}</h2>
+                <h3 class="speaker--title">{{ judge.title }}</h3>
+                <h3 class="speaker--organization">{{ judge.organization }}</h3>
+                <div class="speaker--bio">
+                    {% for bio in judge.bio %}
+                    <p>{{ bio }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="container">
+    <h2>Mentors</h2>
+    <div class="cards">
+        {% for mentor in site.mentors %}
+        <div class="speaker card">
+            <img class="speaker--photo" src="/images/{{ mentor.photo }}" />
+            <div class="speaker--content">
+                <h2 class="speaker--name">{{ mentor.name }}</h2>
+                <div class="speaker--bio">
+                    {% for bio in mentor.bio %}
+                    <p>{{ bio }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% unless site.mentors %}
+        <div class="card">
+            <h2>Mentors are coming...</h2>
+        </div>
+        {% endunless %}
+    </div>
+</section>

@@ -9,7 +9,9 @@ layout: null
 @import "config";
 
 // Vendors
-@import "vendor/font-awesome";
+@import "vendor/font-awesome/fontawesome.scss";
+@import "vendor/font-awesome/solid.scss";
+@import "vendor/font-awesome/brands.scss";
 
 // Utils
 @import "utils/normalize";
@@ -40,5 +42,4 @@ layout: null
 @import "molecules/video";
 
 // Pages
-@import "pages/about";
 @import "pages/home";

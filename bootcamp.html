@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Space Apps NYC | Data Bootcamp
+title: Data Bootcamp | Space Apps NYC
 class: bootcamp
+hero: bootcamp-hero.html
 ---
 
 <section class="container">
@@ -17,18 +18,18 @@ class: bootcamp
             </div>
             <div class="bootcamp--info">
                 {% for info in bootcamp.info %}
-                    <p>{{ info }}</p>
+                <p>{{ info }}</p>
                 {% endfor %}
                 <table class="bootcamp--schedule">
-                {% for event in bootcamp.schedule %}
+                    {% for event in bootcamp.schedule %}
                     <tr>
                         <td>{{ event.time }}</td>
                         <td>{{ event.name }}</td>
                     </tr>
-                {% endfor %}
+                    {% endfor %}
                 </table>
                 {% if bootcamp.website %}
-                    <a class="button" href="{{ bootcamp.website }}">Register</a>
+                <a class="button" href="{{ bootcamp.website }}">Register</a>
                 {% endif %}
             </div>
         </div>

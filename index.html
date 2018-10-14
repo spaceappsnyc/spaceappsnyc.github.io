@@ -1,80 +1,92 @@
 ---
 layout: default
-title: Space Apps NYC | Home
+title: Home | Space Apps NYC
 class: home
+hero: home-hero.html
 ---
 
 <section class="container">
   <div class="cards splash">
     <h2>WHAT IS THE SPACE APPS CHALLENGE?</h2>
-    <p>The NASA Space Apps Challenge is a worldwide NASA Incubator Innovation program. Grassroots organizers from all across the planet stage a weekend-long hackathon at their local site where teams of technologists, scientists, designers, artists, educators, entrepreneurs, developers, students, and anyone else interested in space exploration can collaborate with their fellow global citizens and utilize publicly available data to design innovative solutions for challenges posed by NASA, other governmental agencies, NGOs, and a variety of institutions.</p>
+    <p>The NASA Space Apps Challenge is a worldwide NASA Incubator Innovation program. Grassroots organizers from all
+      across the planet stage a weekend-long hackathon at their local site where teams of technologists, scientists,
+      designers, artists, educators, entrepreneurs, developers, students, and anyone else interested in space
+      exploration can collaborate with their fellow global citizens and utilize publicly available data to design
+      innovative solutions for challenges posed by NASA, other governmental agencies, NGOs, and a variety of
+      institutions.</p>
     <p>Basically you get to work directly with NASA to save the world. Pretty cool, huh?</p>
-    <p>Space Apps NYC is New York City's Space Apps Challenge site, and is locally organized by its 2000+ member community.</p>
+    <p>Space Apps NYC is New York City's Space Apps Challenge site, and is locally organized by its 2000+ member
+      community.</p>
   </div>
 </section>
 
 <section class="video">
   <h2>Check out our promotional video from the 2017 hackathon!</h2>
   <div class="video--wrapper">
-    <iframe src="https://player.vimeo.com/video/258707552?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/258707552?byline=0&portrait=0" frameborder="0" webkitallowfullscreen
+      mozallowfullscreen allowfullscreen></iframe>
   </div>
 </section>
 
 <section class="event-details container">
   <img src="/images/redesign/website-09@2x.png" class="hashtag--blue" />
   {% unless site.details.location or site.dates %}
-    <h2>When / Where</h2>
-    <div class="locations">
-      <div class="date -text">
-        <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>2018 Space Apps Challenge?</a>
-      </div>
+  <h2>When / Where</h2>
+  <div class="locations">
+    <div class="date -text">
+      <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>2018 Space Apps
+        Challenge?</a>
     </div>
+  </div>
   {% endunless %}
 
   {% if site.details.location %}
-    <h2>Where</h2>
-    <div class="locations">
-      <div class="location">
-        <img src="{{ site.details.location.logo }}" style="{{ site.details.location.style }}" />
-        <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>{{ site.details.location.addressLine2 }}</a>
-      </div>
+  <h2>Where</h2>
+  <div class="locations">
+    <div class="location">
+      <img src="{{ site.details.location.logo }}" style="{{ site.details.location.style }}" />
+      <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>{{
+        site.details.location.addressLine2 }}</a>
     </div>
+  </div>
   {% elsif site.dates %}
-    <h2>Where</h2>
-    <div class="locations">
-      <div class="date -text">
-        <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>2018 Space Apps Challenge?</a>
-      </div>
+  <h2>Where</h2>
+  <div class="locations">
+    <div class="date -text">
+      <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>2018 Space Apps
+        Challenge?</a>
     </div>
+  </div>
   {% endif %}
 
   {% if site.dates %}
-    <h2>When</h2>
-    <div class="dates">
-      {% for date in site.dates %}
-        <div class="date">
-          <div class="date--header">{{ date.header }}</div>
-          <div class="date--content">{{ date.timestamp }}</div>
-        </div>
-        {% unless forloop.last %}
-          <img src="/images/redesign/right-arrow.svg" />
-        {% endunless %}
-      {% endfor %}
+  <h2>When</h2>
+  <div class="dates">
+    {% for date in site.dates %}
+    <div class="date">
+      <div class="date--header">{{ date.header }}</div>
+      <div class="date--content">{{ date.timestamp }}</div>
     </div>
+    {% unless forloop.last %}
+    <img src="/images/redesign/right-arrow.svg" />
+    {% endunless %}
+    {% endfor %}
+  </div>
   {% elsif site.details.location %}
-    <h2>When</h2>
-    <div class="dates">
-      <div class="date">
-        <div class="date--content">TBD</div>
-      </div>
+  <h2>When</h2>
+  <div class="dates">
+    <div class="date">
+      <div class="date--content">TBD</div>
     </div>
+  </div>
   {% endif %}
 </section>
 
 <section class="video">
   <h2>WATCH OUR 2017 HACKATHON DEMOS NOW!</h2>
   <div class="video--wrapper">
-    <iframe src="https://www.youtube.com/embed/paGOAIlkxMU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/paGOAIlkxMU" frameborder="0" allow="autoplay; encrypted-media"
+      allowfullscreen></iframe>
   </div>
 </section>
 

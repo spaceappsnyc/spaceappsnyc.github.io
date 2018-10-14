@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Space Apps NYC | Organizers
+title: Organizers | Space Apps NYC
 class: organizers
+hero: organizers-hero.html
 ---
 
 <section class="container">
@@ -9,22 +10,23 @@ class: organizers
 
   <div class="organizers">
     {% for organizer in site.organizers %}
-      <div class="organizer">
-        <img src="{{ organizer.image }}"/>
-        <div class="organizer--name">{{ organizer.name }}</div>
-        <div class="organizer--title">{{ organizer.title }}</div>
-        <div class="organizer--info">
-          {% if organizer.twitter %}
-            <i class="fa fa-twitter"></i> <a href="http://www.twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>
-          {% endif %}
-          {% if organizer.linkedin %}
-            <i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/{{ organizer.linkedin }}">{{ organizer.linkedin }}</a>
-          {% endif %}
-          {% if organizer.website %}
-            <a href="//{{ organizer.website }}">{{ organizer.website }}</a>
-          {% endif %}
-        </div>
+    <div class="organizer">
+      <img src="{{ organizer.image }}" />
+      <div class="organizer--name">{{ organizer.name }}</div>
+      <div class="organizer--title">{{ organizer.title }}</div>
+      <div class="organizer--info">
+        {% if organizer.twitter %}
+        <i class="fa fa-twitter"></i> <a href="http://www.twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>
+        {% endif %}
+        {% if organizer.linkedin %}
+        <i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/{{ organizer.linkedin }}">{{
+          organizer.linkedin }}</a>
+        {% endif %}
+        {% if organizer.website %}
+        <a href="//{{ organizer.website }}">{{ organizer.website }}</a>
+        {% endif %}
       </div>
+    </div>
     {% endfor %}
   </div>
 </section>
@@ -34,22 +36,23 @@ class: organizers
 
   <div class="organizers">
     {% for organizer in site.pastOrganizers %}
-      <div class="organizer --small">
-        <img src="{{ organizer.image }}"/>
-        <div class="organizer--name">{{ organizer.name }}</div>
-        <div class="organizer--title">{{ organizer.title }}</div>
-        <div class="organizer--info">
-          {% if organizer.twitter %}
-            <i class="fa fa-twitter"></i> <a href="http://www.twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>
-          {% endif %}
-          {% if organizer.linkedin %}
-            <i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/{{ organizer.linkedin }}">{{ organizer.linkedin }}</a>
-          {% endif %}
-          {% if organizer.website %}
-            <a href="//{{ organizer.website }}">{{ organizer.website }}</a>
-          {% endif %}
-        </div>
+    <div class="organizer --small">
+      <img src="{{ organizer.image }}" />
+      <div class="organizer--name">{{ organizer.name }}</div>
+      <div class="organizer--title">{{ organizer.title }}</div>
+      <div class="organizer--info">
+        {% if organizer.twitter %}
+        <i class="fa fa-twitter"></i> <a href="http://www.twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a>
+        {% endif %}
+        {% if organizer.linkedin %}
+        <i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/{{ organizer.linkedin }}">{{
+          organizer.linkedin }}</a>
+        {% endif %}
+        {% if organizer.website %}
+        <a href="//{{ organizer.website }}">{{ organizer.website }}</a>
+        {% endif %}
       </div>
+    </div>
     {% endfor %}
   </div>
 </section>
@@ -59,17 +62,17 @@ class: organizers
 
   <div class="partners">
     {% for partner in site.organizingPartners %}
-      <div class="partner">
-        <a class="partner--logo" href="//{{ partner.url }}" target="_blank">
-          <img src="{{ partner.logo }}" />
-        </a>
-        <div class="partner--content">
-          {% for contentLine in partner.content %}
-            <p>{{ contentLine }}</p>
-          {% endfor %}
-        </div>
-        <a class="partner--link" href="//{{ partner.url }}" target="_blank">{{ partner.url }}</a>
+    <div class="partner">
+      <a class="partner--logo" href="//{{ partner.url }}" target="_blank">
+        <img src="{{ partner.logo }}" />
+      </a>
+      <div class="partner--content">
+        {% for contentLine in partner.content %}
+        <p>{{ contentLine }}</p>
+        {% endfor %}
       </div>
+      <a class="partner--link" href="//{{ partner.url }}" target="_blank">{{ partner.url }}</a>
+    </div>
     {% endfor %}
   </div>
 </section>
@@ -79,17 +82,17 @@ class: organizers
 
   <div class="sponsor-categories">
     {% for sponsorship in site.sponsorships %}
-      <h3>{{ sponsorship.name }}</h3>
-      <div class="sponsor-category">
-        {% for sponsor in sponsorship.sponsors %}
-          <a class="sponsor" href="{{ sponsor.url }}" target="_blank">
-            <img src="{{ sponsor.logo }}" />
-          </a>
-        {% endfor %}
-      </div>
+    <h3>{{ sponsorship.name }}</h3>
+    <div class="sponsor-category">
+      {% for sponsor in sponsorship.sponsors %}
+      <a class="sponsor" href="{{ sponsor.url }}" target="_blank">
+        <img src="{{ sponsor.logo }}" />
+      </a>
+      {% endfor %}
+    </div>
     {% endfor %}
     {% unless site.sponsorships.length %}
-      <a href="mailto:sponsor@spaceapps.nyc">Interested in sponsoring the 2018 Space Apps Challenge?</a>
+    <a href="mailto:sponsor@spaceapps.nyc">Interested in sponsoring the 2018 Space Apps Challenge?</a>
     {% endunless %}
   </div>
 </section>
@@ -99,9 +102,9 @@ class: organizers
 
   <div class="partners">
     {% for partner in site.partners %}
-      <a class="partner" href="{{ partner.url }}" target="_blank">
-        <img src="{{ partner.logo }}" alt="{{ partner.name }}"/>
-      </a>
+    <a class="partner" href="{{ partner.url }}" target="_blank">
+      <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+    </a>
     {% endfor %}
   </div>
 </section>

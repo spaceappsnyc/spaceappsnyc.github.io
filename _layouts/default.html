@@ -1,29 +1,33 @@
-{% capture hero %}{{ page.class | foo }}{% endcapture %}
-
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <body class="page-{{ page.class }}">
-    <header class="site-header">
-      <div class="container">
-        {% include navigation.html %}
-        {% include {{ hero }}-hero.html %}
-      </div>
-    </header>
-    <main>
-      {{ content }}
-    </main>
-    {% include foot.html %}
+{% include head.html %}
 
-    <script defer src="js/script.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<body class="page-{{ page.class }}">
+  <header class="site-header">
+    <div class="container">
+      {% include navigation.html %}
+      {% if page.hero %}
+      {% include {{ page.hero }} %}
+      {% endif %}
+    </div>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  {% include foot.html %}
 
-      ga('create', 'UA-61272269-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
+  <script defer src="js/script.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61272269-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+
 </html>

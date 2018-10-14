@@ -10,11 +10,19 @@
     background-color: $black;
   }
 
+  &.-red {
+    background-color: $color-accent;
+  }
+
   &[disabled] {
     color: $grey;
   }
 
   small {
     display: block;
+  }
+
+  i {
+    margin-right: 0.2em;
   }
 }

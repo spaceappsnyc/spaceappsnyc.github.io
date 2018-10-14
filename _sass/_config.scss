@@ -19,8 +19,9 @@ $space-apps-nyc-red: #E54240;
 
 $color-primary: $space-apps-nyc-blue;
 $color-accent: $space-apps-nyc-red;
-$primary-color: $purple;
-$secondary-color: $cyan;
+
+// Font Awesome
+$fa-font-path: "../fonts";
 
 // Susy
 $susy: (

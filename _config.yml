@@ -19,6 +19,7 @@ details:
     addressLine1: 402 E 8th St
     addressLine2: New York, NY 10009
     logo: images/LES Girls Club.png
+member_count: 2800
 
 # Build settings
 markdown: kramdown
@@ -79,6 +80,36 @@ bootcamps:
       - time: 8:15pm
         name: Networking
     website: https://www.eventbrite.com/e/intro-to-openspace-tickets-50470789490
+
+judges:
+  - name: Analisa Balares
+    title: CEO & Chief Innovation Officer
+    organization: Womensphere
+    photo: Analisa Balares.jpeg
+    bio:
+      - Analisa Leonor Balares is Founder, CEO, and Chief Innovation Officer of Womensphere, a global platform for empowering women and girls to use STEAM, leadership, and innovation to create the future and help achieve the Global Goals for Sustainable Development. Analisa curates the Womensphere Summits &amp; Festivals, and leads building the Womensphere Innovation Leadership Lab, Womensphere Incubator Network, and Womensphere Foundation. Previously, Analisa worked in Wall Street for Goldman Sachs, Morgan Stanley, and Milestone Capital, and in technology and social media for Microsoft and 85 Broads (now Ellevate). She is an alumna of Harvard Business School, Mount Holyoke College, and Lester Pearson United World College,
+      - Analisa is also a NASA Datanaut, and an organizer of the NASA Space Apps Global Challenge for NYC. She serves as a Commissioner of the Women’s Refugee Commission, Advisory Board Member of Music Beyond, Member of Women’s Forum of New York and International Women’s Forum, and Academy Member of the Global Teacher Prize. She also served as a Member of the Harvard Women’s Leadership Board, and L&#39;Oreal&#39;s global advisory board for sustainability and social impact.
+      - Analisa has been recognized as a UBS Global Visionary, Young Global Leader (by the World Economic Forum), and 100 Most Influential Filipinas of the World (by FWN). She has been honored with the Madam C.J. Walker Leadership Award by US National Minority Business Council, and Distinguished Leader Award by UN Women New York Chapter.
+  - name: Sidney Nakahoto
+    title: Cofounder and CEO
+    organization: New York Space Alliance
+    photo: Sidney Nakahoto.jpg
+    bio:
+      - Sidney N. Nakahodo is a leading authority in space entrepreneurship, and cofounder and CEO of the New York Space Alliance (NYSA). He is active in the academic setting as a faculty member of Columbia University. He is also a former fellow of Singularity University, a think-tank and accelerator based at NASA Ames Research Park, in Silicon Valley, and currently serves as its New York City Chapter Ambassador. Previously he worked with private sector development and carbon finance at the World Bank. Sidney holds an MIA from Columbia University’s School of International and Public Affairs (SIPA) and a B. Eng. in Materials Engineering from the University of Sao Paulo (Brazil). He is a graduate of Singularity University’s Global Solutions Program, which he attended on a Google-sponsored scholarship, and the Kiel Institute’s Advanced Studies Program in International Economic Policy (Germany).  Sidney speaks Portuguese and Spanish, is conversant in French and Italian, and has basic knowledge of German.
+  - name: Noemi Derzsy
+    title: Senior Inventive Scientist
+    organization: AT&T Labs
+    photo: Noemi Derzsy.jpg
+    bio:
+      - Holding a PhD in Physics and research background in Network Science and Computer Science, my interests revolve around the study of complex systems and complex networks through real-world data. Currently, I am a Senior Inventive Scientist at AT&T Labs within the Data Science and AI Research organization, doing lots of science with lots of data. I am also a NASA Datanaut and co-organizer of Women in Machine Learning and Data Science NYC chapter.
+
+# mentors:
+#   - name: Noemi Derzsy
+#     title: Senior Inventive Scientist
+#     organization: AT&T Labs
+#     photo: Noemi Derzsy.jpg
+#     bio:
+#       - Holding a PhD in Physics and research background in Network Science and Computer Science, my interests revolve around the study of complex systems and complex networks through real-world data. Currently, I am a Senior Inventive Scientist at AT&T Labs within the Data Science and AI Research organization, doing lots of science with lots of data. I am also a NASA Datanaut and co-organizer of Women in Machine Learning and Data Science NYC chapter.
 
 # conference:
 #   - time: 8:00 AM

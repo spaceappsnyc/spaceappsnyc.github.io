@@ -1,0 +1,204 @@
+---
+layout: default
+title: Space Apps Challenge | Space Apps NYC
+class: space-apps-challenge
+hero: space-apps-challenge-hero.html
+---
+
+<div class="container">
+  <div class="cards splash" id="top">
+    <h2>Hackathon Guide</h2>
+
+    <p>Hello everyone! This is a long guide, but it's very important that you read all of it carefully. Here's a
+      summary of the important points:</p>
+    <ul>
+      <li><a href="#welcome">Welcome Message</a></li>
+      <li><a href="#arrival">Arrive Early For Entry (ONLY 100 MAY ENTER - First Come, First Served)</a></li>
+      <!-- <li><a href="#childcare">Tell Us About Your Childcare Needs</a></li> -->
+      <li><a href="#bootcamp">More On The Boot Camp Workshops</a></li>
+      <li><a href="#prepare">Make Some Pre-hackathon Preparations</a></li>
+      <li><a href="#challenges">Check Out The 2016 Challenges Now</a></li>
+    </ul>
+  </div>
+</div>
+<section class="event-details">
+  <h2>Where</h2>
+  <div class="locations">
+    <div class="location">
+      <img src="{{ site.details.location.logo }}" style="{{ site.details.location.style }}" />
+      <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>{{
+        site.details.location.addressLine2 }}</a>
+    </div>
+  </div>
+
+  <h2>When</h2>
+  <div class="dates">
+    {% for date in site.dates %}
+    <div class="date">
+      <div class="date--header">{{ date.header }}</div>
+      <div class="date--content">{{ date.timestamp }}</div>
+    </div>
+    {% unless forloop.last %}
+    <img src="/images/redesign/right-arrow.svg" />
+    {% endunless %}
+    {% endfor %}
+  </div>
+</section>
+<div class="container">
+  <div class="cards">
+    <section class="card" id="welcome">
+      <h2>Welcome Message</h2>
+
+      <p>Welcome to the NASA Space Apps Challenge! We've noticed that many of you are new registrants this year, so
+        we're providing this guide to help you prepare for one of the most awesome space science and frontier
+        technology events the city of New York has EVER seen.</p>
+
+      <p><em>Space Apps NYC is no ordinary hackathon!</em> First and foremost, please read our <a href="conduct.html"
+          target="_blank">Code of Conduct</a> to familiarize yourself with all of our policies - when you're at the
+        hackathon registration table on site, we are going to ask you to sign a copy of it to acknowledge that you've
+        read it, so look it over now.</p>
+
+      <p><strong><em style="text-decoration: underline;">You must hack
+            on a project for the majority of the weekend.</em></strong> You should probably expect to spend around
+        <span style="text-decoration: underline;">a
+          minimum of 11 full hours over the course of the weekend</span> working on a project. Everyone can contribute
+        something, even if it's just working on the final presentation and demo!</p>
+
+      <p>If you have hackathon participants who aren't contributing enough on your team, please notify a hackathon
+        organizer and we will try to sort it all out. If we notice or hear reports that hackathon participants aren't
+        contributing enough to their team, we may proceed with actions as laid out in the Code of Conduct</p>
+
+      <p>Even though we are over-registered past our capacities, we still have dozens of people on our waitlists who
+        want to participate in our Manhattan hackathon or bootcamp, and we'd like to give everyone who's up for the
+        challenge a chance to do something amazing for the common good; if you cannot come, please unregister for our
+        hackathon and/or bootcamp by selecting View Profile at the spaceappschallenge.org website and clicking the
+        link marked "Remove My Registration". If you cannot attend the event on-site, or arrived after capacity was
+        met, you can still participate on a New York team remotely. Alternatively, you can <a href="https://2018.spaceappschallenge.org/locations/virtual/">join
+          a virtual team</a>.</p>
+
+      <p><a href="#top">Back to top</a></p>
+    </section>
+    <section class="card" id="arrival">
+      <h2>Arrive Early For Entry</h2>
+      <h3>ONLY 100 MAY ENTER - First Come, First Served</h3>
+
+      <!-- <p>For the boot camp on <span style="font-weight: bold">Friday April 22nd</span>, <span style="text-decoration: underline;display: inline; font-style: italic;">You
+          may want to arrive at the boot camp location before 8:00 a.m.</span> Yes, that is a very early time in the
+        morning, but the early bird gets the space worm! Check your email for the boot camp location, if you're
+        registered for boot camp you should have already received that information. If you are registered and have not
+        received the location, please contact us via email immediately at organizers @ spaceapps.nyc.</p> -->
+
+      <p>For the hackathon starting on <strong>Saturday October 20th</strong>, <em style="text-decoration: underline;">You
+          may want to arrive at the hackathon location (<a href="https://girlsclub.org" target="_blank">Lower Eastside
+            Girls Club</a>) before 8:00 a.m.</em> Yes, that is a very early time in the morning, but the early bird
+        gets the space worm!</p>
+
+      <p>We only have capacity for 100 people at the hackathon, even though more than double that number have
+        registered to attend. We will be counting everyone as they enter, and when we reach capacity, anyone else in
+        line will have to register as a Virtual Participant and hack from another location - but
+        anyone can still collaborate online with teams at our Manhattan site.</p>
+
+      <p>If you would like to be guaranteed entry, we are looking for volunteers to help us at the hackathon -
+        volunteers will need to commit to a certain number of hours / shifts in order to qualify for entry into the
+        event. For more info, contact us immediately at organizers @ spaceapps.nyc!</p>
+
+      <p>If you are coming from out of town for the event we <strong>HIGHLY recommend</strong>
+        arriving at the hackathon location as early as possible to best insure your entry into the hackathon. We would
+        even recommend getting a hotel room the night before in order to make sure you arrive on time.</p>
+
+      <p><a href="#top">Back to top</a></p>
+    </section>
+    <!-- <section class="card" id="childcare">
+      <h2>Tell Us About Your Childcare Needs</h2>
+
+      <p><span style="font-style: italic;">We really need your help!</span> We are committed to providing childcare for
+        all three days of the boot camp and the hackathon, but you must tell us what your needs will be so that we can
+        get enough service from the providers who will be caring for children on site. Please send us email at
+        organizers at spaceapps.nyc to tell us what to expect!</p>
+
+      <p><a href="#top">Back to top</a></p>
+    </section> -->
+    <section class="card" id="bootcamp">
+      <h2>More On The Bootcamp Workshops</h2>
+
+      <p>NASA is pioneering ways to diversify the base of hackathon participants to include communities with an
+        ever-greater variety of backgrounds and skills and increase participation from underrepresented groups. For two
+        weeks starting on <strong>Tuesday, October 9th</strong> and ending on <strong>Wednesday, October 17th</strong>,
+        we are hosting our Space Apps Data Bootcamp - an opportunity for individuals (especially
+        under-represented ones) who have never participated in hackathons to get their feet wet learning skills and
+        using resources that will help them to engage productively as project team members, as well as to gain a better
+        understanding of how their existing skills and perspectives can be an asset to their project teams.</p>
+
+      <p>The boot camp is a free public event and space is very limited. If you already registered for the
+        boot camp, you should have already received an email about it! Please check your inbox and spam filters to see
+        if you got it.</p>
+
+      <p><a class="button" href="bootcamp">Check out this year's Data Bootcamps!</a></p>
+
+      <p><a href="#top">Back to top</a></p>
+    </section>
+    <section class="card" id="prepare">
+      <h2>Make Some Pre-hackathon Preparations</h2>
+
+      <p><strong><em style="text-decoration: underline;">VERY IMPORTANT VENUE CONSIDERATIONS:</em></strong> If you are
+        interested in hardware challenges, you should know that <strong><em style="text-decoration: underline;">NO
+            SOLDERING OR HOT GLUING IS ALLOWED AT OUR VENUES</em></strong>. If you bring your own equipment and
+        electronic
+        parts, you will only be able to do basic work and assemble parts into breadboards. You can bring pre-built,
+        pre-soldered hardware to test and program, but our sites do not have available workshop or workbench
+        facilities.</p>
+
+      <p>If you are interested in hacking on your challenge throughout Saturday night, we will be able to stay
+        overnight at the Lower Eastside Girls Club venue!</p>
+
+      <p>Should you bring a laptop? Absolutely, yes! Everyone should bring a computer with them that they feel
+        comfortable using. Even if you don't have any special software on it, bring it anyway; your team members and
+        other mentors from top technology companies and educational institutions will be there to help you get set up
+        with whatever you need, and teach you about some great tools to help you solve problems.</p>
+
+      <p>Here are some other tasks we recommend you all do today, right now, regardless of your skills or background:</p>
+
+      <p><strong>Join our Meetup group</strong>- <a href="http://www.meetup.com/Space-Apps-NYC/" target="_blank">http://www.meetup.com/Space-Apps-NYC/</a></p>
+
+      <p><strong>Follow @SpaceAppsNYC on Twitter</strong> - <a href="https://twitter.com/" target="_blank">https://twitter.com/</a></p>
+
+      <p><strong>Sign up for a Github account (everybody needs one!)</strong> - <a href="https://github.com/" target="_blank">https://github.com/</a></p>
+
+      <p><strong>Try git</strong> - <a href="https://try.github.io/levels/1/challenges/1" target="_blank">https://try.github.io/levels/1/challenges/1</a></p>
+
+      <p><a href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1" target="_blank">http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1</a></p>
+
+      <p>Once you're comfortable with git and Github, if you have an Apple laptop, you can "git clone" the scripts at
+        the link below which will load up your computer with all the software you would need to do web development;
+        even if you aren't a developer and don't want to become one, you'll be able to learn some really cool tips and
+        tricks that will help you get more out of your computer, and doing this will generally make your computer more
+        awesome: <strong><a href="https://github.com/18F/laptop" target="_blank">https://github.com/18F/laptop</a></strong></p>
+
+      <p>If you're already a developer (front end or back end) and have development software installed, <strong><em>update
+            all of your development software RIGHT NOW</em></strong>. Save yourself a lot of wasted time and all the
+        overheadof installing and updating a ton of stuff while you're trying to hack.</p>
+
+      <p><a href="#top">Back to top</a></p>
+    </section>
+    <section class="card" id="challenges">
+      <h2>Check Out The 2018 Challenges Now</h2>
+
+      <p>Take a look at this year's Challenges and see which you might be interested in working on:</p>
+
+      <p><a href="https://2018.spaceappschallenge.org/challenges" target="_blank">https://2018.spaceappschallenge.org/challenges</a></p>
+
+      <p>Don't feel intimidated! You will be part of a great team with a diverse set of skills and you will all tackle
+        these problems together. Notice that each Challenge has hashtags, where a # precedes a word or phrase (like
+        #JourneyToMars or #BeAnAstronaut). When you write a tweet on Twitter or post a photo on Instagram and use one
+        of those hashtags, other people all over the world will know you're working on the same Challenge and you can
+        collaborate and share ideas to make solutions together or independently. We also recommend the use of online
+        video chat apps like Skype or Google Hangout to connect with people all over the world to get their help
+        solving problems!</p>
+
+      <p>Oh, and if you are an avid user of social media, please feel free to start using the following hashtags:
+        #NewSpaceCity #SpaceApps #SpaceAppsNYC or mention us @SpaceAppsNYC or the global event at @SpaceApps or @NASA</p>
+
+      <p><a href="#top">Back to top</a></p>
+    </section>
+  </div>
+</div>
