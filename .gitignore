@@ -8,5 +8,5 @@ _drafts
 npm-debug.log
 images/Thumbs.db
 images/slideshow/Thumbs.db
-vendor
+/vendor
 .vscode
