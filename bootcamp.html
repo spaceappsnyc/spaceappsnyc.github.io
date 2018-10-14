@@ -28,8 +28,10 @@ hero: bootcamp-hero.html
                     </tr>
                     {% endfor %}
                 </table>
-                {% if bootcamp.website %}
-                <a class="button" href="{{ bootcamp.website }}">Register</a>
+                {% if bootcamp.register %}
+                <a class="button" href="{{ bootcamp.register }}">Register</a>
+                {% elsif bootcamp.view %}
+                <a class="button" href="{{ bootcamp.video }}">Watch the Video</a>
                 {% endif %}
             </div>
         </div>
