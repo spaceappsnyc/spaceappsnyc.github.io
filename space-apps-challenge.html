@@ -5,7 +5,7 @@ class: space-apps-challenge
 hero: space-apps-challenge-hero.html
 ---
 
-<div class="container">
+<section class="container">
   <div class="cards splash" id="top">
     <h2>Hackathon Guide</h2>
 
@@ -13,38 +13,18 @@ hero: space-apps-challenge-hero.html
       summary of the important points:</p>
     <ul>
       <li><a href="#welcome">Welcome Message</a></li>
-      <li><a href="#arrival">Arrive Early For Entry (ONLY 100 MAY ENTER - First Come, First Served)</a></li>
+      <li><a href="#arrival">Arrive Early For Entry</a></li>
       <!-- <li><a href="#childcare">Tell Us About Your Childcare Needs</a></li> -->
       <li><a href="#bootcamp">More On The Boot Camp Workshops</a></li>
       <li><a href="#prepare">Make Some Pre-hackathon Preparations</a></li>
-      <li><a href="#challenges">Check Out The 2016 Challenges Now</a></li>
+      <li><a href="#challenges">Check Out The 2018 Challenges Now</a></li>
     </ul>
   </div>
-</div>
-<section class="event-details">
-  <h2>Where</h2>
-  <div class="locations">
-    <div class="location">
-      <img src="{{ site.details.location.logo }}" style="{{ site.details.location.style }}" />
-      <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>{{
-        site.details.location.addressLine2 }}</a>
-    </div>
-  </div>
-
-  <h2>When</h2>
-  <div class="dates">
-    {% for date in site.dates %}
-    <div class="date">
-      <div class="date--header">{{ date.header }}</div>
-      <div class="date--content">{{ date.timestamp }}</div>
-    </div>
-    {% unless forloop.last %}
-    <img src="/images/redesign/right-arrow.svg" />
-    {% endunless %}
-    {% endfor %}
-  </div>
 </section>
-<div class="container">
+
+{% include event-details.html %}
+
+<section class="container">
   <div class="cards">
     <section class="card" id="welcome">
       <h2>Welcome Message</h2>
@@ -103,8 +83,9 @@ hero: space-apps-challenge-hero.html
         event. For more info, contact us immediately at organizers @ spaceapps.nyc!</p>
 
       <p>If you are coming from out of town for the event we <strong>HIGHLY recommend</strong>
-        arriving at the hackathon location as early as possible to best insure your entry into the hackathon. We would
-        even recommend getting a hotel room the night before in order to make sure you arrive on time.</p>
+        arriving at the hackathon location as early as possible to best insure your entry into the hackathon. For those
+        of you travelling from out of town, we would even recommend getting a hotel room the night before in order to
+        make sure you arrive on time.</p>
 
       <p><a href="#top">Back to top</a></p>
     </section>
@@ -183,9 +164,8 @@ hero: space-apps-challenge-hero.html
     <section class="card" id="challenges">
       <h2>Check Out The 2018 Challenges Now</h2>
 
-      <p>Take a look at this year's Challenges and see which you might be interested in working on:</p>
-
-      <p><a href="https://2018.spaceappschallenge.org/challenges" target="_blank">https://2018.spaceappschallenge.org/challenges</a></p>
+      <p>Take a look at this year's Challenges and see which you might be interested in working on: <a href="https://2018.spaceappschallenge.org/challenges"
+          target="_blank">https://2018.spaceappschallenge.org/challenges</a></p>
 
       <p>Don't feel intimidated! You will be part of a great team with a diverse set of skills and you will all tackle
         these problems together. Notice that each Challenge has hashtags, where a # precedes a word or phrase (like
@@ -201,4 +181,4 @@ hero: space-apps-challenge-hero.html
       <p><a href="#top">Back to top</a></p>
     </section>
   </div>
-</div>
+</section>

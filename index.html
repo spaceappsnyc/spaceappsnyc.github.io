@@ -37,63 +37,11 @@ hero: home-hero.html
   </div>
 </section>
 
-<section class="event-details container">
-  <img src="/images/redesign/website-09@2x.png" class="hashtag--blue" />
-  {% unless site.details.location or site.dates %}
-  <h2>When / Where</h2>
-  <div class="locations cards">
-    <div class="date card -text">
-      <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>2018 Space Apps
-        Challenge?</a>
-    </div>
-  </div>
-  {% endunless %}
-
-  {% if site.details.location %}
-  <h2>Where</h2>
-  <div class="locations cards">
-    <div class="location card">
-      <img src="{{ site.details.location.logo }}" style="{{ site.details.location.style }}" />
-      <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>{{
-        site.details.location.addressLine2 }}</a>
-    </div>
-  </div>
-  {% elsif site.dates %}
-  <h2>Where</h2>
-  <div class="locations cards">
-    <div class="date card -text">
-      <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>2018 Space Apps
-        Challenge?</a>
-    </div>
-  </div>
-  {% endif %}
-
-  {% if site.dates %}
-  <h2>When</h2>
-  <div class="dates cards">
-    {% for date in site.dates %}
-    <div class="date card">
-      <div class="date--header">{{ date.header }}</div>
-      <div class="date--content">{{ date.timestamp }}</div>
-    </div>
-    {% unless forloop.last %}
-    <img src="/images/redesign/right-arrow.svg" />
-    {% endunless %}
-    {% endfor %}
-  </div>
-  {% elsif site.details.location %}
-  <h2>When</h2>
-  <div class="dates cards">
-    <div class="date card">
-      <div class="date--content">TBD</div>
-    </div>
-  </div>
-  {% endif %}
-</section>
+{% include event-details.html %}
 
 <section class="wave">
   <div class="container -text">
-    <h2>WATCH OUR 2017 HACKATHON DEMOS NOW!</h2>
+    <h2>WATCH OUR 2017 HACKATHON DEMOS</h2>
     <div class="video">
       <iframe src="https://www.youtube.com/embed/paGOAIlkxMU" frameborder="0" allow="autoplay; encrypted-media"
         allowfullscreen></iframe>

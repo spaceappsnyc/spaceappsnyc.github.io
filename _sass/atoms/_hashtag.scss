@@ -9,4 +9,12 @@
       display: none;
     }
   }
+  &--blue {
+    left: 0;
+    top: -7em;
+  }
+  &--red {
+    right: 0;
+    top: -10em;
+  }
 }
