@@ -16,9 +16,20 @@
         font-size: 2em;
     }
 
+    &--meta {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1em;
+        align-items: center;
+    }
+
     &--location {
         font-size: 1.2em;
-        margin-bottom: 1em;
+    }
+
+    &--date {
+        font-size: 1.7em;
     }
 
     &--image {

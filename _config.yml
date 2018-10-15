@@ -40,6 +40,7 @@ bootcamps:
       name: The Mezzanine
       addressLine1: 55 Broadway
       addressLine2: New York, NY 10006
+    date: October_06_2018
     info:
       - The Womensphere Global STEAMfest is a celebration of women harnessing the power of STEAM (science, technology, engineering, arts & design, mathematics) to create the future, and help achieve the Global Goals for Sustainable Development. Through the Womensphere Global STEAMfest, we are empowering women and girls all over the world through the Womensphere Global ARTfest, Womensphere Global CODEfest, and Womensphere Global VIDEOfest, kicking off this October 19-31.
       - Join us for a fun evening of cocktails, celebrating innovation, launching several exciting initiatives & connecting you with pioneering innovators in Silicon Alley!  
@@ -73,6 +74,7 @@ bootcamps:
       name: Silicon Harlem
       addressLine1: 2785 Frederick Douglass Boulevard
       addressLine2: New York, NY 10039
+    date: October_09_2018
     info:
       - Come enjoy some pizza uptown and Google will give us an introduction to their Cloud Platform.
       - Google Cloud is a great tool for Space Apps Challenge hackers to have going into the hackathon, as it will streamline the development of your projects so that you can focus on the core concepts and not the project infrastructure.
@@ -99,6 +101,7 @@ bootcamps:
       name: SAP NextGen
       addressLine1: 10 Hudson Yards
       addressLine2: New York, NY 10001
+    date: October_15_2018
     info:
       - Learn from veteran Space Apps Challenge hackers what it's like to participate in the hackathon!
       - Past Space Apps teams are coming back to the location of the 2017 Space Apps Challenge in NYC — SAP NextGen — for a night of hackathon demos and Q&A. Whether you're new to hackathons, or have just never been to the Space Apps Challenge before, come listen to past participants and learn some tips and tricks for the upcoming 2018 Space Apps Challenge.
@@ -121,6 +124,7 @@ bootcamps:
       name: Lower East Side Girls Club
       addressLine1: 402 E 8th St
       addressLine2: New York, NY 10009
+    date: October_17_2018
     info:
       - OpenSpace is open source interactive data visualization software designed to visualize the entire known universe and portray our ongoing efforts to investigate the cosmos.
       - Funded in part by NASA, OpenSpace brings the latest techniques from data visualization research to the general public. OpenSpace supports interactive presentation of dynamic data from observations, simulations, and space mission planning and operations. OpenSpace works on multiple operating systems, with an extensible architecture powering high resolution tiled displays and planetarium domes, and makes use of the latest graphic card technologies for rapid data throughput. In addition, OpenSpace enables simultaneous connections across the globe, creating opportunity for shared experiences among audiences worldwide.

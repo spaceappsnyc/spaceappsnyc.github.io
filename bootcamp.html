@@ -11,10 +11,15 @@ hero: bootcamp-hero.html
         <div class="card bootcamp">
             <img class="bootcamp--image" src="{{ bootcamp.image }}" />
             <h3 class="bootcamp--name">{{ bootcamp.name }}</h3>
-            <div class="bootcamp--location">
-                <div>{{ bootcamp.location.name }}</div>
-                <div>{{ bootcamp.location.addressLine1 }}</div>
-                <div>{{ bootcamp.location.addressLine2 }}</div>
+            <div class="bootcamp--meta">
+                <div class="bootcamp--location">
+                    <div>{{ bootcamp.location.name }}</div>
+                    <div>{{ bootcamp.location.addressLine1 }}</div>
+                    <div>{{ bootcamp.location.addressLine2 }}</div>
+                </div>
+                <div class="bootcamp--date">
+                    {{ bootcamp.date }}
+                </div>
             </div>
             <div class="bootcamp--info">
                 {% for info in bootcamp.info %}
@@ -30,7 +35,7 @@ hero: bootcamp-hero.html
                 </table>
                 {% if bootcamp.register %}
                 <a class="button" href="{{ bootcamp.register }}">Register</a>
-                {% elsif bootcamp.view %}
+                {% elsif bootcamp.video %}
                 <a class="button" href="{{ bootcamp.video }}">Watch the Video</a>
                 {% endif %}
             </div>

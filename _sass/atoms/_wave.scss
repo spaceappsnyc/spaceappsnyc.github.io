@@ -1,0 +1,38 @@
+.wave {
+    background-image: url("/images/redesign/wave-color.png");
+    position: relative;
+    margin-bottom: 20em;
+
+    @media (min-width: 60em) {
+        margin-top: 15em;
+    }
+
+    @media (max-width: 60em) {
+        margin-bottom: 3em;
+    }
+
+    &::before, &::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        content: "";
+        background-size: cover;
+    }
+
+    &::before {
+        bottom: 100%;
+        padding-top: 18%;
+        background-image: url("/images/redesign/wave-top@2x.png");
+    }
+
+    &::after {
+        top: 100%;
+        padding-bottom: 11%;
+        background-image: url("/images/redesign/wave-bottom@2x.png");
+    }
+
+    .container {
+        margin-top: -10em;
+        margin-bottom: -10em;
+    }
+}

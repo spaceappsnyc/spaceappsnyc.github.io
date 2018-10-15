@@ -2,11 +2,20 @@
   text-align: center;
   position: relative;
 
-  .locations, .dates {
-    @extend .cards;
+  a {
+    display: block;
+    font-weight: lighter;
+    font-size: 1.5em;
   }
 
-  .locations {
+  h2 {
+    @media (min-width: 60em) {
+      margin-bottom: 2em;
+    }
+  }
+}
+
+.locations {
     text-align: center;
     margin-bottom: 4em;
 
@@ -18,10 +27,6 @@
       width: 270px;
       margin-bottom: 1.5em;
     }
-  }
-
-  .location {
-    @extend .card;
   }
 
   .dates {
@@ -36,7 +41,6 @@
   }
 
   .date {
-    @extend .card;
     align-items: flex-start;
 
     &:first-of-type {
@@ -65,16 +69,3 @@
       font-weight: lighter;
     }
   }
-
-  a {
-    display: block;
-    font-weight: lighter;
-    font-size: 1.5em;
-  }
-
-  h2 {
-    @media (min-width: 60em) {
-      margin-bottom: 2em;
-    }
-  }
-}
