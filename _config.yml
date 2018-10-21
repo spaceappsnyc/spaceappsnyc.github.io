@@ -6,8 +6,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://spaceapps.nyc" # the base hostname & protocol for your site
 twitter_username: spaceappsnyc
 github_username: spaceappsnyc
-registrationIsOpen: true
-livestreamIsOpen: false
+registrationIsOpen: false
+livestreamIsOpen: true
+livestream_link: "#livestream"
 dates:
   - header: Begins
     timestamp: October_19_2018

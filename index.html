@@ -5,23 +5,21 @@ class: home
 hero: home-hero.html
 ---
 
-<section>
+<section id="livestream">
   <div class="container">
-    <h1>Upcoming Events</h1>
-    <div class="cards">
-      <div class="date card -text">
-        <div class="date--header">October_17_2018</div>
-        <a class="date--content" href="https://www.eventbrite.com/e/intro-to-openspace-tickets-50470789490" target="_blank">Intro
-          to
-          OpenSpace</a>
-      </div>
-      <div class="date card -text">
-        <div class="date--header">October_19_2018</div>
-        <a class="date--content" href="https://2018.spaceappschallenge.org/locations/nyc">NASA Space Apps Challenge</a>
-      </div>
+    <h1>2018 NASA Space Apps Challenge Livestream</h1>
+    <div class="video">
+      <iframe id="livestream-video" src="https://www.youtube.com/embed/cSoDAzIzTf0" frameborder="0" allow="autoplay; encrypted-media"
+        allowfullscreen></iframe>
     </div>
   </div>
 </section>
+
+<script>
+  if (Date.UTC(2018, 9, 21, 17) - Date.now() <= 0) {
+    document.getElementById('livestream-video').setAttribute('src', 'https://www.youtube.com/embed/mK0AT9vHsY4');
+  }
+</script>
 
 <section class="wave">
   <div class="container -text">
