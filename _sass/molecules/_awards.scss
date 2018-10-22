@@ -36,6 +36,11 @@
     font-weight: bold;
   }
 
+  i {
+    float: left;
+    margin-right: 0.5em;
+  }
+
   @media (max-width: 60em) {
     width: 100%;
   }

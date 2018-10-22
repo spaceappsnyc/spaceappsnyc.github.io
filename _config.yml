@@ -7,7 +7,7 @@ url: "https://spaceapps.nyc" # the base hostname & protocol for your site
 twitter_username: spaceappsnyc
 github_username: spaceappsnyc
 registrationIsOpen: false
-livestreamIsOpen: true
+livestreamIsOpen: false
 livestream_link: "#livestream"
 dates:
   - header: Begins
@@ -20,7 +20,7 @@ details:
     addressLine1: 402 E 8th St
     addressLine2: New York, NY 10009
     logo: images/LES Girls Club.png
-member_count: 2800
+member_count: 3000
 
 # Build settings
 markdown: kramdown
@@ -307,41 +307,51 @@ sunday:
 
 # Awards
 awards:
-  - name: You Are My Sunshine
-    winner:
-      link: https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sunshine/teams/proxima
-      name: PROXIMA
-      globalNominee: true
-  - name: What's For Dinner?
-    winner:
-      link: https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/teams/wastenot
-      name: Waste Not!
-      globalNominee: true
+  - name: Global Nominee
+    globalNominee: true
+    winners:
+      - link: https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/dont-forget-can-opener/teams/smsafety/project
+        challenge: Don't Forget the Can Opener!
+        name: SMSafety
+  - name: Global Nominee
+    globalNominee: true
+    winners:
+      - link: https://2018.spaceappschallenge.org/challenges/what-world-needs-now/health-makes-wealth/teams/instaco2/project
+        challenge: Health Makes Wealth
+        name: InstaC02
   - name: Best Mission Concept
-    winner:
-      link: https://2017.spaceappschallenge.org/challenges/warning-danger-ahead/and-you-can-help-fight-fires/teams/the-smokey-bears/project
-      name: The Smokey Bears
+    winners:
+      - link: https://2018.spaceappschallenge.org/challenges/universe-beauty-and-wonder/virtual-space-exploration/teams/stage-one/project
+        challenge: Virtual Space Exploration
+        name: Stage One
   - name: Galactic Impact
-    winner:
-      link: https://2017.spaceappschallenge.org/challenges/our-ecological-neighborhood/migratory-travels-and-travel-stories/teams/wildlife-go-1/project
-      name: Wildlife Go
+    winners:
+      - link: https://2018.spaceappschallenge.org/challenges/what-world-needs-now/land-where-displaced-people-settle/teams/demeter/project
+        challenge: The Land Where Displaced People Settle
+        name: Demeter
   - name: Most Inspirational Hack
-    winner:
-      link: https://2017.spaceappschallenge.org/challenges/earth-and-us/pilots-plus/teams/will-you-die/project
-      name: Will You Die
+    winners:
+      - link: https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/real-time-fire-app/teams/firecloud/project
+        challenge: Spot That Fire!
+        name: Firecloud
+      - link: https://2018.spaceappschallenge.org/challenges/universe-beauty-and-wonder/virtual-space-exploration/teams/babblenauts/project
+        challenge: Virtual Space Exploration
+        name: Babbelnauts
   - name: Best Use of Hardware
-    winner:
-      link: ht—tps://2017.spaceappschallenge.org/challenges/ideate-and-create/bring-your-own-solution/teams/issie/project
-      name: ISSIE—Earth Magic
+    winners:
+      - link: https://2018.spaceappschallenge.org/challenges/can-you-build/make-sense-out-mars/teams/absolute/project
+        challenge: Make Sense Out Of Mars
+        name: Absolute
   - name: Best Use of Data
-    winner:
-      link: https://2017.spaceappschallenge.org/challenges/ideate-and-create/data-concierge/teams/unified-search
-      name: Unified Search
-  - name: Clarifai API Award
-    winner:
-      link: https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/teams/terrabeast
-      name: Terrabeast
-      peoplesChoice: true
+    winners:
+      - link: https://2018.spaceappschallenge.org/challenges/icy-glare/recycle-polar-opposites/teams/arctic-reality/project
+        challenge: Polar Opposites
+        name: Arctic Reality
+  - name: Best Use of Science
+    winners:
+      - link: https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/real-time-fire-app/teams/this-team-is-on-fire/project
+        challenge: Spot That Fire!
+        name: This Team Is On Fire
 
 # Organizing Team
 organizers:
