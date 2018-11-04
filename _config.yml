@@ -139,7 +139,7 @@ bootcamps:
         name: Intro to OpenSpace
       - time: 8:15pm
         name: Networking
-    register: https://www.youtube.com/watch?v=CutigEuCOsk&index=4&t=0s&list=PLTP4bRgnFNn3K3aGJSv4ziFWf7GNhrqPT
+    video: https://www.youtube.com/watch?v=CutigEuCOsk&index=4&t=0s&list=PLTP4bRgnFNn3K3aGJSv4ziFWf7GNhrqPT
 
 judges:
   - name: Analisa Balares
