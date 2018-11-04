@@ -118,7 +118,7 @@ bootcamps:
         name: Space Apps Hacker Presentations
       - time: 7:45pm
         name: Networking
-    register: https://www.eventbrite.com/e/intro-to-the-space-apps-challenge-and-opennasa-apis-tickets-50882606245
+    video: https://www.youtube.com/watch?v=B6dwEqorZRU&index=5&t=0s&list=PLTP4bRgnFNn3K3aGJSv4ziFWf7GNhrqPT
   - name: Intro to OpenSpace
     image: /images/intro_to_openspace.png
     location:
@@ -139,7 +139,7 @@ bootcamps:
         name: Intro to OpenSpace
       - time: 8:15pm
         name: Networking
-    register: https://www.eventbrite.com/e/intro-to-openspace-tickets-50470789490
+    register: https://www.youtube.com/watch?v=CutigEuCOsk&index=4&t=0s&list=PLTP4bRgnFNn3K3aGJSv4ziFWf7GNhrqPT
 
 judges:
   - name: Analisa Balares
