@@ -1,19 +1,7 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-html, body {
-  width: 100%;
-  background-color: $white;
-  background-image: url("/images/redesign/grid.png");
-  font-size: 14px;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
-}
-
-.container {
+@mixin container {
   max-width: 80em;
   position: relative;
-  z-index: 1;
+  z-index: $container-z-index;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1em;
@@ -25,6 +13,26 @@ html, body {
   }
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  background-color: $white;
+  background-image: url("/images/redesign/grid.png");
+  font-size: 14px;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+
+  @include small-screen {
+    font-size: 13px;
+  }
+}
+
+.container {
+  @include container;
+}
+
 section {
   position: relative;
   padding-top: 2em;
@@ -32,7 +40,7 @@ section {
 }
 
 a {
-  color: $blue;
+  color: $color-highlight;
   text-decoration: none;
 }
 
@@ -53,4 +61,10 @@ p {
 
 ul {
   margin: 0 0 1em;
+}
+
+main {
+  @include small-screen {
+    padding-top: 1rem;
+  }
 }

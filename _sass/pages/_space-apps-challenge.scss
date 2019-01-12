@@ -1,0 +1,9 @@
+.page-space-apps-challenge {
+    .site-header {
+        &::after {
+            @include small-screen {
+                padding-bottom: 130%;
+            }
+        }
+    }
+}

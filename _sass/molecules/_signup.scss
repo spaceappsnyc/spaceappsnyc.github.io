@@ -9,7 +9,7 @@
   }
 
   .asterisk {
-    color: $blue;
+    color: $color-primary;
   }
 
   form {
@@ -32,7 +32,7 @@
       padding: 0.5em;
       height: auto;
       margin-bottom: -1.5em;
-      background-color: $blue;
+      background-color: $color-highlight;
     }
   }
 }

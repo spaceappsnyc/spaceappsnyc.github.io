@@ -1,0 +1,33 @@
+$small-screen-width: 40em;
+$medium-screen-width: 60em;
+$large-screen-width: 80em;
+
+@mixin small-screen {
+    @media (max-width: $small-screen-width) {
+        @content;
+    }
+}
+
+@mixin not-small-screen {
+    @media (min-width: $small-screen-width) {
+        @content;
+    }
+}
+
+@mixin medium-screen {
+    @media (max-width: $medium-screen-width) {
+        @content;
+    }
+}
+
+@mixin large-screen {
+    @media (max-width: $large-screen-width) {
+        @content;
+    }
+}
+
+@mixin extra-large-screen {
+    @media (min-width: $large-screen-width) {
+        @content;
+    }
+}

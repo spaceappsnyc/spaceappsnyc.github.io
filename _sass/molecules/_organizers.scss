@@ -1,6 +1,6 @@
-$image-size: 50px;
+$image-size: 60px;
 $large-size: $image-size * 4;
-$small-size: $image-size * 3;
+$small-size: $image-size * 2.4;
 
 .organizers {
   @extend .cards;
@@ -31,15 +31,17 @@ $small-size: $image-size * 3;
     }
 
     img {
-      position: absolute;
       left: 0;
       top: 0;
       max-width: #{$small-size};
-      max-height: #{$small-size};
       z-index: 0;
+
+      @include extra-large-screen {
+        position: absolute;
+      }
     }
 
-    @media (min-width: 60em) {
+    @include extra-large-screen {
       width: #{$small-size};
       height: #{$small-size};
     }
@@ -61,7 +63,7 @@ $small-size: $image-size * 3;
     font-variant: all-small-caps;
   }
 
-  @media (min-width: 60em) {
+  @include extra-large-screen {
     width: 33%;
   }
 }

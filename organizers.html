@@ -6,7 +6,7 @@ hero: organizers-hero.html
 ---
 
 <section class="container">
-  <h2>2018 COMMUNITY TEAM</h2>
+  <h2>{{ site.year }} COMMUNITY TEAM</h2>
 
   <div class="organizers">
     {% for organizer in site.organizers %}
@@ -60,7 +60,7 @@ hero: organizers-hero.html
 </section>
 
 <section class="container">
-  <h2>2018 ORGANIZING PARTNERS</h2>
+  <h2>{{ site.year }} ORGANIZING PARTNERS</h2>
 
   <div class="partners">
     {% for partner in site.organizingPartners %}
@@ -80,7 +80,7 @@ hero: organizers-hero.html
 </section>
 
 <section class="container">
-  <h2>2018 SPONSORS</h2>
+  <h2>{{ site.year }} SPONSORS</h2>
 
   <div class="sponsor-categories">
     {% for sponsorship in site.sponsorships %}
@@ -94,7 +94,8 @@ hero: organizers-hero.html
     </div>
     {% endfor %}
     {% unless site.sponsorships.length %}
-    <a href="mailto:sponsor@spaceapps.nyc">Interested in sponsoring the 2018 Space Apps Challenge?</a>
+    <a class="card" href="mailto:sponsor@spaceapps.nyc">Interested in sponsoring the {{ site.year }} Space Apps
+      Challenge?</a>
     {% endunless %}
   </div>
 </section>

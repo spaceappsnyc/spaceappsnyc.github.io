@@ -2,10 +2,10 @@
 <html>
 {% include head.html %}
 
-<body class="page-{{ page.class }}">
+<body class="page-{{ page.class }}" id="nav">
   <header class="site-header">
+    {% include navigation.html %}
     <div class="container">
-      {% include navigation.html %}
       {% if page.hero %}
       {% include {{ page.hero }} %}
       {% endif %}

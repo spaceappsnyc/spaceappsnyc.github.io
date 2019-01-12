@@ -1,0 +1,15 @@
+.page-home {
+    .site-header {
+        &::after {
+            @include small-screen {
+                padding-bottom: 85%;
+            }
+        }
+
+        h1 {
+            strong {
+                white-space: nowrap;
+            }
+        }
+    }
+}

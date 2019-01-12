@@ -1,14 +1,12 @@
 .wave {
     background-image: url("/images/redesign/wave-color.png");
     position: relative;
-    margin-bottom: 20em;
+    margin-top: 5em;
+    margin-bottom: 3em;
 
-    @media (min-width: 60em) {
+    @include extra-large-screen {
         margin-top: 15em;
-    }
-
-    @media (max-width: 60em) {
-        margin-bottom: 3em;
+        margin-bottom: 20em;
     }
 
     &::before, &::after {
@@ -32,7 +30,9 @@
     }
 
     .container {
-        margin-top: -10em;
-        margin-bottom: -10em;
+        @include extra-large-screen {
+            margin-top: -10em;
+            margin-bottom: -10em;
+        }
     }
 }

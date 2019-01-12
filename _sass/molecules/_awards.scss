@@ -11,13 +11,13 @@
     .award {
       width: calc(24% - 2px);
 
-      @media (max-width: 60em) {
+      @include small-screen {
         width: 100%;
       }
     }
   }
 
-  @media (max-width: 60em) {
+  @include small-screen {
     flex-direction: column;
   }
 }
@@ -41,7 +41,7 @@
     margin-right: 0.5em;
   }
 
-  @media (max-width: 60em) {
+  @include small-screen {
     width: 100%;
   }
 }

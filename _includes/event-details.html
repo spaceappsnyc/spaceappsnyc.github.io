@@ -4,9 +4,8 @@
     <h2>When / Where</h2>
     <div class="locations cards">
         <div class="date card -text">
-            <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>2018 Space
-                Apps
-                Challenge?</a>
+            <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>
+                {{ site.year }} Space Apps Challenge?</a>
         </div>
     </div>
     {% endunless %}
@@ -16,17 +15,16 @@
     <div class="locations cards">
         <div class="location card">
             <img src="{{ site.details.location.logo }}" style="{{ site.details.location.style }}" />
-            <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>{{
-                site.details.location.addressLine2 }}</a>
+            <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>
+                {{ site.details.location.addressLine2 }}</a>
         </div>
     </div>
     {% elsif site.dates %}
     <h2>Where</h2>
     <div class="locations cards">
         <div class="date card -text">
-            <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>2018 Space
-                Apps
-                Challenge?</a>
+            <a href="mailto:organizers@spaceapps.nyc" class="date--content">Interested in hosting the<br>
+                {{ site.year }} Space Apps Challenge?</a>
         </div>
     </div>
     {% endif %}

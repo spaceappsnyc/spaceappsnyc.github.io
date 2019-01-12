@@ -15,6 +15,7 @@ layout: null
 
 // Utils
 @import "utils/normalize";
+@import "utils/responsive";
 @import "utils/scaffolding";
 
 // Atoms
@@ -41,3 +42,8 @@ layout: null
 @import "molecules/sponsors";
 @import "molecules/timeslot";
 @import "molecules/video";
+
+// Pages
+@import "pages/home";
+@import "pages/organizers";
+@import "pages/space-apps-challenge";

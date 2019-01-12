@@ -2,20 +2,38 @@
   <a class="site-nav--left" href="/">
     <img src="/images/redesign/logo.svg" />
   </a>
+  <a class="site-nav--left" href="#nav">
+    <i class="fas fa-bars"></i>
+  </a>
   <div class="site-nav--right">
+    <a href="#" class="site-nav--close --small-screen">Close Menu <i class="fas fa-times-circle"></i></a>
+    <div class="site-nav--menu --small-screen">
+      <a class="site-nav--label site-nav--link" href="/">Home</a>
+    </div>
     <div class="site-nav--menu">
-      <span class="site-nav--label">Space Apps Challenge</span>
+      <span class="site-nav--label">Space Apps Challenge {{ site.year }}</span>
       <div class="site-nav--sub-menu">
         <a class="site-nav--link" href="space-apps-challenge">Overview</a>
+        {% if site.bootcamps.length %}
         <a class="site-nav--link" href="bootcamp">Data Bootcamp</a>
+        {% else %}
+        <span class="site-nav--link" disabled>Data Bootcamp</span>
+        {% endif %}
+        {% if site.bootcamps.length %}
         <a class="site-nav--link" href="judges-and-mentors">Judges &amp; Mentors</a>
-        <a class="site-nav--link" href="http://bit.ly/SANCodeOfConduct" target="_blank">Code of Conduct</a>
+        {% else %}
+        <span class="site-nav--link" disabled>Judges &amp; Mentors</span>
+        {% endif %}
       </div>
     </div>
     <div class="site-nav--menu">
-      <a class="site-nav--link" href="organizers">Organizers &amp; Partners</a>
+      <span class="site-nav--label">Space Hacker Community</span>
+      <div class="site-nav--sub-menu">
+        <a class="site-nav--link" href="organizers">Organizers &amp; Partners</a>
+        <a class="site-nav--link" href="http://bit.ly/SANCodeOfConduct" target="_blank">Code of Conduct <i class="fas fa-external-link-alt fa-xs"></i></a>
+      </div>
     </div>
     {% include patreon-button.html %}
-    {% include registration-button.html %}
+    <!-- {% include registration-button.html %} -->
   </div>
 </nav>

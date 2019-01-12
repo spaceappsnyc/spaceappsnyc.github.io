@@ -8,7 +8,7 @@
     align-items: normal;
     margin-bottom: 1em;
 
-    @media (min-width: 60em) {
+    @include extra-large-screen {
         width: 50%;
     }
 
@@ -36,7 +36,7 @@
         width: calc(100% + #{$card-padding-small * 2});
         margin: #{$card-padding-small * -1} #{$card-padding-small * -1} 1em #{$card-padding-small * -1};
 
-        @media (min-width: 60em) {
+        @include extra-large-screen {
             width: calc(100% + #{$card-padding * 2});
             margin: #{$card-padding * -1} #{$card-padding * -1} 1em #{$card-padding * -1};
         }

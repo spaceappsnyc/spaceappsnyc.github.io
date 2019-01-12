@@ -1,0 +1,9 @@
+.page-organizers {
+    .site-header {
+        &::after {
+            @include small-screen {
+                padding-bottom: 120%;
+            }
+        }
+    }
+}

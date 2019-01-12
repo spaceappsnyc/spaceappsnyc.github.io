@@ -8,7 +8,7 @@
   justify-content: flex-start;
   text-align: justify;
 
-  @media (min-width: 60em) {
+  @include extra-large-screen {
     max-width: 50%;
   }
 

@@ -3,6 +3,8 @@
 
   &--links-section {
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   &--links {
@@ -20,18 +22,18 @@
       color: inherit;
     }
 
-    @media (min-width: 60em) {
+    @include extra-large-screen {
       width: 25%;
     }
 
-    @media (max-width: 60em) {
+    @include small-screen {
       padding: 0.5em;
     }
   }
 
   .copyright {
     clear: both;
-    background-color: $neon-blue;
+    background-color: $color-primary;
     color: $white;
     padding: 2em;
     overflow: hidden;
@@ -42,20 +44,20 @@
     small {
       opacity: 0.85;
 
-      @media (min-width: 60em) {
+      @include extra-large-screen {
         width: 50%;
       }
 
-      @media (max-width: 60em) {
+      @include small-screen {
         margin-top: 1em;
       }
     }
 
-    @media (min-width: 60em) {
+    @include extra-large-screen {
       align-items: center;
     }
 
-    @media (max-width: 60em) {
+    @include small-screen {
       flex-direction: column;
     }
   }
@@ -70,7 +72,7 @@
       border-top: 2px solid $light-grey;
     }
 
-    @media (min-width: 60em) {
+    @include extra-large-screen {
       padding: 5em 0;
     }
   }
@@ -81,7 +83,7 @@
     font-weight: normal;
   }
 
-  @media (min-width: 60em) {
+  @include extra-large-screen {
     margin-top: 5em;
   }
 }

@@ -1,7 +1,10 @@
 .event-details {
   text-align: center;
   position: relative;
-  margin-top: 10em;
+  
+  @include extra-large-screen {
+    margin-top: 10em;
+  }
 
   a {
     display: block;
@@ -10,7 +13,7 @@
   }
 
   h2 {
-    @media (min-width: 60em) {
+    @include extra-large-screen {
       margin-bottom: 2em;
     }
   }
@@ -20,7 +23,7 @@
     text-align: center;
     margin-bottom: 4em;
 
-    @media (max-width: 60em) {
+    @include small-screen {
       margin-bottom: 3em;
     }
 
@@ -31,11 +34,13 @@
   }
 
   .dates {
+    overflow: hidden;
+
     img {
       margin-top: -2em;
       margin-bottom: -2em;
 
-      @media (max-width: 60em) {
+      @include small-screen {
         display: none;
       }
     }
@@ -45,13 +50,13 @@
     align-items: flex-start;
 
     &:first-of-type {
-      @media (min-width: 60em) {
+      @include extra-large-screen {
         padding-right: 5em;
       }
     }
 
     &:last-of-type {
-      @media (min-width: 60em) {
+      @include extra-large-screen {
         padding-left: 5em;
       }
     }
@@ -65,7 +70,7 @@
     }
 
     &--content {
-      color: $blue;
+      color: $color-highlight;
       font-size: 2.85em;
       font-weight: lighter;
     }

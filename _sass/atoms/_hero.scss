@@ -1,10 +1,14 @@
 .hero {
   color: $white;
 
+  @include small-screen {
+    padding: 0;
+  }
+
   img {
     width: 10em;
 
-    @media (max-width: 1200px) {
+    @include medium-screen {
       display: none;
     }
   }
@@ -12,17 +16,22 @@
     color: inherit;
   }
   h1 {
-    margin-top: 1.5rem;
+    @include small-screen {
+      margin-top: -6rem;
+      margin-left: 5rem;
+      font-size: 2em;
+    }
 
-    @media (max-width: 60em) {
-      font-size: 1.9em;
+    strong {
+      @include small-screen {
+        font-size: 1.2em;
+      }
+      @include not-small-screen {
+        white-space: nowrap;
+      }
     }
   }
   p {
     font-size: 1.2em;
-
-    @media (max-width: 60em) {
-      display: none;
-    }
   }
 }

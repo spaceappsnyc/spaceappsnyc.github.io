@@ -5,7 +5,7 @@
     width: 200px;
     position: absolute;
 
-    @media (max-width: 60em) {
+    @include small-screen {
       display: none;
     }
   }
