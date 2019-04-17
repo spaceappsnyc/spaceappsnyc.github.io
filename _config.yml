@@ -473,6 +473,9 @@ partners:
   - url: http://levinriegner.com/
     logo: images/LR_Black.png
     name: L&R
+  - url: https://odsc.com
+    logo: images/ODSC.png
+    name: Open Data Science Conference
   - url: http://www.sciencepartnershipfund.org/
     logo: images/spf.png
     name: Science Partnership Fund
