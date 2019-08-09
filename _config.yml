@@ -11,6 +11,7 @@ patreon_username: spaceappsnyc
 meetup_username: Space-Apps-NYC
 
 registrationIsOpen: true
+registration_link: https://2019.spaceappschallenge.org/locations/new-york-city-ny/
 livestreamIsOpen: false
 livestream_link: "#livestream"
 dates:
