@@ -10,7 +10,7 @@ github_username: spaceappsnyc
 patreon_username: spaceappsnyc
 meetup_username: Space-Apps-NYC
 
-registrationIsOpen: false
+registrationIsOpen: true
 livestreamIsOpen: false
 livestream_link: "#livestream"
 dates:
