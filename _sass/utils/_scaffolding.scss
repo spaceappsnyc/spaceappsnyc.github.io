@@ -22,7 +22,7 @@ html, body {
   background-color: $white;
   background-image: url("/images/redesign/grid.png");
   font-size: 14px;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: $primary-font;
 
   @include small-screen {
     font-size: 13px;

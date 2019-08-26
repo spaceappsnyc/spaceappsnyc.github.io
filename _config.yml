@@ -177,115 +177,6 @@ mentors:
 #     bio:
 #       - Holding a PhD in Physics and research background in Network Science and Computer Science, my interests revolve around the study of complex systems and complex networks through real-world data. Currently, I am a Senior Inventive Scientist at AT&T Labs within the Data Science and AI Research organization, doing lots of science with lots of data. I am also a NASA Datanaut and co-organizer of Women in Machine Learning and Data Science NYC chapter.
 
-# conference:
-#   - time: 8:00 AM
-#     name: Doors Open / Breakfast
-#   - time: 8:45 AM
-#     name: Opening Remarks
-#     speakers:
-#       - Space Apps NYC
-#       - SAP Next-Gen
-#       - NASA
-#       - SecondMuse
-#   - time: 9:00 AM
-#     name: "Opening Keynote: Dare to Dream"
-#     speakers:
-#       - Anousheh Ansari
-#   - time: 9:30 AM
-#     name: The New Golden Age of Human Spaceflight
-#     speakers:
-#       - Richard Garriott
-#   - time: 10:00 AM
-#     name: Making Space Matter
-#     speakers:
-#       - Matthew Pearce
-#       - Danielle Wood
-#       - Jeff Goldstein
-#       - Jason Kendall
-#   - time: 11:00 AM
-#     name: "CASIS International Space Station: Benefits for Humanity"
-#     speakers:
-#       - Jennifer Lopez
-#   - time: 11:30 AM
-#     name: Health and Air Quality Applications of Earth Science Data
-#     speakers:
-#       - Shobhana Gupta
-#   - time: 12:00 PM
-#     name: Lunch
-#   - time: 1:00 PM
-#     name: Networking Hour
-#   - time: 2:00 PM
-#     name: Panel 2 - Earth and Space Entrepreneurship
-#     speakers:
-#       - Jennifer Lopez
-#       - Sean Casey
-#       - Dave Moser
-#   - time: 3:00 PM
-#     name: The Big Data Project
-#     speakers:
-#       - Shane Glass
-#   - time: 3:15 PM
-#     name: Message from Vint Cerf
-#     speakers:
-#       - Vint Cerf
-#   - time: 3:30 PM
-#     name: Networking
-#   - time: 4:00 PM
-#     name: OpenSpace
-#     speakers:
-#       - Carter Emmart
-#       - Alex Bock
-#   - time: 5:00 PM
-#     name: Closing Remarks / Networking
-#     speakers:
-#       - Space Apps NYC
-# bootcamp:
-#   - time: 9:30 AM - 11:00 AM
-#     name: Intro to Python for Data Science
-#     speakers:
-#       - Art Yudin
-#   - time: 9:30 AM - 10:30 AM
-#     name: Using data.world to find data, collaborate and power your apps
-#     speakers:
-#       - Len Fishman
-#   - time: 10:30 AM - 11:00 AM
-#     name: "Open NASA Data: From API to Data Analysis"
-#     speakers:
-#       - Noemi Derzsy
-#   - time: 11:00 AM - 12:00 PM
-#     name: "AWS and NASA: They're Just Like Us"
-#     speakers:
-#       - TBD
-#   - time: 11:00 AM - 11:30 AM
-#     name: Intro to 3D Technology
-#     speakers:
-#       - Alexander Meacham
-#   - time: 11:30 AM - 12:00 PM
-#     name: How to Turn Your Ideas into a Startup/ Pitches
-#     speakers:
-#       - Brittany Laughlin
-#   - time: 12:00 PM - 1:00 PM
-#     name: Lunch
-#   - time: 1:00 PM - 2:00 PM
-#     name: Modular Robots for Planetary Exploration
-#     speakers:
-#       - Reem Alattas
-#   - time: 1:00 PM - 1:30 PM
-#     name: "The Forest and the Trees: What makes an effective Product Manager?"
-#     speakers:
-#       - Ashley Stubblefield
-#   - time: 1:30 PM - 4:00 PM
-#     name: Virtual Reality, Augmented Reality & 360 with Unity®
-#     speakers:
-#       - Lex Dreitser
-#   - time: 2:00 PM - 3:00 PM
-#     name: Is That Magic? How to Make Things Sense, Blink and Beep
-#     speakers:
-#       - Leslie Birch
-#   - time: 3:00 PM - 4:00 PM
-#     name: "iOS/Swift: Build Your First Mobile App, 'Tip Calculator'"
-#     speakers:
-#       - TBD
 saturday:
   - time: 8:00 AM
     name: Doors Open / Breakfast
@@ -311,7 +202,6 @@ sunday:
   - time: 5:45 PM
     name: Closing Remarks
 
-# Awards
 awards:
   - name: Global Nominee
     globalNominee: true
@@ -359,7 +249,6 @@ awards:
         challenge: Spot That Fire!
         name: This Team Is On Fire
 
-# Organizing Team
 organizers:
   - image: images/producers/JoeSpens_Headshot.png
     name: Joseph Spens

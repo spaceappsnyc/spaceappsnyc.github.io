@@ -69,7 +69,7 @@
 
   section {
     & + section:not(.copyright) {
-      border-top: 2px solid $light-grey;
+      padding-top: 0;
     }
 
     @include extra-large-screen {

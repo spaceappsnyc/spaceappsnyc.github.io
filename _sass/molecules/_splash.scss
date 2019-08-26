@@ -1,6 +1,7 @@
 .splash {
     justify-content: left;
     font-size: 1.2em;
+    width: 100%;
 
     @include extra-large-screen {
         font-size: 1.5em;

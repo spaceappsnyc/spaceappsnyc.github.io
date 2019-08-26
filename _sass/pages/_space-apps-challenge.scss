@@ -6,4 +6,20 @@
             }
         }
     }
+
+    .content {
+        p {
+            font-size: 1.4em;
+        }
+    }
+
+    #table-of-contents {
+        margin: 0;
+        font-family: $primary-font;
+        list-style-type: decimal-leading-zero;
+
+        li {
+            margin-bottom: 0.5em;
+        }
+    }
 }
