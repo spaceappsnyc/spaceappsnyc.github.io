@@ -39,32 +39,17 @@
       <div class="site-footer--links">
         <h3>Videos</h3>
         <ul>
-          <li><a href="https://vimeo.com/258707552">2018 Promotion</a></li>
-          <li><a href="https://www.youtube.com/playlist?list=PLTP4bRgnFNn2uwkUjIzrkRGrMq9oG9xRO">2017 Conference &amp;
-              Demos</a></li>
-          <li><a href="https://www.youtube.com/playlist?list=PLTP4bRgnFNn1IkKzd9cxHg2328oOvcqgv">2016 Conference &amp;
-              Demos</a></li>
-          <li><a href="https://www.youtube.com/playlist?list=PLTP4bRgnFNn3hezhb0DNqE65T6-PJM9L2">2015 Conference &amp;
-              Demos</a></li>
-          <li><a href="https://www.youtube.com/playlist?list=PL009Ccd_L9NkqsV3oeje3mEDNmztcr2JJ">2014 Bootcamp &amp;
-              Demos</a></li>
-          <li><a href="https://www.youtube.com/watch?v=VJkjtfTTfRI&feature=youtu.be">2014 Promotion</a></li>
-          <li><a href="http://www.youtube.com/playlist?list=PL009Ccd_L9NmGk94htU0ujhY5tHiabwQ7">2013 Hackathon</a></li>
+          {% for video in site.videos %}
+          <li><a href="{{ video.url }}">{{ video.name }}</a></li>
+          {% endfor %}
         </ul>
       </div>
       <div class="site-footer--links">
         <h3>Press</h3>
         <ul>
-          <li><a href="https://www.forbes.com/sites/chadorzel/2016/05/27/commercialization-of-space-three-cheers-for-the-mundane/#501139132f31">Forbes</a></li>
-          <li><a href="https://www.space.com/25456-nasa-space-apps-challenge-preview.html">Space.com</a></li>
-          <li><a href="https://www.popularmechanics.com/space/how-to/a11066/how-to-make-nasa-cool-again-17087616/">Popular
-              Mechanics</a></li>
-          <li><a href="https://levinriegner.news/2017/04/26/lr-launches-space-apps-nyc-into-the-future-with-brand-redesign-ahead-of-hackathon-weekend/">Rebranding
-              by Levin Riegner</a></li>
-          <li><a href="http://www.newspacepeople.com/newspace/company-updates/newspace-people-interview-with-space-apps-nyc">NewSpace
-              People</a></li>
-          <li><a href="https://medium.com/@jmfbrooks/space-apps-nyc-next-gen-a-high-school-hackathon-out-of-this-world-d689acbd4b71">Space
-              Apps NYC Next Gen on Medium</a></li>
+          {% for press in site.press %}
+          <li><a href="{{ press.url }}">{{ press.name }}</a></li>
+          {% endfor %}
         </ul>
       </div>
       <div class="site-footer--links">
