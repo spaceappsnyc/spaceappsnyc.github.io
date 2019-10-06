@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 
     .award {
-      width: calc(24% - 2px);
+      width: calc(25% - 4px);
 
       @include small-screen {
         width: 100%;
