@@ -361,6 +361,9 @@ partners:
   - url: http://www.amnh.org/learn-teach/adults/bridgeup-stem
     logo: images/bridgeupamnh_clear.png
     name: "AMNH BridgeUp: STEM"
+  - url: http://stickermule.com/supports/nasanyc19-sponsorship
+    logo: images/sticker_mule_logo.png
+    name: "Sticker Mule"
   - url: https://www.isoc-ny.org
     logo: images/ISOCNY_Logo.png
     name: Internet Society NY
