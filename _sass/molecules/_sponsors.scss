@@ -1,7 +1,9 @@
 .sponsor-categories {
-  @extend .cards;
+  @extend %card-styling;
+  @extend .card;
   display: block;
   text-align: center;
+  padding: 3em
 }
 
 .sponsor-category {
@@ -16,6 +18,6 @@
 
   img {
     display: block;
-    max-height: 10em;
+    height: 10em;
   }
 }

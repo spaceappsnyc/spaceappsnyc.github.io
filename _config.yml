@@ -338,10 +338,10 @@ organizingPartners:
     content:
       - Empire Space Labs accelerates technology startups that create space applications. We provide expert mentorship, starting resources, partner introductions and strategic relationships, business model advice and business development - all to help fledgling companies overcome the challenges of starting a business in the commercial space sector.
 sponsorships:
-  # - name: Intergalactic
-  #   sponsors:
-  #     - logo: images/google_cloud.png
-  #       url: https://cloud.google.com/gcp
+  - name: Steller
+    sponsors:
+      - logo: images/postman_logo.svg
+        url: https://www.getpostman.com/
 partners:
   - url: http://www.nss.com/
     logo: images/nss.jpg
