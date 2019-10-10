@@ -14,12 +14,12 @@
       <span class="site-nav--label">Space Apps Challenge {{ site.year }}</span>
       <div class="site-nav--sub-menu">
         <a class="site-nav--link" href="space-apps-challenge">Overview</a>
-        {% if site.bootcamps.length %}
+        {% if site.bootcamps %}
         <a class="site-nav--link" href="bootcamp">Data Bootcamp</a>
         {% else %}
         <span class="site-nav--link" disabled>Data Bootcamp</span>
         {% endif %}
-        {% if site.bootcamps.length %}
+        {% if site.judges or site.mentors %}
         <a class="site-nav--link" href="judges-and-mentors">Judges &amp; Mentors</a>
         {% else %}
         <span class="site-nav--link" disabled>Judges &amp; Mentors</span>
@@ -30,7 +30,8 @@
       <span class="site-nav--label">Space Hacker Community</span>
       <div class="site-nav--sub-menu">
         <a class="site-nav--link" href="organizers">Organizers &amp; Partners</a>
-        <a class="site-nav--link" href="http://bit.ly/SANCodeOfConduct" target="_blank">Code of Conduct <i class="fas fa-external-link-alt fa-xs"></i></a>
+        <a class="site-nav--link" href="http://bit.ly/SANCodeOfConduct" target="_blank">Code of Conduct <i
+            class="fas fa-external-link-alt fa-xs"></i></a>
       </div>
     </div>
     {% include patreon-button.html %}

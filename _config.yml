@@ -44,7 +44,7 @@ plugins:
 host: 0.0.0.0
 
 # Event Schedule
-bootcamps:
+# bootcamps:
   # - name: Space Apps Challenge Kickoff Cocktail Party
   #   image: /images/kickoff_cocktail_party.jpg
   #   location:
@@ -79,77 +79,6 @@ bootcamps:
   #     - time: 6:25pm
   #       name: Closing Networking Reception
   #   video: https://www.youtube.com/watch?v=urtWzphYr2w&t=4053s
-  # - name: Intro to Google Cloud Platform and AI/ML with Google
-  #   image: /images/intro_to_google_cloud.jpg
-  #   location:
-  #     name: Silicon Harlem
-  #     addressLine1: 2785 Frederick Douglass Boulevard
-  #     addressLine2: New York, NY 10039
-  #   date: October_09_2018
-  #   info:
-  #     - Come enjoy some pizza uptown and Google will give us an introduction to their Cloud Platform.
-  #     - Google Cloud is a great tool for Space Apps Challenge hackers to have going into the hackathon, as it will streamline the development of your projects so that you can focus on the core concepts and not the project infrastructure.
-  #     - Hackathon and bootcamp participants will receive free Cloud credits!
-  #     - <a href="https://cloud.google.com/startups">https://cloud.google.com/startups</a>
-  #     - Tejpaul Bhatia, Startup Program Lead for Google Cloud NY and former 3 time entrepreneur will join us and give an overview of the Google Cloud platform and a primer on Machine Learning. He will also be able to answer any questions you might have leading up to the hackathon.
-  #   schedule:
-  #     - time: 6:30pm
-  #       name: Doors open / Food & Drinks
-  #     - time: 7:00pm
-  #       name: Opening remarks from event organizers
-  #     - time: 7:15pm
-  #       name: Google Cloud Platform 101
-  #     - time: 8:00pm
-  #       name: Break
-  #     - time: 8:10pm
-  #       name: Artificial Intelligence & Machine Learning with Google
-  #     - time: 8:55pm
-  #       name: Networking
-  #   video: https://www.youtube.com/watch?v=UEXmGodQDes
-  # - name: Intro to the Space Apps Challenge and OpenNASA APIs
-  #   image: /images/intro_to_space_apps_challenge.png
-  #   location:
-  #     name: SAP NextGen
-  #     addressLine1: 10 Hudson Yards
-  #     addressLine2: New York, NY 10001
-  #   date: October_15_2018
-  #   info:
-  #     - Learn from veteran Space Apps Challenge hackers what it's like to participate in the hackathon!
-  #     - Past Space Apps teams are coming back to the location of the 2017 Space Apps Challenge in NYC — SAP NextGen — for a night of hackathon demos and Q&A. Whether you're new to hackathons, or have just never been to the Space Apps Challenge before, come listen to past participants and learn some tips and tricks for the upcoming 2018 Space Apps Challenge.
-  #     - <a href="https://2018.spaceappschallenge.org/">https://2018.spaceappschallenge.org/</a>
-  #   schedule:
-  #     - time: 6:00pm
-  #       name: Doors open
-  #     - time: 6:30pm
-  #       name: Opening remarks from event organizers
-  #     - time: 6:45pm
-  #       name:  Intro to the Space Apps Challenge
-  #     - time: 7:00pm
-  #       name: Space Apps Hacker Presentations
-  #     - time: 7:45pm
-  #       name: Networking
-  #   video: https://www.youtube.com/watch?v=B6dwEqorZRU&index=5&t=0s&list=PLTP4bRgnFNn3K3aGJSv4ziFWf7GNhrqPT
-  # - name: Intro to OpenSpace
-  #   image: /images/intro_to_openspace.png
-  #   location:
-  #     name: Lower East Side Girls Club
-  #     addressLine1: 402 E 8th St
-  #     addressLine2: New York, NY 10009
-  #   date: October_17_2018
-  #   info:
-  #     - OpenSpace is open source interactive data visualization software designed to visualize the entire known universe and portray our ongoing efforts to investigate the cosmos.
-  #     - Funded in part by NASA, OpenSpace brings the latest techniques from data visualization research to the general public. OpenSpace supports interactive presentation of dynamic data from observations, simulations, and space mission planning and operations. OpenSpace works on multiple operating systems, with an extensible architecture powering high resolution tiled displays and planetarium domes, and makes use of the latest graphic card technologies for rapid data throughput. In addition, OpenSpace enables simultaneous connections across the globe, creating opportunity for shared experiences among audiences worldwide.
-  #     - <a href="https://www.openspaceproject.com/">https://www.openspaceproject.com/</a>
-  #   schedule:
-  #     - time: 6:00pm
-  #       name: Doors open
-  #     - time: 6:30pm
-  #       name: Opening remarks from event organizers
-  #     - time: 6:45pm
-  #       name: Intro to OpenSpace
-  #     - time: 8:15pm
-  #       name: Networking
-  #   video: https://www.youtube.com/watch?v=CutigEuCOsk&index=4&t=0s&list=PLTP4bRgnFNn3K3aGJSv4ziFWf7GNhrqPT
 
 judges:
   - name: Analisa Balares
@@ -160,26 +89,8 @@ judges:
       - Analisa Leonor Balares is Founder, CEO, and Chief Innovation Officer of Womensphere, a global platform for empowering women and girls to use STEAM, leadership, and innovation to create the future and help achieve the Global Goals for Sustainable Development. Analisa curates the Womensphere Summits &amp; Festivals, and leads building the Womensphere Innovation Leadership Lab, Womensphere Incubator Network, and Womensphere Foundation. Previously, Analisa worked in Wall Street for Goldman Sachs, Morgan Stanley, and Milestone Capital, and in technology and social media for Microsoft and 85 Broads (now Ellevate). She is an alumna of Harvard Business School, Mount Holyoke College, and Lester Pearson United World College,
       - Analisa is also a NASA Datanaut, and an organizer of the NASA Space Apps Global Challenge for NYC. She serves as a Commissioner of the Women’s Refugee Commission, Advisory Board Member of Music Beyond, Member of Women’s Forum of New York and International Women’s Forum, and Academy Member of the Global Teacher Prize. She also served as a Member of the Harvard Women’s Leadership Board, and L&#39;Oreal&#39;s global advisory board for sustainability and social impact.
       - Analisa has been recognized as a UBS Global Visionary, Young Global Leader (by the World Economic Forum), and 100 Most Influential Filipinas of the World (by FWN). She has been honored with the Madam C.J. Walker Leadership Award by US National Minority Business Council, and Distinguished Leader Award by UN Women New York Chapter.
-  # - name: Sidney Nakahoto
-  #   title: Cofounder and CEO
-  #   organization: New York Space Alliance
-  #   photo: Sidney Nakahoto.jpg
-  #   bio:
-  #     - Sidney N. Nakahodo is a leading authority in space entrepreneurship, and cofounder and CEO of the New York Space Alliance (NYSA). He is active in the academic setting as a faculty member of Columbia University. He is also a former fellow of Singularity University, a think-tank and accelerator based at NASA Ames Research Park, in Silicon Valley, and currently serves as its New York City Chapter Ambassador. Previously he worked with private sector development and carbon finance at the World Bank. Sidney holds an MIA from Columbia University’s School of International and Public Affairs (SIPA) and a B. Eng. in Materials Engineering from the University of Sao Paulo (Brazil). He is a graduate of Singularity University’s Global Solutions Program, which he attended on a Google-sponsored scholarship, and the Kiel Institute’s Advanced Studies Program in International Economic Policy (Germany).  Sidney speaks Portuguese and Spanish, is conversant in French and Italian, and has basic knowledge of German.
-  # - name: Noemi Derzsy
-  #   title: Senior Inventive Scientist
-  #   organization: AT&T Labs
-  #   photo: Noemi Derzsy.jpg
-  #   bio:
-  #     - Holding a PhD in Physics and research background in Network Science and Computer Science, my interests revolve around the study of complex systems and complex networks through real-world data. Currently, I am a Senior Inventive Scientist at AT&T Labs within the Data Science and AI Research organization, doing lots of science with lots of data. I am also a NASA Datanaut and co-organizer of Women in Machine Learning and Data Science NYC chapter.
 
-mentors:
-#   - name: Noemi Derzsy
-#     title: Senior Inventive Scientist
-#     organization: AT&T Labs
-#     photo: Noemi Derzsy.jpg
-#     bio:
-#       - Holding a PhD in Physics and research background in Network Science and Computer Science, my interests revolve around the study of complex systems and complex networks through real-world data. Currently, I am a Senior Inventive Scientist at AT&T Labs within the Data Science and AI Research organization, doing lots of science with lots of data. I am also a NASA Datanaut and co-organizer of Women in Machine Learning and Data Science NYC chapter.
+# mentors:
 
 saturday:
   - time: 9:00 AM
