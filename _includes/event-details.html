@@ -10,14 +10,15 @@
     </div>
     {% endunless %}
 
-    {% if site.details.location %}
+    {% if site.details.locations %}
     <h2>Where</h2>
     <div class="locations cards">
+        {% for location in site.details.locations %}
         <div class="location card">
-            <img src="{{ site.details.location.logo }}" style="{{ site.details.location.style }}" />
-            <a href="{{ site.details.location.map }}" target="_blank">{{ site.details.location.addressLine1 }}<br>
-                {{ site.details.location.addressLine2 }}</a>
+            <img src="{{ location.logo }}" style="{{ location.style }}" />
+            <a href="{{ location.map }}" target="_blank">{{ location.addressLine1 }}<br>{{ location.addressLine2 }}</a>
         </div>
+        {% endfor %}
     </div>
     {% elsif site.dates %}
     <h2>Where</h2>

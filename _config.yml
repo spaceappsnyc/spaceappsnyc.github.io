@@ -19,12 +19,16 @@ dates:
     timestamp: October_18_2019
   - header: Ends
     timestamp: October_20_2019
-# details:
-#   location:
-#     map: https://goo.gl/maps/ZbJaZT1rLw82
-#     addressLine1: 402 E 8th St
-#     addressLine2: New York, NY 10009
-#     logo: images/LES Girls Club.png
+details:
+  locations:
+    - map: https://goo.gl/maps/s2ChbaFyHX4jcb3DA
+      addressLine1: 46 E 70th St
+      addressLine2: New York, NY 10021
+      logo: images/explorers_club_logo.jpg
+    - map: https://goo.gl/maps/aSRTvCAVD9tkSMfA7
+      addressLine1: 215 Moore St
+      addressLine2: Brooklyn, NY 11206
+      logo: images/bushwick_generator_logo.jpg
 year: 2019
 member_count: 3000
 
@@ -148,14 +152,14 @@ bootcamps:
   #   video: https://www.youtube.com/watch?v=CutigEuCOsk&index=4&t=0s&list=PLTP4bRgnFNn3K3aGJSv4ziFWf7GNhrqPT
 
 judges:
-  # - name: Analisa Balares
-  #   title: CEO & Chief Innovation Officer
-  #   organization: Womensphere
-  #   photo: Analisa Balares.jpeg
-  #   bio:
-  #     - Analisa Leonor Balares is Founder, CEO, and Chief Innovation Officer of Womensphere, a global platform for empowering women and girls to use STEAM, leadership, and innovation to create the future and help achieve the Global Goals for Sustainable Development. Analisa curates the Womensphere Summits &amp; Festivals, and leads building the Womensphere Innovation Leadership Lab, Womensphere Incubator Network, and Womensphere Foundation. Previously, Analisa worked in Wall Street for Goldman Sachs, Morgan Stanley, and Milestone Capital, and in technology and social media for Microsoft and 85 Broads (now Ellevate). She is an alumna of Harvard Business School, Mount Holyoke College, and Lester Pearson United World College,
-  #     - Analisa is also a NASA Datanaut, and an organizer of the NASA Space Apps Global Challenge for NYC. She serves as a Commissioner of the Women’s Refugee Commission, Advisory Board Member of Music Beyond, Member of Women’s Forum of New York and International Women’s Forum, and Academy Member of the Global Teacher Prize. She also served as a Member of the Harvard Women’s Leadership Board, and L&#39;Oreal&#39;s global advisory board for sustainability and social impact.
-  #     - Analisa has been recognized as a UBS Global Visionary, Young Global Leader (by the World Economic Forum), and 100 Most Influential Filipinas of the World (by FWN). She has been honored with the Madam C.J. Walker Leadership Award by US National Minority Business Council, and Distinguished Leader Award by UN Women New York Chapter.
+  - name: Analisa Balares
+    title: CEO & Chief Innovation Officer
+    organization: Womensphere
+    photo: Analisa Balares.jpeg
+    bio:
+      - Analisa Leonor Balares is Founder, CEO, and Chief Innovation Officer of Womensphere, a global platform for empowering women and girls to use STEAM, leadership, and innovation to create the future and help achieve the Global Goals for Sustainable Development. Analisa curates the Womensphere Summits &amp; Festivals, and leads building the Womensphere Innovation Leadership Lab, Womensphere Incubator Network, and Womensphere Foundation. Previously, Analisa worked in Wall Street for Goldman Sachs, Morgan Stanley, and Milestone Capital, and in technology and social media for Microsoft and 85 Broads (now Ellevate). She is an alumna of Harvard Business School, Mount Holyoke College, and Lester Pearson United World College,
+      - Analisa is also a NASA Datanaut, and an organizer of the NASA Space Apps Global Challenge for NYC. She serves as a Commissioner of the Women’s Refugee Commission, Advisory Board Member of Music Beyond, Member of Women’s Forum of New York and International Women’s Forum, and Academy Member of the Global Teacher Prize. She also served as a Member of the Harvard Women’s Leadership Board, and L&#39;Oreal&#39;s global advisory board for sustainability and social impact.
+      - Analisa has been recognized as a UBS Global Visionary, Young Global Leader (by the World Economic Forum), and 100 Most Influential Filipinas of the World (by FWN). She has been honored with the Madam C.J. Walker Leadership Award by US National Minority Business Council, and Distinguished Leader Award by UN Women New York Chapter.
   # - name: Sidney Nakahoto
   #   title: Cofounder and CEO
   #   organization: New York Space Alliance
@@ -178,22 +182,22 @@ mentors:
 #       - Holding a PhD in Physics and research background in Network Science and Computer Science, my interests revolve around the study of complex systems and complex networks through real-world data. Currently, I am a Senior Inventive Scientist at AT&T Labs within the Data Science and AI Research organization, doing lots of science with lots of data. I am also a NASA Datanaut and co-organizer of Women in Machine Learning and Data Science NYC chapter.
 
 saturday:
-  - time: 8:00 AM
-    name: Doors Open / Breakfast
   - time: 9:00 AM
-    name: Opening Remarks
+    name: Doors Open
   - time: 9:30 AM
     name: Hacking Begins!
-  - time: 12:30 PM
-    name: Lunch
-  - time: 6:30 PM
-    name: Dinner
+  - time: 10:00 AM
+    name: Brunch
+  - time: 4:00 PM
+    name: Lunch / Dinner
 sunday:
-  - time: 8:00 AM
-    name: Doors Open / Breakfast
+  - time: 9:00 AM
+    name: Doors Open
+  - time: 10:00 AM
+    name: Brunch
+  - time: 12:00 PM
+    name: Project Submissions
   - time: 1:00 PM
-    name: Lunch / Project Submissions
-  - time: 2:00 PM
     name: Project Presentations
   - time: 5:00 PM
     name: Judging
