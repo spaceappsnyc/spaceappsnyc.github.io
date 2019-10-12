@@ -51,6 +51,7 @@ $small-size: $image-size * 2.4;
     border-radius: 4px;
     max-width: #{$large-size};
     max-height: #{$large-size};
+    height: 100%;
   }
 
   &--name {
