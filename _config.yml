@@ -44,41 +44,27 @@ plugins:
 host: 0.0.0.0
 
 # Event Schedule
-# bootcamps:
-  # - name: Space Apps Challenge Kickoff Cocktail Party
-  #   image: /images/kickoff_cocktail_party.jpg
-  #   location:
-  #     name: The Mezzanine
-  #     addressLine1: 55 Broadway
-  #     addressLine2: New York, NY 10006
-  #   date: October_06_2018
-  #   info:
-  #     - The Womensphere Global STEAMfest is a celebration of women harnessing the power of STEAM (science, technology, engineering, arts & design, mathematics) to create the future, and help achieve the Global Goals for Sustainable Development. Through the Womensphere Global STEAMfest, we are empowering women and girls all over the world through the Womensphere Global ARTfest, Womensphere Global CODEfest, and Womensphere Global VIDEOfest, kicking off this October 19-31.
-  #     - Join us for a fun evening of cocktails, celebrating innovation, launching several exciting initiatives & connecting you with pioneering innovators in Silicon Alley!  
-  #   schedule:
-  #     - time: 4:00pm
-  #       name: Check-in/registration & opening networking reception
-  #     - time: 4:30pm
-  #       name: Introductions & Opening networking reception & Open Bar
-  #     - time: 4:45pm
-  #       name: Welcome & Opening Remarks by Organizers - Analisa Leonor Balares (CEO, Womensphere) & Joseph Spens (Executive Director, Space Apps NYC)
-  #     - time: 5:00pm
-  #       name: Keynote — NASA, Vision for Innovation & Exploration, and The Most Vital Global Challenges of our Time – Dr. Gavin Schmidt, Director, NASA Goddard Institute
-  #     - time: 5:15pm
-  #       name: In Response to Global Challenges — Vision for Space Apps NYC & NASA Space Apps Challenges – Joseph Spens, Executive Director, Space Apps NYC
-  #     - time: 5:25pm
-  #       name: In Response to Global Challenges - Vision for the Womensphere Innovation Leadership Lab & Global STEAMfest- Analisa Balares, CEO & Chief Innovation Officer, Womensphere
-  #     - time: 5:35pm
-  #       name: In Response to Global Challenges - Emerging Markets Impact Investment & Inclusive Innovation – Maoi Arroyo, Serial Entrepreneur & General Partner, Ignite Impact Fund
-  #     - time: 5:45pm
-  #       name: Cocktail Invention & Mixology Lab - Interactive Workshop in Cocktail-Making – Hanne Madeleine Gates Paine, Cocktail Inventor & Program Director, Womensphere
-  #     - time: 6:10pm
-  #       name: Thousand Miles - A Global Journey in Music – Story & Music by Morley Shanti Kamen
-  #     - time: 6:20pm
-  #       name: Closing Remarks by Joseph Spens & Analisa Balares
-  #     - time: 6:25pm
-  #       name: Closing Networking Reception
-  #   video: https://www.youtube.com/watch?v=urtWzphYr2w&t=4053s
+bootcamps:
+  - name: Space Apps Challenge Data Bootcamp
+    image: /images/bootcamp.png
+    location:
+      name: SAP Next-Gen
+      addressLine1: 10 Hudson Yards
+      addressLine2: New York, NY 10001
+    date: October_17_2018
+    info:
+      - Join us for the 2019 NASA Space Apps Data Bootcamp where we will explore using Postman tooling to discover and engage with open NASA datasets and APIs.
+      - Kin Lane, Chief Evangelist at Postman, will give an introduction to APIs, how you interact with them, how you can use them for your Space Apps Challenge projects, and how Postman can speed up the process.
+    schedule:
+      - time: 6:00pm
+        name: Doors open
+      - time: 6:30pm
+        name: Using Postman with NASA APIs
+      - time: 7:00pm
+        name: Intro to Data Science
+      - time: 7:30pm
+        name: Networking
+    register: https://www.eventbrite.com/e/2019-space-apps-bootcamp-tickets-76590968649
 
 judges:
   - name: Analisa Balares
