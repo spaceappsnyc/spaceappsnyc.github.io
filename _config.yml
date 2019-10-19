@@ -10,13 +10,13 @@ github_username: spaceappsnyc
 patreon_username: spaceappsnyc
 meetup_username: Space-Apps-NYC
 
-registrationIsOpen: true
+registrationIsOpen: false
 registration_link: https://2019.spaceappschallenge.org/locations/new-york-city-ny/
-livestreamIsOpen: false
-livestream_link: "#livestream"
+livestreamIsOpen: true
+livestream_link: https://www.youtube.com/watch?v=pYfTWedddxo
 dates:
   - header: Begins
-    timestamp: October_18_2019
+    timestamp: October_19_2019
   - header: Ends
     timestamp: October_20_2019
 details:
