@@ -76,7 +76,19 @@ judges:
       - Analisa is also a NASA Datanaut, and an organizer of the NASA Space Apps Global Challenge for NYC. She serves as a Commissioner of the Women’s Refugee Commission, Advisory Board Member of Music Beyond, Member of Women’s Forum of New York and International Women’s Forum, and Academy Member of the Global Teacher Prize. She also served as a Member of the Harvard Women’s Leadership Board, and L&#39;Oreal&#39;s global advisory board for sustainability and social impact.
       - Analisa has been recognized as a UBS Global Visionary, Young Global Leader (by the World Economic Forum), and 100 Most Influential Filipinas of the World (by FWN). She has been honored with the Madam C.J. Walker Leadership Award by US National Minority Business Council, and Distinguished Leader Award by UN Women New York Chapter.
 
-# mentors:
+mentors:
+  - name: Noreen Whysel
+    photo: noreen_whysel_photo.jpg
+    bio:
+      - Noreen Whysel is a frequent attendee at hackathons and design challenges in New York City. This year, she has mentored at the MD5 Mass Evacuation Hackathon at Galvanize and Essteem’s Equalithon cosponsored by CapitalOne and Nasdaq. Previously, she co-chaired the Unite for Humanity Hackathon at the UN, among other design and coding hacks. She is a startup founder, UX researcher and information architect and works in the financial and media literacy space. Her background is linked data, data visualization, user experience, GIS, startup entrepreneurship, library science/research and communication. She sits on the Board of the Big Data Certificate program at Rutgers and GISMO, a local chapter of the NYC GIS association, where she recently won an Individual Contribution to the Profession Award. She also advises and mentors at Technology Transfer Days (a joint program with NYU, Microsoft and Dept of Defense). She teaches web and design classes at City Tech and General Assembly.
+      - Noreen volunteered at the Times Square NASA Space Apps event this summer and has been a lifelong NASA fan. Read about the star show she made at AMNH - <a href="http://whysel.com/2016/04/06/driving-the-dome/">http://whysel.com/2016/04/06/driving-the-dome/</a>
+  - name: Joseph Spens
+    photo: producers/JoeSpens_Headshot.png
+    bio:
+      - Joseph Spens is the Executive Director of Space Apps NYC — a non-profit grassroots organization which hosts the annual NASA Space Apps Challenge in New York.
+      - By organizing events at the intersection of space science and creativity, Space Apps NYC promotes STEAM initiatives in New York communities underrepresented in those fields. Space Apps NYC is a founding location — and recurring main stage — for NASA’s Global Space Apps Challenge, innovating the new space industry over a weekend of extreme problem solving.
+      - In addition to volunteering for the NYC space community, Joseph is a full time software engineer and has a background in architecting web applications. He has been immersed as a technology leader in Silicon Alley, working as a systems architect and technical lead for e-commerce and health technology startups in New York City.
+      - He was a hacker in 2015 and now organizes the hackathon. He has various proficiencies in JavaScript, Java, Ruby, SQL, Postgres, PHP, Python, CSS, Typescript, React, Rails, Express, Git, Bash, Docker, APIs, Github, and some other stuff.
 
 saturday:
   - time: 9:00 AM
